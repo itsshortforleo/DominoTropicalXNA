@@ -1,0 +1,603 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" dslVersion="1.0.0.0" Id="0fcb821c-06c1-4aae-8452-fc05fa0af5f6" name="DiagramaUML" linkedPackageId="2260c194-726f-455a-aa2e-bbb3868fec7e" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="e9a464cb-a180-4bfa-824b-38cd7b4a7b4b" name="Juego" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="3a44069c-dbbf-4042-934a-c11c49f15cc5" />
+        <targetEnds>
+          <association Id="3900a295-6688-4ee6-af8d-db50f1db6ef2" isDerived="false" sourceEndRoleName="Juego" targetEndRoleName="Jugador" isLeaf="false" isAbstract="false">
+            <classMoniker Id="92d89412-3dcb-4dc2-92a9-5af4aac86609" LastKnownName="Jugador" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e9d2b091-e45b-45dc-b906-ec36ba963b33" name="Juego" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="84325b0e-c612-41eb-bcb4-6b1f8b20dbad" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4f2b284c-1978-409a-97a8-2174246d4c7d" name="Jugador" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <lowerValueInternal>
+                    <literalString Id="5db38cd4-26d7-4360-82ea-f591accebfc6" name="Lower" value="2">
+                      <elementDefinition Id="b3053e3d-e8fc-456c-9eaa-d4b2cef43176" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="9381aa27-e454-4362-8dea-2a1221973804" name="Upper" value="4">
+                      <elementDefinition Id="9934c9cd-59b9-4a0b-a6dd-03fdf24582b2" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="02a42395-8186-4414-92fe-071ced2733c9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="917c6f6b-907d-4afe-a49e-50faec8eb0ef" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="6c992839-f328-48b3-92da-ad1704241ce7" name="modoDeJuego" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="08d367f7-d91f-4cb8-9553-95f1095e75ac" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="8bb5f610-a424-4939-af91-887c2f47db8c" LastKnownName="enum" />
+            </type_NamedElement>
+          </property>
+          <property Id="4b77ed0e-5846-4cb0-b157-d0462fcf937a" name="ultimaFichaJugada" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f62ae2b3-f8f8-47ab-950c-32d3a699aa46" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="54ec9c43-6db6-46be-8df1-a7a8abeeb253" LastKnownName="Ficha" />
+            </type_NamedElement>
+          </property>
+          <property Id="4acb830c-09ea-421b-9281-ee53120f2dba" name="posicionDeTablero" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="5f5be501-9b73-4937-91b8-6faf5c46c28a" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="dd0a43c5-e87b-4972-863c-ba165c79d723" LastKnownName="Vector2" />
+            </type_NamedElement>
+          </property>
+          <property Id="415d05d0-2b93-4ce7-989e-eedde866a604" name="posicionDeCuadroArrastrable" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="6a2fa3f5-e732-406d-b709-3a2ceb1b52d9" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="a5bec1c9-e440-4a77-b51f-e76e5abc9e0f" LastKnownName="Vector2" />
+            </type_NamedElement>
+          </property>
+          <property Id="7dbaa0ec-a1b6-48a3-9693-9d15168a0b34" name="inicioDeMano" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="cae5b21f-94dd-4783-a337-d0a4be922c20" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="55166481-18ee-497b-96d2-b38a4340ad60" LastKnownName="bool" />
+            </type_NamedElement>
+          </property>
+          <property Id="b0af50a7-9b9f-463e-a2fb-d7a60c5d28c6" name="aleatorio" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f43cf23b-d79e-4de8-a17f-2545eacdc161" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="fc59ba1b-d697-4bf8-b766-86ccdded245c" LastKnownName="Random" />
+            </type_NamedElement>
+          </property>
+          <property Id="e85e13cb-0b4f-4a29-8e92-973d23a5c5c6" name="Fondo" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="cc67fa8a-a3d8-4d53-997d-8436137e8c73" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="d8206fed-d059-4210-b5ba-dd5168de6d2c" LastKnownName="Texture2" />
+            </type_NamedElement>
+          </property>
+          <property Id="e4f87bd5-fdde-4a64-8289-4f85382274db" name="Letras" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="9b0e6e1e-8078-4b33-bc8e-95e16a7cfc7b" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="21e52609-f2c0-4c97-b360-269e6415ac13" LastKnownName="SpriteFont" />
+            </type_NamedElement>
+          </property>
+          <property Id="f032ae86-78cc-42f2-84dd-515ac82e46d6" name="jugador" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="3da342f9-c697-443f-a6c8-0e8a08c76172" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="440d9823-bdcb-4265-8a2f-5e4affaed15a" LastKnownName="Jugador" />
+            </type_NamedElement>
+          </property>
+          <property Id="3664aba0-3cf5-4fc3-9c52-ff324fff2bc9" name="Mesa" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="89e0e4a9-c962-4dff-adeb-f5a43363afd6" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="e154ee01-cace-466d-9e9a-4899ca2135b1" LastKnownName="Mesa" />
+            </type_NamedElement>
+          </property>
+          <property Id="097ca4ab-166a-4f26-9233-49b8018583a9" name="opacidadDeFicha" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="9003f921-bc31-41b6-92d6-c40ee9961ba9" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="dda71ca2-f76a-4dcb-b736-96c18a25acbe" LastKnownName="float" />
+            </type_NamedElement>
+          </property>
+          <property Id="3f6b19ce-df95-4b1b-ac70-3c3c0a3ff766" name="FichaAActualizar" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d76fa1ec-b52f-40e3-a3f9-1adc2b4c06e0" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="54ec9c43-6db6-46be-8df1-a7a8abeeb253" LastKnownName="Ficha" />
+            </type_NamedElement>
+          </property>
+          <property Id="520738a6-b74d-4438-a263-cec182b51ac5" name="ListaCompletaDeFichas" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f615d3be-5158-48b0-8813-ca4ddaa69cc6" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="d6ed68bf-bd10-458c-8ff9-bb2b30c313b3" LastKnownName="List&lt;Ficha&gt;" />
+            </type_NamedElement>
+          </property>
+          <property Id="12996b30-e807-445a-aac0-b7b9845704e5" name="CuadroBlanco" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="ab79861b-8ad7-4785-b92b-a4c95dce6009" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="2085a265-749f-4d07-a627-672227c6338c" LastKnownName="Texture2D" />
+            </type_NamedElement>
+          </property>
+          <property Id="db94cbc0-ce35-4002-8ee5-f885106eae55" name="posicionDeMouse" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="ff1d3f81-6f5c-45ed-8593-59c7b5581028" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="dd0a43c5-e87b-4972-863c-ba165c79d723" LastKnownName="Vector2" />
+            </type_NamedElement>
+          </property>
+          <property Id="5be62b16-6d2c-4e4d-8014-3113067f9994" name="tamanoDeCuadro" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="2950dc1a-ce77-4838-bd87-d365dd62b1c8" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="0adaf66e-a1b8-4180-a928-1c8cacf6910f" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+          <property Id="008274eb-7481-4c36-b525-eec95e02e449" name="seEstaArrastrando" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="3acec717-6dfb-4c16-aae1-79e8b98af1b0" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="55166481-18ee-497b-96d2-b38a4340ad60" LastKnownName="bool" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="2832f76b-91ba-4bfa-8bdd-02f942e11680" name="cambiarOpciones" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="f90d536e-b928-471b-85b3-f333564948ce" />
+          </operation>
+          <operation Id="5ea82833-602a-4fc5-83e2-bb31265fc001" name="barajarFichas" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="de57b38e-a0f4-468f-bb3d-f2fb45182d88" />
+          </operation>
+          <operation Id="803fb39c-695d-4b1f-9338-974af8080dd8" name="Update" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="0ccd6b08-8dfb-4f14-8b8b-b4946675d8a3" />
+          </operation>
+          <operation Id="5d1869c1-7640-4843-8f7c-1a031023aed1" name="Draw" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="63754807-7018-4656-81c7-95c2ff4ba434" />
+          </operation>
+          <operation Id="7f7ba4fb-7cad-42ee-8fcd-e6bb01fd4201" name="LoadContent" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="89398eb9-dc3d-4bf4-bcaf-7d32f115c3f6" />
+          </operation>
+          <operation Id="0407344f-ad12-4b3e-b7b7-47ae41bf8c55" name="Initialize" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="b53a6461-86f0-44ba-8051-be6ac2bcc45e" />
+          </operation>
+          <operation Id="b127a5b7-96e4-48cd-a2cd-4f0f7feb9a4e" name="repartirFichas" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="6fa7b50f-3123-4395-a3c1-18a0b5eaadbb" />
+          </operation>
+          <operation Id="c0321952-fb60-449a-90f5-10625ec50753" name="DibujarTexto" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="c383d9fe-7516-4c13-988d-cdad308f686f" />
+          </operation>
+          <operation Id="486a745d-bd62-4372-b1d9-957a27465ff4" name="DibujarTablero" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="14023d99-dd82-48d9-8124-c1289f767f49" />
+          </operation>
+          <operation Id="213f7d62-c298-416b-98d3-5d03211490a5" name="DibujarFichasMesa" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="38795d0c-2f1c-47f4-8710-c6d4c16ee1d3" />
+          </operation>
+          <operation Id="79f21aba-ef84-4073-8d69-7013b1041457" name="ReproducirSonido" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="d75b64a9-d6ec-483f-8d4c-a9b9b42ea9e6" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="92d89412-3dcb-4dc2-92a9-5af4aac86609" name="Jugador" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="71546f83-a599-486e-83f5-11b8f2702745" />
+        <targetEnds>
+          <association Id="5b457c21-d7fc-41a9-9e7f-b0e44d075876" isDerived="false" sourceEndRoleName="Jugador" targetEndRoleName="Ficha" isLeaf="false" isAbstract="false">
+            <classMoniker Id="384b454d-5f0e-49eb-8c0a-75b01610e93b" LastKnownName="FichaSprite" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="dd049266-7323-49a1-9930-f584888033f4" name="Jugador" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="104ec0bc-91e4-4c63-b942-aa021f1f6f90" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9542a49a-4acf-439b-9102-91dc3c5740fe" name="Ficha" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="fb956c3c-93fe-433a-8f2a-6b11b389a3ed" name="Lower" value="1">
+                      <elementDefinition Id="41e9effe-4618-4028-bad3-0398a01b82a9" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="fc7acef3-8538-4263-ba84-4071860ffe53" name="Upper" value="7">
+                      <elementDefinition Id="f45fc086-cc12-471b-b659-92ca4692adc7" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="ca1dcbde-4254-48d7-a86a-ada90b3f9316" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="471af9ac-ef01-4f2a-b0a2-78a6f658e153" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="20e0151d-9306-4d7c-a0c6-1a5bb4b9d63f" name="cantidadDeFichas" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0d00724a-f530-4fa2-8419-acc2d15d813b" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="df56cc95-2fa9-443d-b878-0a3727edd568" LastKnownName="integer" />
+            </type_NamedElement>
+          </property>
+          <property Id="e858a113-8b0d-40b9-9c6e-3602d6971734" name="nombre" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="bb432bd9-ce76-4c62-b5e0-610378e8e25b" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="0ca1a88e-e8bf-4f2e-ad82-24b8927fb569" LastKnownName="string" />
+            </type_NamedElement>
+          </property>
+          <property Id="7d45af2b-aaae-4309-9733-61b5017023ac" name="esHumano" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="63330235-bd61-42a5-b941-020cf8f41b49" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="4305c580-071f-4207-a56c-65adfde80f43" LastKnownName="boolean" />
+            </type_NamedElement>
+          </property>
+          <property Id="aba5cb73-7cbf-49cc-918c-fc9bd5e46377" name="miTurno" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0fe190fd-774f-4938-be72-bd6f42d22a64" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="55166481-18ee-497b-96d2-b38a4340ad60" LastKnownName="bool" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="af6d1e7f-27b1-4cce-bacc-a82ffc1026c4" name="jugarFicha" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="47f49261-9c9d-4588-ade4-21790104ccb6" />
+          </operation>
+          <operation Id="2374de3d-3f59-4ec4-a0a5-0a5163cf6ed2" name="pasar" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="07b46f00-d810-47ea-ad10-9b69a665290c" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="df56cc95-2fa9-443d-b878-0a3727edd568" name="integer" isAbstract="false" isLeaf="false" cachedFullName="integer">
+        <elementDefinition Id="567eac65-25a9-486b-8633-d08aa43e59f2" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="0ca1a88e-e8bf-4f2e-ad82-24b8927fb569" name="string" isAbstract="false" isLeaf="false" cachedFullName="string">
+        <elementDefinition Id="0deb8247-8a57-4c46-83cd-a5d5f13c8603" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="62957d55-dbf5-49ed-8346-268cf482c8b2" name="boolean" isAbstract="false" isLeaf="false" cachedFullName="boolean">
+        <elementDefinition Id="4a30ca8c-31c6-4703-916a-7368f1364684" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="4305c580-071f-4207-a56c-65adfde80f43" name="boolean" isAbstract="false" isLeaf="false" cachedFullName="boolean">
+        <elementDefinition Id="4a30ca8c-31c6-4703-916a-7368f1364684" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="384b454d-5f0e-49eb-8c0a-75b01610e93b" name="FichaSprite" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="c05bb081-0c9c-470c-a81f-8b442b0bc4cc" />
+        <generalsInternal>
+          <generalization Id="fdb6cd09-4cf7-4797-b4c1-fcba7f87dedc" isSubstitutable="false">
+            <classMoniker Id="7c3ab278-67d0-4259-941c-5cd7660efc16" LastKnownName="FiguraGrafica" />
+            <elementDefinition Id="928f82fe-6396-4272-9aad-a21304ab04fd" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="401e0255-59fa-4a78-9369-b0dcc9eb231c" name="jugada" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="4d483290-3b05-4f06-b4c8-da2d3a83a71d" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="62957d55-dbf5-49ed-8346-268cf482c8b2" LastKnownName="boolean" />
+            </type_NamedElement>
+          </property>
+          <property Id="ea0ce392-8f9b-4225-8952-6566c58c0138" name="vertical" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="969acd90-8c57-4b64-b25c-950e29041255" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="754c43e6-058e-4038-a1f8-add459b975a4" LastKnownName="boolean" />
+            </type_NamedElement>
+          </property>
+          <property Id="e4c6bf8e-52af-4eb6-ae1a-ce94b2c9a6f0" name="primerValor" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="65faccad-577a-4728-8545-7c7cb2854f7a" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="df56cc95-2fa9-443d-b878-0a3727edd568" LastKnownName="integer" />
+            </type_NamedElement>
+          </property>
+          <property Id="118c4d97-d5a2-4129-8e39-7f4040741890" name="segundoValor" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="82d5d66a-d3b5-457e-a02c-d4797ef07a4d" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="df56cc95-2fa9-443d-b878-0a3727edd568" LastKnownName="integer" />
+            </type_NamedElement>
+          </property>
+          <property Id="fa3f3aae-1544-43a1-bff3-8116edc98d33" name="doble" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="50b92d56-43a7-4ed7-9a14-5d8907355323" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="62957d55-dbf5-49ed-8346-268cf482c8b2" LastKnownName="boolean" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="03734dfc-465a-44f8-a9fe-0c8090c93894" name="jugarFicha" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="5b360dd0-f4b6-4b00-a510-9aba6081bd27" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="8bb5f610-a424-4939-af91-887c2f47db8c" name="enum" isAbstract="false" isLeaf="false" cachedFullName="enum">
+        <elementDefinition Id="e692af1e-11db-42ea-8257-8c8e3a7fcddf" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="754c43e6-058e-4038-a1f8-add459b975a4" name="boolean" isAbstract="false" isLeaf="false" cachedFullName="boolean">
+        <elementDefinition Id="4a30ca8c-31c6-4703-916a-7368f1364684" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="54ec9c43-6db6-46be-8df1-a7a8abeeb253" name="Ficha" isAbstract="false" isLeaf="false" cachedFullName="Ficha">
+        <elementDefinition Id="d6ae8c7d-3812-4c4c-aeeb-8464add29e98" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="dd0a43c5-e87b-4972-863c-ba165c79d723" name="Vector2" isAbstract="false" isLeaf="false" cachedFullName="Vector2">
+        <elementDefinition Id="98a12ca6-3af5-4df9-bfbb-f96a3bf60006" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="a5bec1c9-e440-4a77-b51f-e76e5abc9e0f" name="Vector2" isAbstract="false" isLeaf="false" cachedFullName="Vector2">
+        <elementDefinition Id="98a12ca6-3af5-4df9-bfbb-f96a3bf60006" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="55166481-18ee-497b-96d2-b38a4340ad60" name="bool" isAbstract="false" isLeaf="false" cachedFullName="bool">
+        <elementDefinition Id="94acb4d7-c483-463a-8dc3-994acca0ed54" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="fc59ba1b-d697-4bf8-b766-86ccdded245c" name="Random" isAbstract="false" isLeaf="false" cachedFullName="Random">
+        <elementDefinition Id="ae229e09-020b-4a13-9242-4a2ca1931888" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="d8206fed-d059-4210-b5ba-dd5168de6d2c" name="Texture2" isAbstract="false" isLeaf="false" cachedFullName="Texture2">
+        <elementDefinition Id="5be871dc-0453-49eb-b42d-522b5c989972" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="21e52609-f2c0-4c97-b360-269e6415ac13" name="SpriteFont" isAbstract="false" isLeaf="false" cachedFullName="SpriteFont">
+        <elementDefinition Id="7dcbeb33-b228-431d-b39e-c054d4155bfc" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="440d9823-bdcb-4265-8a2f-5e4affaed15a" name="Jugador" isAbstract="false" isLeaf="false" cachedFullName="Domino::Jugador">
+        <elementDefinition Id="71546f83-a599-486e-83f5-11b8f2702745" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="e154ee01-cace-466d-9e9a-4899ca2135b1" name="Mesa" isAbstract="false" isLeaf="false" cachedFullName="Mesa">
+        <elementDefinition Id="b9746771-0675-46c0-901a-375567141858" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="dda71ca2-f76a-4dcb-b736-96c18a25acbe" name="float" isAbstract="false" isLeaf="false" cachedFullName="float">
+        <elementDefinition Id="6bff74a4-1fca-4d18-bb29-64a7d7d0c976" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="d6ed68bf-bd10-458c-8ff9-bb2b30c313b3" name="List&lt;Ficha&gt;" isAbstract="false" isLeaf="false" cachedFullName="List&lt;Ficha&gt;">
+        <elementDefinition Id="87a12ceb-feee-4363-a8b1-96d94ffcbc70" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="2085a265-749f-4d07-a627-672227c6338c" name="Texture2D" isAbstract="false" isLeaf="false" cachedFullName="Texture2D">
+        <elementDefinition Id="239c9fd2-9547-454c-a98c-97f34d41a6a3" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="0adaf66e-a1b8-4180-a928-1c8cacf6910f" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="2387ec66-605b-425b-840e-a0ab2f7a2100" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <enumeration Id="311f7578-591e-42e2-9522-5b97a4206725" name="EstadoActualDeJuego" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3f125a6c-e4e5-45a8-be50-f9b4ff3e109f" />
+        <targetEnds>
+          <association Id="961437c4-9e69-4f00-bbe1-f82b58972221" isDerived="false" sourceEndRoleName="EstadoActualDeJuego" targetEndRoleName="Juego" isLeaf="false" isAbstract="false">
+            <classMoniker Id="e9a464cb-a180-4bfa-824b-38cd7b4a7b4b" LastKnownName="Juego" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e52bd11d-e51c-4538-8c2e-e68716405580" name="EstadoActualDeJuego" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="7d08746a-3652-42c9-afed-ca286a9825d6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c893d963-f0fe-4ec7-9793-1675dea96a12" name="Juego" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="8b4aa048-7b4d-42bc-a5f6-e4449726befe" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="55b7d579-6bef-4585-9c98-6cb9aa3f059a" />
+          </association>
+        </targetEnds>
+        <ownedLiterals>
+          <enumerationLiteral Id="ad7a0111-0b1f-49d0-bc65-5b8adc0bb269" name="MenuPrincipal">
+            <elementDefinition Id="c98acfa1-8135-4402-bde8-0cfbeb755e1e" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="7271e57a-f882-46ef-a75b-64cd055ad6b3" name="Jugando">
+            <elementDefinition Id="b4a0e185-5586-4799-b96a-cfa21fd04f47" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="6b72eae4-d5e7-488f-81e0-1b1f1a3f8f15" name="Opciones">
+            <elementDefinition Id="342d19c1-f264-4440-a2fb-1da7310e5391" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="47d6dbb4-e7ad-46eb-b8cb-7ec95a69e1f3" name="FinDeJuego">
+            <elementDefinition Id="c40cd75f-011b-41e3-a1dc-77ba8c521b4e" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="b959e57e-f965-409e-8ec5-2030fd2a0377" name="SobreDomino">
+            <elementDefinition Id="590dd842-10ca-4c69-845d-42dcaa678359" />
+          </enumerationLiteral>
+        </ownedLiterals>
+      </enumeration>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="a21278ab-25d1-49ef-bb31-9c66abff2089" name="BotonDeMenu" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="0c2eb641-5cae-432c-9e1d-b7629d729246" />
+        <targetEnds>
+          <association Id="61667e26-5b72-469d-8a5e-2f3cfd9cd8d4" isDerived="false" sourceEndRoleName="BotonDeMenu" targetEndRoleName="Juego" isLeaf="false" isAbstract="false">
+            <classMoniker Id="e9a464cb-a180-4bfa-824b-38cd7b4a7b4b" LastKnownName="Juego" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="17c0960c-6dfb-4ecc-b8e0-3a35351ddbf3" name="BotonDeMenu" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString Id="3537d5da-edae-4ecb-9da0-b6c14473f6e0" name="Lower" value="4">
+                      <elementDefinition Id="03447fa8-d51e-4517-a861-b54e8539d997" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="3f215478-270f-4709-96ba-173c0362fb76" name="Upper" value="4">
+                      <elementDefinition Id="e3c48661-663e-4c73-8caf-25be0f511535" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="27c829df-25fc-4af5-a631-9675e61d09ae" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1950914a-1177-4957-8afb-c24ff78351ab" name="Juego" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="d80199c1-ab2d-41e8-8cfb-199d8936bced" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="a182547c-ab56-4125-a9c9-e345c8ef1ab0" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="9d22ca33-eba5-434b-98fd-051eda5d9878" name="imagen" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c137d08c-66f4-40ad-9e84-3876f1943c27" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="2085a265-749f-4d07-a627-672227c6338c" LastKnownName="Texture2D" />
+            </type_NamedElement>
+          </property>
+          <property Id="a096de60-c0a6-41a2-9afd-1b3864818748" name="posicion" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="6806374b-2cd2-40fd-b314-996bdbf2272c" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="e09ab6ed-e72c-4e0b-ad10-010b7378390b" LastKnownName="Vector2D" />
+            </type_NamedElement>
+          </property>
+          <property Id="b5e5cdd6-c756-41ce-bf4e-a349d254241e" name="rectangulo" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="4a24b12c-f1b4-4d01-bf97-f4c32b9d1ca9" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="dcd687e3-f8b6-45a8-a9aa-9ef2c50b9303" LastKnownName="Rectangle" />
+            </type_NamedElement>
+          </property>
+          <property Id="066a9cdb-2d69-49ae-8af4-f916430a90bb" name="color" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="1bc377b2-e451-478c-97ee-1099556a933d" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="59bc80e9-6506-45b2-b817-f078b0dc3e59" LastKnownName="Color" />
+            </type_NamedElement>
+          </property>
+          <property Id="6e9f7c6e-cfd9-4be4-b2cf-41ae94b8206d" name="tamano" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="6c8600c0-ceb8-41a4-8924-5cfeb927c8bd" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="dd0a43c5-e87b-4972-863c-ba165c79d723" LastKnownName="Vector2" />
+            </type_NamedElement>
+          </property>
+          <property Id="c54560b7-e23d-4554-bc89-fa1a6e1244ce" name="seHizoClick" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="94b50ec4-911a-498b-921e-2b30a3ec4f07" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="55166481-18ee-497b-96d2-b38a4340ad60" LastKnownName="bool" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="a69d9d91-f068-488d-b995-44f980f5791c" name="EstablecerPosicion" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="301cbf65-54d3-4028-a7c8-944ef2ff825e" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="59bc80e9-6506-45b2-b817-f078b0dc3e59" name="Color" isAbstract="false" isLeaf="false" cachedFullName="Color">
+        <elementDefinition Id="c6f7458c-3697-4b0b-8991-0bed9c03548f" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="e09ab6ed-e72c-4e0b-ad10-010b7378390b" name="Vector2D" isAbstract="false" isLeaf="false" cachedFullName="Vector2D">
+        <elementDefinition Id="ef9e8470-9883-4fe8-9708-9eea5996cfbd" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="dcd687e3-f8b6-45a8-a9aa-9ef2c50b9303" name="Rectangle" isAbstract="false" isLeaf="false" cachedFullName="Rectangle">
+        <elementDefinition Id="a7472b07-2429-4410-be13-69510423d5c8" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="38e660b2-ccf5-426d-aa23-16f61f992a7d" name="Mesa" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="1650f626-9210-40ae-a2a6-4fa4b7d7ad30" />
+        <suppliersInternal>
+          <dependency Id="ad8fef16-086e-4ba9-8568-218b71a0d5be">
+            <classMoniker Id="92d89412-3dcb-4dc2-92a9-5af4aac86609" LastKnownName="Jugador" />
+            <elementDefinition Id="95ccd47c-876c-41d1-ba1a-6c6cd676e5a5" />
+          </dependency>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property Id="bee8d346-b631-496c-89d7-7df8998cb62f" name="extremoIzquierdo" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="bece79ca-f988-4b43-9393-c4f117cf2f79" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="0adaf66e-a1b8-4180-a928-1c8cacf6910f" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+          <property Id="4db39d75-c966-4ca8-8569-1c42703b3bde" name="numeroDeMesa" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f79b67bc-e0b5-4aed-9246-1ed13d1ff5d3" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="0adaf66e-a1b8-4180-a928-1c8cacf6910f" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+          <property Id="902dc2c5-57c7-4e0e-a874-874a3f4456c4" name="extremoDerecho" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="4e71b3d1-246d-40ca-a925-952ca8e1ef87" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="0adaf66e-a1b8-4180-a928-1c8cacf6910f" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+          <property Id="763d5e36-1ee2-457a-af61-17faf5b183e8" name="fichaExtremoDerecho" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="47c15937-fd6b-40d9-8313-3a914f659bb4" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="54ec9c43-6db6-46be-8df1-a7a8abeeb253" LastKnownName="Ficha" />
+            </type_NamedElement>
+          </property>
+          <property Id="815768c4-1c3e-4642-a605-e30ab4e74e4c" name="fichaExtremoIzquierdo" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a9f53759-9c35-471d-a67e-0276e3e4299c" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="54ec9c43-6db6-46be-8df1-a7a8abeeb253" LastKnownName="Ficha" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="7c3ab278-67d0-4259-941c-5cd7660efc16" name="FiguraGrafica" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="7b2ae9a3-e016-4c3a-8507-6cb6f1dadd69" />
+        <ownedAttributesInternal>
+          <property Id="bebfc1ab-48a8-4a65-a1ca-43c7a5b65c5b" name="imagen" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="10189067-683e-4add-9ca2-5db061f644af" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="2085a265-749f-4d07-a627-672227c6338c" LastKnownName="Texture2D" />
+            </type_NamedElement>
+          </property>
+          <property Id="e76a4961-90ee-4d51-8464-0d70d8d276f6" name="colision" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="060eedaa-79d8-4b80-b2aa-04318e4708c2" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="0adaf66e-a1b8-4180-a928-1c8cacf6910f" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+          <property Id="4c98ee3e-a80b-408f-9b4c-3eafdfaac163" name="velocidad" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="feab76d5-705e-4651-bb95-b83734eba4b2" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="dd0a43c5-e87b-4972-863c-ba165c79d723" LastKnownName="Vector2" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="2260c194-726f-455a-aa2e-bbb3868fec7e" name="Domino">
+    <elementDefinition Id="fdf0962f-6ad8-45e5-b7fa-f1a46686e969" />
+    <profileInstances>
+      <packageHasProfileInstances Id="1e529438-40cc-4e64-b209-69cd98dee26b">
+        <profileInstance Id="905f7f43-b921-4adc-9036-f4efbddef5cc" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="4e522961-8d8a-4d0e-852e-190e0b4764b0">
+        <profileInstance Id="cf7f8d8b-63ea-4771-9b12-231d1e2204d5" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</logicalClassDesignerModel>

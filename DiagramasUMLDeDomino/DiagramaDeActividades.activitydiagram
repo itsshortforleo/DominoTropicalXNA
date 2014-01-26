@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="ef75a823-ed24-417d-8d0b-bbb8f2316fb4" name="DiagramaDeActividades" linkedPackageId="8c60b793-e9d9-40aa-b7c6-8c725ed47669" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <ownedCommentsInternal>
+    <comment Id="8c4ebca9-3222-4e84-865d-32c681ac4b0d">
+      <elementDefinition Id="b730b6e9-ac90-4716-b57c-946645990d7a" />
+      <body>Salir</body>
+    </comment>
+    <comment Id="35dd9d20-d91c-4b1a-9f9a-983d30af4a30">
+      <elementDefinition Id="a988195d-e850-492a-8d85-66924bb9afc1" />
+      <body>Opciones</body>
+    </comment>
+  </ownedCommentsInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="f47f23ff-9c7c-413f-8aae-c9ab09dc096c">
+      <profileInstance Id="d0fc1e9f-a02c-4380-b9da-1865470ca9be" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="dafe2923-4ec0-4f16-95c9-2e80bcad84ae">
+      <profileInstance Id="92354db2-c946-497e-9f68-f66794559044" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="47d72477-67fa-4299-a754-30a03ae48a23" name="DiagramaDeActividades" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="bb82ad4a-ad17-4df1-9254-7437fb204578" />
+        <nodes>
+          <initialNode Id="070fe0e3-e955-4d2b-8afc-ff7ded4c4b34" name="Initial1" isLeaf="false">
+            <elementDefinition Id="679c5990-5d62-4ea1-bec0-7a2d0113ae01" />
+            <flowNodeTargets>
+              <controlFlow Id="5220ddac-8fb8-4c7a-bafc-8db423596fdd" isLeaf="false">
+                <opaqueActionMoniker Id="7b3bf30d-ff62-40a2-904d-36c9174ecdae" LastKnownName="Menú Principal" />
+                <elementDefinition Id="d0204228-78ea-467c-b595-8e3835633a19" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction Id="7b3bf30d-ff62-40a2-904d-36c9174ecdae" name="Menú Principal" isLeaf="false">
+            <elementDefinition Id="8fb40a07-c78d-4cd5-a94f-b5a8b0059f7a" />
+            <flowNodeTargets>
+              <controlFlow Id="11e2ea1d-9afd-49b0-816f-992ec7cd7322" isLeaf="false">
+                <decisionNodeMoniker Id="5072138d-4ff4-4b13-963b-3cbeba620844" LastKnownName="Decision1" />
+                <elementDefinition Id="a30f6551-fe65-4b0e-b4b4-9cb3f6e39998" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="5072138d-4ff4-4b13-963b-3cbeba620844" name="Decision1" isLeaf="false">
+            <elementDefinition Id="e4ea8247-64d1-4d07-8558-652fd9e313b4" />
+            <flowNodeTargets>
+              <controlFlow Id="99a5adce-ac0c-4325-8508-f45e188daefe" isLeaf="false">
+                <opaqueActionMoniker Id="e5ef3c9f-1d0e-45d1-af2e-c76a74a1d85b" LastKnownName="Comenzar Juego" />
+                <elementDefinition Id="9fd13e64-2938-4454-b7eb-34956010a6c7" />
+              </controlFlow>
+              <controlFlow Id="5c3df81b-caf5-4102-b95c-0649e3156ba3" isLeaf="false">
+                <activityFinalNodeMoniker Id="daefa94c-55ad-4ad4-a27d-16491b77ec1b" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="9d2e903e-26e6-47fb-8b64-8d3aea460741" />
+              </controlFlow>
+              <controlFlow Id="0b9f0b57-cff8-44dd-bafb-0672ea96defd" isLeaf="false">
+                <opaqueActionMoniker Id="6abafc02-d235-40cc-a583-d85b30d4b5ad" LastKnownName="Cambiar Opciones" />
+                <elementDefinition Id="633d6bd8-e34e-4bac-9748-3fb64633ee5b" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="6abafc02-d235-40cc-a583-d85b30d4b5ad" name="Cambiar Opciones" isLeaf="false">
+            <elementDefinition Id="a58b9bda-f125-4dff-b442-67114e5c37ea" />
+            <flowNodeTargets>
+              <controlFlow Id="772439f0-3e97-4b3b-a60a-a86714dfe9e3" isLeaf="false">
+                <opaqueActionMoniker Id="e5ef3c9f-1d0e-45d1-af2e-c76a74a1d85b" LastKnownName="Comenzar Juego" />
+                <elementDefinition Id="18dff4fc-edc6-437c-9f3a-4fe1666b52c2" />
+              </controlFlow>
+              <controlFlow Id="5a7d1ec1-16ff-4214-bdee-b9a87b12799b" isLeaf="false">
+                <sendSignalActionMoniker Id="ed1f8e9d-99a7-43e6-b9c0-d1b0e7998c3b" LastKnownName="Cambiar (reglas)" />
+                <elementDefinition Id="550ce72f-c14f-45fd-83a2-8fd5ca674700" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="e5ef3c9f-1d0e-45d1-af2e-c76a74a1d85b" name="Comenzar Juego" isLeaf="false">
+            <elementDefinition Id="00d4fe88-6aa0-42a7-be20-1773a0ce5e3b" />
+            <flowNodeTargets>
+              <controlFlow Id="3515d789-baf6-4929-ad32-e1e84e6ca3c1" isLeaf="false">
+                <opaqueActionMoniker Id="9d1e9119-5a2f-4aef-b7a4-74bba1eab81a" LastKnownName="Mostrar resultados" />
+                <elementDefinition Id="0f369c8b-5494-4eb0-ba39-fabea8c61160" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <sendSignalAction Id="ed1f8e9d-99a7-43e6-b9c0-d1b0e7998c3b" name="Cambiar (reglas)" isLeaf="false">
+            <elementDefinition Id="943efe54-948a-44c3-af2c-8c3f1cb59159" />
+            <flowNodeTargets>
+              <controlFlow Id="168886c8-c2dc-409c-83f4-9d5b1a6de20f" isLeaf="false">
+                <acceptEventActionMoniker Id="6db42f15-9f19-4afd-ba02-64074850c10a" LastKnownName="Cambiar (reglas)" />
+                <elementDefinition Id="8a600b6a-ea18-4c2e-8e18-4e0ecef03ba5" />
+              </controlFlow>
+            </flowNodeTargets>
+          </sendSignalAction>
+          <acceptEventAction Id="6db42f15-9f19-4afd-ba02-64074850c10a" name="Cambiar (reglas)" isLeaf="false" isUnmarshall="false">
+            <elementDefinition Id="73d460fd-a6cf-4dab-a334-45919814c2ba" />
+            <objectFlowTargets>
+              <objectFlow Id="53ce3066-92f0-498d-b802-a61b669f15eb" isLeaf="false" isMulticast="false" isMultireceive="false">
+                <objectNodeMoniker Id="b46846ee-7530-4e27-b86e-96c1a8212448" LastKnownName="Juego" />
+                <elementDefinition Id="ffcf9baa-bcb4-4b55-aa98-27f956a2149d" />
+              </objectFlow>
+            </objectFlowTargets>
+          </acceptEventAction>
+          <opaqueAction Id="9d1e9119-5a2f-4aef-b7a4-74bba1eab81a" name="Mostrar resultados" isLeaf="false">
+            <elementDefinition Id="80892b1d-7cb7-48f4-ad3d-2e333edbe559" />
+            <flowNodeTargets>
+              <controlFlow Id="ea79898f-935e-41fa-8a54-57d6216cd55f" isLeaf="false">
+                <opaqueActionMoniker Id="8b241499-99f3-4c4e-8c05-ee1f30c69b23" LastKnownName="Fin de Juego" />
+                <elementDefinition Id="c2d6dc8c-53a6-47bd-93a8-6a895c33e9ec" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="8b241499-99f3-4c4e-8c05-ee1f30c69b23" name="Fin de Juego" isLeaf="false">
+            <elementDefinition Id="97b45d1f-03a2-4996-a7c5-6cd2c67630d9" />
+            <flowNodeTargets>
+              <controlFlow Id="93a34aa8-1f0b-4040-ab5e-9f51f58d3e5a" isLeaf="false">
+                <opaqueActionMoniker Id="7b3bf30d-ff62-40a2-904d-36c9174ecdae" LastKnownName="Menú Principal" />
+                <elementDefinition Id="484465f9-ed3d-4a3b-983e-2ea51f0bccfc" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode Id="daefa94c-55ad-4ad4-a27d-16491b77ec1b" name="ActivityFinal1" isLeaf="false">
+            <elementDefinition Id="4df15fc9-2182-4c8d-9bd7-510d828b24d3" />
+          </activityFinalNode>
+          <objectNode Id="b46846ee-7530-4e27-b86e-96c1a8212448" name="Juego" isLeaf="false" ordering="Unordered" isControlType="false">
+            <elementDefinition Id="60ebe637-e9a9-4bf4-8ea9-5c69a3809a18" />
+            <upperBound>
+              <literalInteger Id="fe49b693-7ba8-40dd-ae30-36569ea1e506" name="2147483647" value="2147483647">
+                <elementDefinition Id="02bdfc82-6099-4754-87e4-6664305f0faf" />
+              </literalInteger>
+            </upperBound>
+          </objectNode>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="8c60b793-e9d9-40aa-b7c6-8c725ed47669" name="Domino">
+    <elementDefinition Id="fdf0962f-6ad8-45e5-b7fa-f1a46686e969" />
+  </package>
+</activityRootModel>

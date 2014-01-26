@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner" dslVersion="1.0.0.0" Id="f0f544a7-c31c-463b-9204-a76a7312e288" name="DiagramaDeCasosDeUso" linkedPackageId="a2cfba7d-0573-47f7-989d-3ef8a20fb926" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="332c0f69-dfe2-4319-b78a-a9bc32e360d1">
+      <profileInstance Id="2ffe7dc2-903d-4126-8192-7a4554a527d7" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="1912fe04-a039-4fe8-b8ac-e6f4093472be">
+      <profileInstance Id="1e234850-b1d4-43b3-bb63-99ede08dd7a6" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="2ebf69f8-3d0a-42bb-b713-292db515a3ea" name="Jugador" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="46920374-691f-4bd0-b8e8-9e689b21a772" />
+        <targetEnds>
+          <association Id="e8623d7d-175b-4da7-a33d-3a076684aa50" isDerived="false" sourceEndRoleName="Jugador" targetEndRoleName="Iniciar Juego" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="887e7e57-4a95-420b-bc72-5e1fa47dad07" LastKnownName="Iniciar Juego" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="aa5c65b0-bef0-46d6-9b4f-5b6f00bc9730" name="Jugador" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="33cfe856-92b3-4c23-b206-197c273b179a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9cbaae79-3c6c-4c8f-946c-59b76a74e087" name="Iniciar Juego" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="0f8b1f3c-1f3c-4074-b99b-64c920c3f9f1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d49c0f46-7993-4e53-9d1a-b6d2b9ae8a9d" />
+          </association>
+          <association Id="14e7fdde-e3e5-492b-af8a-11cbc13f8c84" isDerived="false" sourceEndRoleName="Jugador" targetEndRoleName="Recibir Fichas" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="8ff47c12-78d2-403d-a7a4-b54729ded928" LastKnownName="Recibir Fichas" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e2d764c8-5aa0-4063-b288-1b4026d5d782" name="Jugador" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a620dbb4-06f3-4128-9e09-386471546810" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="23513a91-f6e5-4c16-861b-8ce3a341d486" name="Recibir Fichas" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="26efa879-1b23-4d86-9d76-793f292bd67f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="060ae511-fca8-4aa8-8bda-f2bd7d2eebec" />
+          </association>
+          <association Id="fc56e8e2-b231-4dae-bfac-65f703b793f6" isDerived="false" sourceEndRoleName="Jugador" targetEndRoleName="Elegir ficha" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="d5997208-6e40-4a59-8cd9-ae41289e4b34" LastKnownName="Elegir ficha" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9896cde4-e7ea-4f80-adc2-b6a7c9a836d6" name="Jugador" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="5197caa8-2f73-49e2-b02b-f52dd8bf146a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="bf5edbf3-9933-4cdb-af73-4dbb1f62e0e7" name="Elegir ficha" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="34184307-d3a9-470e-be5b-adc7bd5b902e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d0d64eb0-b4ea-4ae6-b0e1-fc72734043af" />
+          </association>
+          <association Id="ad63f46f-a1ef-4b56-aaf9-53385884f1ed" isDerived="false" sourceEndRoleName="Jugador" targetEndRoleName="Pasar" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="b345161a-504c-494d-a000-ac72871324d1" LastKnownName="Pasar" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e51f6da8-f065-4b4d-82d6-3c0511237ea8" name="Jugador" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="e56a136c-0a7d-4379-9bea-6f700aff374e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f0e6098a-2b53-4808-87eb-85fbf7f057ea" name="Pasar" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="2b3747c2-18b6-4553-b26f-de55bcb72c77" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="b817f0f4-7ea9-4970-8c66-530bb2344215" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="887e7e57-4a95-420b-bc72-5e1fa47dad07" name="Iniciar Juego" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="383642e1-9338-434b-8c5b-a7e5f2277af6" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="8ff47c12-78d2-403d-a7a4-b54729ded928" name="Recibir Fichas" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="8c9cf365-fb19-4810-a8fa-54ad6d5e8cd6" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="d5997208-6e40-4a59-8cd9-ae41289e4b34" name="Elegir ficha" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3e49faab-44b8-44a0-9676-fe6cafd7b047" />
+        <generalsInternal>
+          <generalization Id="2c3805e0-59b4-4384-a3d7-c67c6f9876f2" isSubstitutable="false">
+            <useCaseMoniker Id="933c582c-0671-43d5-8014-55153f93bf93" LastKnownName="Jugar" />
+            <elementDefinition Id="8fddd8fa-1b4a-4919-ad99-eacd833000d2" />
+          </generalization>
+        </generalsInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="933c582c-0671-43d5-8014-55153f93bf93" name="Jugar" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="eb4ed62b-41bf-48c3-9c91-75549b1e5bc8" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="b345161a-504c-494d-a000-ac72871324d1" name="Pasar" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c1c219bc-6851-488c-ad4d-e7adb8fcd6f4" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="a2cfba7d-0573-47f7-989d-3ef8a20fb926" name="Domino">
+    <elementDefinition Id="fdf0962f-6ad8-45e5-b7fa-f1a46686e969" />
+  </package>
+</useCaseModelRoot>
