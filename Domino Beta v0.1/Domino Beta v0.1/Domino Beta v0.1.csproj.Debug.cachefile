@@ -56,6 +56,8 @@ Content\Imagenes\MesaExtendida.xnb
 Content\Imagenes\botonDePasar.xnb
 Content\Imagenes\FondoDeFinDeRonda.xnb
 Content\Imagenes\botonSiguienteRonda.xnb
+Content\Imagenes\Felicidades.xnb
+Content\Imagenes\MalaSuerte.xnb
 Content\Letras\Letras.xnb
 Content\Letras\Cent.xnb
 Content\Audio\Set.xnb
@@ -65,8 +67,6 @@ Content\Audio\DominoHitTable.xnb
 Content\Audio\DominoPickUp.xnb
 Content\Audio\DominoSetDown.xnb
 Content\Audio\DominoShuffling.xnb
-Content\Imagenes\Felicidades.xnb
-Content\Imagenes\MalaSuerte.xnb
 Content\Audio\GameAudio.xgs
 Content\Audio\Wave Bank.xwb
 Content\Audio\Sound Bank.xsb

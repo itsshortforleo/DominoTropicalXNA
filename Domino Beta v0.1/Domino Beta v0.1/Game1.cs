@@ -199,7 +199,7 @@ namespace Domino_Beta_v0._1
             PosicionDeCuadroArrastrable = new Vector2((graphics.PreferredBackBufferWidth) - 120, 608);
 
             // Componente necesario para poder guardar/leer archivos
-            this.Components.Add(new GamerServicesComponent(this));
+            //Components.Add(new GamerServicesComponent(this));
 
         }
 
@@ -2609,23 +2609,24 @@ namespace Domino_Beta_v0._1
 
         public void InitiateLoad()
         {
-            if (!Guide.IsVisible)
-            {
-                try
-                {
-                    if (!Guide.IsVisible)
-                    {
-                        device = null;
-                        StorageDevice.BeginShowSelector(PlayerIndex.One, this.LoadFromDevice, null);
-                    }
-                }
-                catch (InvalidOperationException invalidOperationException)
-                {
-                    //Logger.error(“InvalidOperationException”);
-                    StorageDevice.BeginShowSelector(PlayerIndex.One, this.LoadFromDevice, null);
-                }
+            // This code doesn't run anymore, may need to port
+            //if (!Guide.IsVisible)
+            //{
+            //    try
+            //    {
+            //        if (!Guide.IsVisible)
+            //        {
+            //            device = null;
+            //            StorageDevice.BeginShowSelector(PlayerIndex.One, this.LoadFromDevice, null);
+            //        }
+            //    }
+            //    catch (InvalidOperationException invalidOperationException)
+            //    {
+            //        //Logger.error(“InvalidOperationException”);
+            //        StorageDevice.BeginShowSelector(PlayerIndex.One, this.LoadFromDevice, null);
+            //    }
 
-            }
+            //}
         }
 
         void LoadFromDevice(IAsyncResult result)

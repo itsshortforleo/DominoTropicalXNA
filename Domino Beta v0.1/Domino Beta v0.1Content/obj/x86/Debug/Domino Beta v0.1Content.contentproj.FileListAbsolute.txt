@@ -34,3 +34,4 @@ C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1Content\obj\x
 C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1Content\obj\x86\Debug\Audio\GameAudio.xml
 C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1Content\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1Content\obj\x86\Debug\Audio\GameAudio.xml
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1Content\obj\x86\Debug\Domino Beta v0.1Content.contentprojResolveAssemblyReference.cache
