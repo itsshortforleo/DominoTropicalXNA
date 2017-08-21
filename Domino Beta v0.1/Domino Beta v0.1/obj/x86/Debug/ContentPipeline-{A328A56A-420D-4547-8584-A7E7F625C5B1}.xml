@@ -1,0 +1,668 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Imagenes\white_64x64.png</Source>
+      <Name>Imagenes\white_64x64</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\white_64x64.xnb</Output>
+      <Time>2015-08-02T21:44:50.0228221-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\00.png</Source>
+      <Name>Imagenes\00</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\00.xnb</Output>
+      <Time>2015-08-02T21:44:49.9912384-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\01.png</Source>
+      <Name>Imagenes\01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\01.xnb</Output>
+      <Time>2015-08-02T21:44:49.9922391-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\02.png</Source>
+      <Name>Imagenes\02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\02.xnb</Output>
+      <Time>2015-08-02T21:44:49.9922391-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\03.png</Source>
+      <Name>Imagenes\03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\03.xnb</Output>
+      <Time>2015-08-02T21:44:49.9922391-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\04.png</Source>
+      <Name>Imagenes\04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\04.xnb</Output>
+      <Time>2015-08-02T21:44:49.9932399-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\05.png</Source>
+      <Name>Imagenes\05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\05.xnb</Output>
+      <Time>2015-08-02T21:44:49.9932399-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\06.png</Source>
+      <Name>Imagenes\06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\06.xnb</Output>
+      <Time>2015-08-02T21:44:49.9942403-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\11.png</Source>
+      <Name>Imagenes\11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\11.xnb</Output>
+      <Time>2015-08-02T21:44:49.9942403-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\12.png</Source>
+      <Name>Imagenes\12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\12.xnb</Output>
+      <Time>2015-08-02T21:44:49.9942403-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\13.png</Source>
+      <Name>Imagenes\13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\13.xnb</Output>
+      <Time>2015-08-02T21:44:49.9952411-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\14.png</Source>
+      <Name>Imagenes\14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\14.xnb</Output>
+      <Time>2015-08-02T21:44:49.9952411-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\15.png</Source>
+      <Name>Imagenes\15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\15.xnb</Output>
+      <Time>2015-08-02T21:44:49.9962418-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\16.png</Source>
+      <Name>Imagenes\16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\16.xnb</Output>
+      <Time>2015-08-02T21:44:49.9962418-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\22.png</Source>
+      <Name>Imagenes\22</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\22.xnb</Output>
+      <Time>2015-08-02T21:44:49.9972426-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\23.png</Source>
+      <Name>Imagenes\23</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\23.xnb</Output>
+      <Time>2015-08-02T21:44:49.9972426-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\24.png</Source>
+      <Name>Imagenes\24</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\24.xnb</Output>
+      <Time>2015-08-02T21:44:49.9972426-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\25.png</Source>
+      <Name>Imagenes\25</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\25.xnb</Output>
+      <Time>2015-08-02T21:44:49.9982427-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\26.png</Source>
+      <Name>Imagenes\26</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\26.xnb</Output>
+      <Time>2015-08-02T21:44:49.9982427-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\33.png</Source>
+      <Name>Imagenes\33</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\33.xnb</Output>
+      <Time>2015-08-02T21:44:49.9982427-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\34.png</Source>
+      <Name>Imagenes\34</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\34.xnb</Output>
+      <Time>2015-08-02T21:44:49.9992435-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\35.png</Source>
+      <Name>Imagenes\35</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\35.xnb</Output>
+      <Time>2015-08-02T21:44:49.9992435-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\36.png</Source>
+      <Name>Imagenes\36</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\36.xnb</Output>
+      <Time>2015-08-02T21:44:50.0002439-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\44.png</Source>
+      <Name>Imagenes\44</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\44.xnb</Output>
+      <Time>2015-08-02T21:44:50.0012444-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\45.png</Source>
+      <Name>Imagenes\45</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\45.xnb</Output>
+      <Time>2015-08-02T21:44:50.0012444-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\46.png</Source>
+      <Name>Imagenes\46</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\46.xnb</Output>
+      <Time>2015-08-02T21:44:50.0022451-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\55.png</Source>
+      <Name>Imagenes\55</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\55.xnb</Output>
+      <Time>2015-08-02T21:44:50.0022451-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\56.png</Source>
+      <Name>Imagenes\56</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\56.xnb</Output>
+      <Time>2015-08-02T21:44:50.0022451-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\66.png</Source>
+      <Name>Imagenes\66</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\66.xnb</Output>
+      <Time>2015-08-02T21:44:50.0032456-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\FichaDeMiFrente.png</Source>
+      <Name>Imagenes\FichaDeMiFrente</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FichaDeMiFrente.xnb</Output>
+      <Time>2015-08-02T21:44:50.01025-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\FichaDeMiOponente.png</Source>
+      <Name>Imagenes\FichaDeMiOponente</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FichaDeMiOponente.xnb</Output>
+      <Time>2015-08-02T21:44:50.01025-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\BotonJugar.png</Source>
+      <Name>Imagenes\BotonJugar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonJugar.xnb</Output>
+      <Time>2015-08-02T21:44:50.0062476-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\BotonOpciones.png</Source>
+      <Name>Imagenes\BotonOpciones</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonOpciones.xnb</Output>
+      <Time>2015-08-02T21:44:50.007248-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\BotonSalir.png</Source>
+      <Name>Imagenes\BotonSalir</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSalir.xnb</Output>
+      <Time>2015-08-02T21:44:50.0082488-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\BotonSobre.png</Source>
+      <Name>Imagenes\BotonSobre</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSobre.xnb</Output>
+      <Time>2015-08-02T21:44:50.0082488-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\MenuPrincipal.png</Source>
+      <Name>Imagenes\MenuPrincipal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MenuPrincipal.xnb</Output>
+      <Time>2015-08-02T21:44:50.0158088-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\MainMenuDobleSeis.png</Source>
+      <Name>Imagenes\MainMenuDobleSeis</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MainMenuDobleSeis.xnb</Output>
+      <Time>2015-08-02T21:44:50.0122512-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\BotonSeguirJugando.png</Source>
+      <Name>Imagenes\BotonSeguirJugando</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSeguirJugando.xnb</Output>
+      <Time>2015-08-02T21:44:50.0082488-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\botonAmarillo.png</Source>
+      <Name>Imagenes\botonAmarillo</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonAmarillo.xnb</Output>
+      <Time>2015-08-02T21:44:50.0032456-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\botonAzul.png</Source>
+      <Name>Imagenes\botonAzul</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonAzul.xnb</Output>
+      <Time>2015-08-02T21:44:50.0032456-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\botonColorDeDominos.png</Source>
+      <Name>Imagenes\botonColorDeDominos</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonColorDeDominos.xnb</Output>
+      <Time>2015-08-02T21:44:50.0042463-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\botonColorDeTablero.png</Source>
+      <Name>Imagenes\botonColorDeTablero</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonColorDeTablero.xnb</Output>
+      <Time>2015-08-02T21:44:50.0042463-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\botonFacil.png</Source>
+      <Name>Imagenes\botonFacil</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonFacil.xnb</Output>
+      <Time>2015-08-02T21:44:50.0052471-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\botonFondo.png</Source>
+      <Name>Imagenes\botonFondo</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonFondo.xnb</Output>
+      <Time>2015-08-02T21:44:50.0052471-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\botonMuyFacil.png</Source>
+      <Name>Imagenes\botonMuyFacil</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonMuyFacil.xnb</Output>
+      <Time>2015-08-02T21:44:50.0062476-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\botonNivel.png</Source>
+      <Name>Imagenes\botonNivel</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonNivel.xnb</Output>
+      <Time>2015-08-02T21:44:50.0062476-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\botonNormal.png</Source>
+      <Name>Imagenes\botonNormal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonNormal.xnb</Output>
+      <Time>2015-08-02T21:44:50.007248-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\botonRojo.png</Source>
+      <Name>Imagenes\botonRojo</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonRojo.xnb</Output>
+      <Time>2015-08-02T21:44:50.007248-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\botonSonido.png</Source>
+      <Name>Imagenes\botonSonido</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonSonido.xnb</Output>
+      <Time>2015-08-02T21:44:50.0092492-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\botonVerde.png</Source>
+      <Name>Imagenes\botonVerde</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonVerde.xnb</Output>
+      <Time>2015-08-02T21:44:50.0092492-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\Opciones.png</Source>
+      <Name>Imagenes\Opciones</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\Opciones.xnb</Output>
+      <Time>2015-08-02T21:44:50.0203181-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\SobreDomino.png</Source>
+      <Name>Imagenes\SobreDomino</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\SobreDomino.xnb</Output>
+      <Time>2015-08-02T21:44:50.0228221-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\botonExperto.png</Source>
+      <Name>Imagenes\botonExperto</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonExperto.xnb</Output>
+      <Time>2015-08-02T21:44:50.0052471-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\botonBlanco.png</Source>
+      <Name>Imagenes\botonBlanco</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonBlanco.xnb</Output>
+      <Time>2015-08-02T21:44:50.0042463-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\MesaExtendida.png</Source>
+      <Name>Imagenes\MesaExtendida</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MesaExtendida.xnb</Output>
+      <Time>2015-08-02T21:44:50.0183148-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\botonDePasar.png</Source>
+      <Name>Imagenes\botonDePasar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonDePasar.xnb</Output>
+      <Time>2015-08-02T21:44:50.0052471-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\FondoDeFinDeRonda.png</Source>
+      <Name>Imagenes\FondoDeFinDeRonda</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FondoDeFinDeRonda.xnb</Output>
+      <Time>2015-08-02T21:44:50.0112504-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\botonSiguienteRonda.png</Source>
+      <Name>Imagenes\botonSiguienteRonda</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonSiguienteRonda.xnb</Output>
+      <Time>2015-08-02T21:44:50.0082488-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\Felicidades.png</Source>
+      <Name>Imagenes\Felicidades</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\Felicidades.xnb</Output>
+      <Time>2015-08-02T21:44:50.01025-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\MalaSuerte.png</Source>
+      <Name>Imagenes\MalaSuerte</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MalaSuerte.xnb</Output>
+      <Time>2015-08-02T21:44:50.0122512-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Letras\Letras.spritefont</Source>
+      <Name>Letras\Letras</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Letras\Letras.xnb</Output>
+      <Time>2015-08-02T21:44:50.0238237-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Letras\Cent.spritefont</Source>
+      <Name>Letras\Cent</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Letras\Cent.xnb</Output>
+      <Time>2015-08-02T22:50:57.2160187-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Set.wav</Source>
+      <Name>Audio\Set</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Set.xnb</Output>
+      <Time>2015-08-02T21:44:49.9832335-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Sett.wav</Source>
+      <Name>Audio\Sett</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Sett.xnb</Output>
+      <Time>2015-08-02T21:44:49.9842343-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\track.wav</Source>
+      <Name>Audio\track</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\track.xnb</Output>
+      <Time>2015-08-02T21:44:49.9902376-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\DominoHitTable.wav</Source>
+      <Name>Audio\DominoHitTable</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoHitTable.xnb</Output>
+      <Time>2015-08-02T21:44:49.9802325-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\DominoPickUp.wav</Source>
+      <Name>Audio\DominoPickUp</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoPickUp.xnb</Output>
+      <Time>2015-08-02T21:44:49.9812326-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\DominoSetDown.wav</Source>
+      <Name>Audio\DominoSetDown</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoSetDown.xnb</Output>
+      <Time>2015-08-02T21:44:49.9812326-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\DominoShuffling.wav</Source>
+      <Name>Audio\DominoShuffling</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoShuffling.xnb</Output>
+      <Time>2015-08-02T21:44:49.9832335-07:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{A328A56A-420D-4547-8584-A7E7F625C5B1}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1Content\</RootDirectory>
+      <LoggerRootDirectory>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\</LoggerRootDirectory>
+      <IntermediateDirectory>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T16:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T16:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2015-08-02T21:49:26.4667205-07:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

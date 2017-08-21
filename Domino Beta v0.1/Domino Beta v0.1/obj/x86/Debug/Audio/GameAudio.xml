@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Sections>
+  <WaveBank Name="Wave Bank">Wave Bank
+{
+    Name = Wave Bank;
+    Xbox File = Xbox\Wave Bank.xwb;
+    Windows File = Win\Wave Bank.xwb;
+    Xbox Bank Path Edited = 0;
+    Windows Bank Path Edited = 0;
+    Seek Tables = 1;
+    Compression Preset Name = &lt;none&gt;;
+    Bank Last Revised Low = 4145723694;
+    Bank Last Revised High = 30238265;
+
+    Wave
+    {
+        Name = Set;
+        File = Set.wav;
+        Build Settings Last Modified Low = 3802506994;
+        Build Settings Last Modified High = 30238251;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 12288;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 603254008;
+            Last Modified High = 30238251;
+        }
+    }
+
+    Wave
+    {
+        Name = Sett;
+        File = Sett.wav;
+        Build Settings Last Modified Low = 3802506994;
+        Build Settings Last Modified High = 30238251;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 12288;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 603264008;
+            Last Modified High = 30238251;
+        }
+    }
+
+    Wave
+    {
+        Name = track;
+        File = track.wav;
+        Build Settings Last Modified Low = 3802516995;
+        Build Settings Last Modified High = 30238251;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 705600;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 603294010;
+            Last Modified High = 30238251;
+        }
+    }
+
+    Wave
+    {
+        Name = DominoHitTable;
+        File = DominoHitTable.wav;
+        Build Settings Last Modified Low = 4112801811;
+        Build Settings Last Modified High = 30238265;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 32000;
+            Bits Per Sample = 0;
+            Play Region Offset = 44;
+            Play Region Length = 18527;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 1333650870;
+            Last Modified High = 30238254;
+        }
+    }
+
+    Wave
+    {
+        Name = DominoPickUp;
+        File = DominoPickUp.wav;
+        Build Settings Last Modified Low = 4112811812;
+        Build Settings Last Modified High = 30238265;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 32000;
+            Bits Per Sample = 0;
+            Play Region Offset = 44;
+            Play Region Length = 18874;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 78491062;
+            Last Modified High = 30238265;
+        }
+    }
+
+    Wave
+    {
+        Name = DominoSetDown;
+        File = DominoSetDown.wav;
+        Build Settings Last Modified Low = 4112821813;
+        Build Settings Last Modified High = 30238265;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 32000;
+            Bits Per Sample = 0;
+            Play Region Offset = 44;
+            Play Region Length = 25046;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2662628866;
+            Last Modified High = 30238265;
+        }
+    }
+
+    Wave
+    {
+        Name = DominoShuffling;
+        File = DominoShuffling.wav;
+        Build Settings Last Modified Low = 4112821813;
+        Build Settings Last Modified High = 30238265;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 32000;
+            Bits Per Sample = 0;
+            Play Region Offset = 44;
+            Play Region Length = 179023;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 1368344837;
+            Last Modified High = 30238265;
+        }
+    }
+}
+
+</WaveBank>
+</Sections>
