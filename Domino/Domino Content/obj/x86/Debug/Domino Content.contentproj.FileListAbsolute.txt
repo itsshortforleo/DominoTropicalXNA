@@ -1,0 +1,2 @@
+C:\CODE\Projects\DominoTropicalXNA\Domino\Domino Content\obj\x86\Debug\Domino Content.contentprojResolveAssemblyReference.cache
+C:\CODE\Projects\DominoTropicalXNA\Domino\Domino Content\obj\x86\Debug\Domino Content.contentproj.CoreCompileInputs.cache

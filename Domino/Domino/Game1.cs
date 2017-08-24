@@ -12,12 +12,12 @@ using Microsoft.Xna.Framework.Storage;
 using System.IO;
 using System.Xml.Serialization;
 using System.Diagnostics;
-using Domino_Beta_v0._1.Entidades;
+using Domino.Entities;
 using System.Threading;
 
 
 
-namespace Domino_Beta_v0._1
+namespace Domino
 {
 
 
@@ -64,25 +64,25 @@ namespace Domino_Beta_v0._1
         GameState EstadoActualDeJuego = GameState.MenuPrincipal;
         
         
-        BotonDeMenu BotonDeJugar;
-        BotonDeMenu BotonDeOpciones;
-        BotonDeMenu BotonDeCreditos;
-        BotonDeMenu BotonDeSalida;
-        BotonDeMenu BotonSeguirJugando;
-        BotonDeMenu BotonDobleSeis;
-        BotonDeMenu BotonNivel;
-        BotonDeMenu BotonColorDeDominoes;
-        BotonDeMenu Blanco;
-        BotonDeMenu Amarillo;
-        BotonDeMenu Azul;
-        BotonDeMenu Rojo;
-        BotonDeMenu Verde;
-        BotonDeMenu Experto;
-        BotonDeMenu Facil;
-        BotonDeMenu MuyFacil;
-        BotonDeMenu Normal;
-        BotonDeMenu BotonDePasar;
-        BotonDeMenu BotonSiguienteRonda;
+        MenuButton BotonDeJugar;
+        MenuButton BotonDeOpciones;
+        MenuButton BotonDeCreditos;
+        MenuButton BotonDeSalida;
+        MenuButton BotonSeguirJugando;
+        MenuButton BotonDobleSeis;
+        MenuButton BotonNivel;
+        MenuButton BotonColorDeDominoes;
+        MenuButton Blanco;
+        MenuButton Amarillo;
+        MenuButton Azul;
+        MenuButton Rojo;
+        MenuButton Verde;
+        MenuButton Experto;
+        MenuButton Facil;
+        MenuButton MuyFacil;
+        MenuButton Normal;
+        MenuButton BotonDePasar;
+        MenuButton BotonSiguienteRonda;
 
         Texture2D Felicidades;
         Texture2D MalaSuerte;
@@ -92,7 +92,7 @@ namespace Domino_Beta_v0._1
         bool InicioDePartida = true;                         
         bool InicioMano = false;
 
-        Ficha UltimaFichaTomada = null;
+        Tile UltimaFichaTomada = null;
         Jugador UltimoJugadorEnJugar;
 
         Vector2 PosicionDeTablero;                      // where to posicion the board
@@ -128,19 +128,19 @@ namespace Domino_Beta_v0._1
         public Mesa Mesa1;
 
 
-        Ficha UltimaFichaJugada;
+        Tile UltimaFichaJugada;
 
-        Ficha FichaAActualizar = null;
+        Tile FichaAActualizar = null;
 
-        public List<Ficha> ListaCompletaDeFichas = new List<Ficha>();       // A sprite for the player and a list of automated sprites
-        public List<Ficha> ListaCompletaDeFichasParaRepartir = new List<Ficha>(); 
+        public List<Tile> ListaCompletaDeFichas = new List<Tile>();       // A sprite for the player and a list of automated sprites
+        public List<Tile> ListaCompletaDeFichasParaRepartir = new List<Tile>(); 
  
 
         public List<Jugador> Jugadores = new List<Jugador>();               // Lista de jugadores
 
         
-        Nivel NivelActual = Nivel.MuyFacil;                        // Variable que indica el nivel actual de inteligencia artificial
-        ColorDeFicha ColorDeFichaActual = ColorDeFicha.Blanco;     // Variable que indica el color actual de la ficha
+        DifficultyLevel NivelActual = DifficultyLevel.VeryEasy;                        // Variable que indica el nivel actual de inteligencia artificial
+        TileColor ColorDeFichaActual = TileColor.White;     // Variable que indica el color actual de la ficha
 
 
         #region Variables para guardar datos
@@ -152,8 +152,8 @@ namespace Domino_Beta_v0._1
         [Serializable]
         public struct SaveGame
         {
-            public Nivel NivelAGuardar;
-            public ColorDeFicha ColorDeFichaAGuardar;
+            public DifficultyLevel NivelAGuardar;
+            public TileColor ColorDeFichaAGuardar;
         }
 
         #endregion
@@ -226,15 +226,15 @@ namespace Domino_Beta_v0._1
         {
             InitiateLoad();
 
-            if (ColorDeFichaActual == ColorDeFicha.Blanco)
+            if (ColorDeFichaActual == TileColor.White)
                 ColorADibujar = Color.White;
-            if (ColorDeFichaActual == ColorDeFicha.Amarillo)
+            if (ColorDeFichaActual == TileColor.Yellow)
                 ColorADibujar = Color.Yellow;
-            if (ColorDeFichaActual == ColorDeFicha.Azul)
+            if (ColorDeFichaActual == TileColor.Blue)
                 ColorADibujar = Color.Cyan;
-            if (ColorDeFichaActual == ColorDeFicha.Rojo)
+            if (ColorDeFichaActual == TileColor.Red)
                 ColorADibujar = Color.Red;
-            if (ColorDeFichaActual == ColorDeFicha.Verde)
+            if (ColorDeFichaActual == TileColor.Green)
                 ColorADibujar = Color.Green;
 
 
@@ -256,68 +256,68 @@ namespace Domino_Beta_v0._1
             trackCue.Play();
 
             // Sobre el Menu Principal
-            BotonDeJugar = new BotonDeMenu(Content.Load<Texture2D>(@"Imagenes\BotonJugar"), graphics.GraphicsDevice);
+            BotonDeJugar = new MenuButton(Content.Load<Texture2D>(@"Imagenes\BotonJugar"), graphics.GraphicsDevice);
             BotonDeJugar.EstablecerPosicion(new Vector2(871, 350));
 
-            BotonSeguirJugando = new BotonDeMenu(Content.Load<Texture2D>(@"Imagenes\BotonSeguirJugando"), graphics.GraphicsDevice);
+            BotonSeguirJugando = new MenuButton(Content.Load<Texture2D>(@"Imagenes\BotonSeguirJugando"), graphics.GraphicsDevice);
             BotonSeguirJugando.EstablecerPosicion(new Vector2(871, 350));
 
-            BotonDeOpciones = new BotonDeMenu(Content.Load<Texture2D>(@"Imagenes\BotonOpciones"), graphics.GraphicsDevice);
+            BotonDeOpciones = new MenuButton(Content.Load<Texture2D>(@"Imagenes\BotonOpciones"), graphics.GraphicsDevice);
             BotonDeOpciones.EstablecerPosicion(new Vector2(871, 420));
 
-            BotonDeCreditos = new BotonDeMenu(Content.Load<Texture2D>(@"Imagenes\BotonSobre"), graphics.GraphicsDevice);
+            BotonDeCreditos = new MenuButton(Content.Load<Texture2D>(@"Imagenes\BotonSobre"), graphics.GraphicsDevice);
             BotonDeCreditos.EstablecerPosicion(new Vector2(871, 490));
 
-            BotonDeSalida = new BotonDeMenu(Content.Load<Texture2D>(@"Imagenes\BotonSalir"), graphics.GraphicsDevice);
+            BotonDeSalida = new MenuButton(Content.Load<Texture2D>(@"Imagenes\BotonSalir"), graphics.GraphicsDevice);
             BotonDeSalida.EstablecerPosicion(new Vector2(871, 560));
 
-            BotonDobleSeis = new BotonDeMenu(Content.Load<Texture2D>(@"Imagenes\MainMenuDobleSeis"), graphics.GraphicsDevice, new Vector2(0, 0));
+            BotonDobleSeis = new MenuButton(Content.Load<Texture2D>(@"Imagenes\MainMenuDobleSeis"), graphics.GraphicsDevice, new Vector2(0, 0));
 
-            BotonNivel = new BotonDeMenu(Content.Load<Texture2D>(@"Imagenes\botonNivel"), graphics.GraphicsDevice);
+            BotonNivel = new MenuButton(Content.Load<Texture2D>(@"Imagenes\botonNivel"), graphics.GraphicsDevice);
             BotonNivel.EstablecerPosicion(new Vector2(842, 330));
 
-            BotonColorDeDominoes = new BotonDeMenu(Content.Load<Texture2D>(@"Imagenes\botonColorDeDominos"), graphics.GraphicsDevice);
+            BotonColorDeDominoes = new MenuButton(Content.Load<Texture2D>(@"Imagenes\botonColorDeDominos"), graphics.GraphicsDevice);
             BotonColorDeDominoes.EstablecerPosicion(new Vector2(842, 640));
 
 
-            Blanco = new BotonDeMenu(Content.Load<Texture2D>(@"Imagenes\botonBlanco"), graphics.GraphicsDevice);
+            Blanco = new MenuButton(Content.Load<Texture2D>(@"Imagenes\botonBlanco"), graphics.GraphicsDevice);
             Blanco.EstablecerPosicion(new Vector2(842, 370));
 
 
-            Amarillo = new BotonDeMenu(Content.Load<Texture2D>(@"Imagenes\botonAmarillo"), graphics.GraphicsDevice);
+            Amarillo = new MenuButton(Content.Load<Texture2D>(@"Imagenes\botonAmarillo"), graphics.GraphicsDevice);
             Amarillo.EstablecerPosicion(new Vector2(842, 470));
 
 
-            Azul = new BotonDeMenu(Content.Load<Texture2D>(@"Imagenes\botonAzul"), graphics.GraphicsDevice);
+            Azul = new MenuButton(Content.Load<Texture2D>(@"Imagenes\botonAzul"), graphics.GraphicsDevice);
             Azul.EstablecerPosicion(new Vector2(842, 520));
 
 
-            Rojo = new BotonDeMenu(Content.Load<Texture2D>(@"Imagenes\botonRojo"), graphics.GraphicsDevice);
+            Rojo = new MenuButton(Content.Load<Texture2D>(@"Imagenes\botonRojo"), graphics.GraphicsDevice);
             Rojo.EstablecerPosicion(new Vector2(842, 570));
 
 
-            Verde = new BotonDeMenu(Content.Load<Texture2D>(@"Imagenes\botonVerde"), graphics.GraphicsDevice);
+            Verde = new MenuButton(Content.Load<Texture2D>(@"Imagenes\botonVerde"), graphics.GraphicsDevice);
             Verde.EstablecerPosicion(new Vector2(842, 420));
 
 
-            MuyFacil = new BotonDeMenu(Content.Load<Texture2D>(@"Imagenes\botonMuyFacil"), graphics.GraphicsDevice);
+            MuyFacil = new MenuButton(Content.Load<Texture2D>(@"Imagenes\botonMuyFacil"), graphics.GraphicsDevice);
             MuyFacil.EstablecerPosicion(new Vector2(842, 410));
 
 
-            Facil = new BotonDeMenu(Content.Load<Texture2D>(@"Imagenes\botonFacil"), graphics.GraphicsDevice);
+            Facil = new MenuButton(Content.Load<Texture2D>(@"Imagenes\botonFacil"), graphics.GraphicsDevice);
             Facil.EstablecerPosicion(new Vector2(842, 460));
 
 
-            Normal = new BotonDeMenu(Content.Load<Texture2D>(@"Imagenes\botonNormal"), graphics.GraphicsDevice);
+            Normal = new MenuButton(Content.Load<Texture2D>(@"Imagenes\botonNormal"), graphics.GraphicsDevice);
             Normal.EstablecerPosicion(new Vector2(842, 510));
 
-            Experto = new BotonDeMenu(Content.Load<Texture2D>(@"Imagenes\botonExperto"), graphics.GraphicsDevice);
+            Experto = new MenuButton(Content.Load<Texture2D>(@"Imagenes\botonExperto"), graphics.GraphicsDevice);
             Experto.EstablecerPosicion(new Vector2(842, 560));
 
-            BotonDePasar = new BotonDeMenu(Content.Load<Texture2D>(@"Imagenes\botonDePasar"), graphics.GraphicsDevice, 1);
+            BotonDePasar = new MenuButton(Content.Load<Texture2D>(@"Imagenes\botonDePasar"), graphics.GraphicsDevice, 1);
             BotonDePasar.EstablecerPosicion(new Vector2(700, 710));
 
-            BotonSiguienteRonda = new BotonDeMenu(Content.Load<Texture2D>(@"Imagenes\botonSiguienteRonda"), graphics.GraphicsDevice, 1);
+            BotonSiguienteRonda = new MenuButton(Content.Load<Texture2D>(@"Imagenes\botonSiguienteRonda"), graphics.GraphicsDevice, 1);
             BotonSiguienteRonda.EstablecerPosicion(new Vector2(700, 400));
 
 
@@ -347,88 +347,88 @@ namespace Domino_Beta_v0._1
             #region Lista Completa de Fichas
 
             //Load several different automated sprites into the list
-            ListaCompletaDeFichas.Add(new Ficha(Content.Load<Texture2D>(@"Imagenes/00"),
+            ListaCompletaDeFichas.Add(new Tile(Content.Load<Texture2D>(@"Imagenes/00"),
                 10, Vector2.Zero, new Vector2(150, 150), 0, 0, true, true, false));
 
-            ListaCompletaDeFichas.Add(new Ficha(Content.Load<Texture2D>(@"Imagenes/01"),
+            ListaCompletaDeFichas.Add(new Tile(Content.Load<Texture2D>(@"Imagenes/01"),
                 10, Vector2.Zero, new Vector2(150, 150), 0, 1, true, false, false));
 
-            ListaCompletaDeFichas.Add(new Ficha(Content.Load<Texture2D>(@"Imagenes/02"),
+            ListaCompletaDeFichas.Add(new Tile(Content.Load<Texture2D>(@"Imagenes/02"),
                 10, Vector2.Zero, new Vector2(150, 150), 0, 2, true, false, false));
 
-            ListaCompletaDeFichas.Add(new Ficha(Content.Load<Texture2D>(@"Imagenes/03"),
+            ListaCompletaDeFichas.Add(new Tile(Content.Load<Texture2D>(@"Imagenes/03"),
                 10, Vector2.Zero, new Vector2(150, 150), 0, 3, true, false, false));
 
-            ListaCompletaDeFichas.Add(new Ficha(Content.Load<Texture2D>(@"Imagenes/04"),
+            ListaCompletaDeFichas.Add(new Tile(Content.Load<Texture2D>(@"Imagenes/04"),
                 10, Vector2.Zero, new Vector2(150, 150), 0, 4, true, false, false));
 
-            ListaCompletaDeFichas.Add(new Ficha(Content.Load<Texture2D>(@"Imagenes/05"),
+            ListaCompletaDeFichas.Add(new Tile(Content.Load<Texture2D>(@"Imagenes/05"),
                 10, Vector2.Zero, new Vector2(150, 150), 0, 5, true, false, false));
 
-            ListaCompletaDeFichas.Add(new Ficha(Content.Load<Texture2D>(@"Imagenes/06"),
+            ListaCompletaDeFichas.Add(new Tile(Content.Load<Texture2D>(@"Imagenes/06"),
                 10, Vector2.Zero, new Vector2(150, 150), 0, 6, true, false, false));
 
-            ListaCompletaDeFichas.Add(new Ficha(Content.Load<Texture2D>(@"Imagenes/11"),
+            ListaCompletaDeFichas.Add(new Tile(Content.Load<Texture2D>(@"Imagenes/11"),
                 10, Vector2.Zero, new Vector2(150, 150), 1, 1, true, true, false));
 
-            ListaCompletaDeFichas.Add(new Ficha(Content.Load<Texture2D>(@"Imagenes/12"),
+            ListaCompletaDeFichas.Add(new Tile(Content.Load<Texture2D>(@"Imagenes/12"),
                 10, Vector2.Zero, new Vector2(150, 150), 1, 2, true, false, false));
 
-            ListaCompletaDeFichas.Add(new Ficha(Content.Load<Texture2D>(@"Imagenes/13"),
+            ListaCompletaDeFichas.Add(new Tile(Content.Load<Texture2D>(@"Imagenes/13"),
                 10, Vector2.Zero, new Vector2(150, 150), 1, 3, true, false, false));
 
-            ListaCompletaDeFichas.Add(new Ficha(Content.Load<Texture2D>(@"Imagenes/14"),
+            ListaCompletaDeFichas.Add(new Tile(Content.Load<Texture2D>(@"Imagenes/14"),
                 10, Vector2.Zero, new Vector2(150, 150), 1, 4, true, false, false));
 
-            ListaCompletaDeFichas.Add(new Ficha(Content.Load<Texture2D>(@"Imagenes/15"),
+            ListaCompletaDeFichas.Add(new Tile(Content.Load<Texture2D>(@"Imagenes/15"),
                 10, Vector2.Zero, new Vector2(150, 150), 1, 5, true, false, false));
 
-            ListaCompletaDeFichas.Add(new Ficha(Content.Load<Texture2D>(@"Imagenes/16"),
+            ListaCompletaDeFichas.Add(new Tile(Content.Load<Texture2D>(@"Imagenes/16"),
                 10, Vector2.Zero, new Vector2(150, 150), 1, 6, true, false, false));
 
-            ListaCompletaDeFichas.Add(new Ficha(Content.Load<Texture2D>(@"Imagenes/22"),
+            ListaCompletaDeFichas.Add(new Tile(Content.Load<Texture2D>(@"Imagenes/22"),
                 10, Vector2.Zero, new Vector2(150, 150), 2, 2, true, true, false));
 
-            ListaCompletaDeFichas.Add(new Ficha(Content.Load<Texture2D>(@"Imagenes/23"),
+            ListaCompletaDeFichas.Add(new Tile(Content.Load<Texture2D>(@"Imagenes/23"),
                 10, Vector2.Zero, new Vector2(150, 150), 2, 3, true, false, false));
 
-            ListaCompletaDeFichas.Add(new Ficha(Content.Load<Texture2D>(@"Imagenes/24"),
+            ListaCompletaDeFichas.Add(new Tile(Content.Load<Texture2D>(@"Imagenes/24"),
                 10, Vector2.Zero, new Vector2(150, 150), 2, 4, true, false, false));
 
-            ListaCompletaDeFichas.Add(new Ficha(Content.Load<Texture2D>(@"Imagenes/25"),
+            ListaCompletaDeFichas.Add(new Tile(Content.Load<Texture2D>(@"Imagenes/25"),
                 10, Vector2.Zero, new Vector2(150, 150), 2, 5, true, false, false));
 
-            ListaCompletaDeFichas.Add(new Ficha(Content.Load<Texture2D>(@"Imagenes/26"),
+            ListaCompletaDeFichas.Add(new Tile(Content.Load<Texture2D>(@"Imagenes/26"),
                 10, Vector2.Zero, new Vector2(150, 150), 2, 6, true, false, false));
 
-            ListaCompletaDeFichas.Add(new Ficha(Content.Load<Texture2D>(@"Imagenes/33"),
+            ListaCompletaDeFichas.Add(new Tile(Content.Load<Texture2D>(@"Imagenes/33"),
                 10, Vector2.Zero, new Vector2(150, 150), 3, 3, true, true, false));
 
-            ListaCompletaDeFichas.Add(new Ficha(Content.Load<Texture2D>(@"Imagenes/34"),
+            ListaCompletaDeFichas.Add(new Tile(Content.Load<Texture2D>(@"Imagenes/34"),
                 10, Vector2.Zero, new Vector2(150, 150), 3, 4, true, false, false));
 
-            ListaCompletaDeFichas.Add(new Ficha(Content.Load<Texture2D>(@"Imagenes/35"),
+            ListaCompletaDeFichas.Add(new Tile(Content.Load<Texture2D>(@"Imagenes/35"),
                 10, Vector2.Zero, new Vector2(150, 150), 3, 5, true, false, false));
 
-            ListaCompletaDeFichas.Add(new Ficha(Content.Load<Texture2D>(@"Imagenes/36"),
+            ListaCompletaDeFichas.Add(new Tile(Content.Load<Texture2D>(@"Imagenes/36"),
                 10, Vector2.Zero, new Vector2(150, 150), 3, 6, true, false, false));
 
-            ListaCompletaDeFichas.Add(new Ficha(Content.Load<Texture2D>(@"Imagenes/44"),
+            ListaCompletaDeFichas.Add(new Tile(Content.Load<Texture2D>(@"Imagenes/44"),
                 10, Vector2.Zero, new Vector2(180, 150), 4, 4, true, true, false));
 
-            ListaCompletaDeFichas.Add(new Ficha(Content.Load<Texture2D>(@"Imagenes/45"),
+            ListaCompletaDeFichas.Add(new Tile(Content.Load<Texture2D>(@"Imagenes/45"),
                 10, Vector2.Zero, new Vector2(150, 150), 4, 5, true, false, false));
 
-            ListaCompletaDeFichas.Add(new Ficha(Content.Load<Texture2D>(@"Imagenes/46"),
+            ListaCompletaDeFichas.Add(new Tile(Content.Load<Texture2D>(@"Imagenes/46"),
                 10, Vector2.Zero, new Vector2(150, 150), 4, 6, true, false, false));
 
-            ListaCompletaDeFichas.Add(new Ficha(Content.Load<Texture2D>(@"Imagenes/55"),
+            ListaCompletaDeFichas.Add(new Tile(Content.Load<Texture2D>(@"Imagenes/55"),
                 10, Vector2.Zero, new Vector2(150, 150), 5, 5, true, true, false));
 
-            ListaCompletaDeFichas.Add(new Ficha(Content.Load<Texture2D>(@"Imagenes/56"),
+            ListaCompletaDeFichas.Add(new Tile(Content.Load<Texture2D>(@"Imagenes/56"),
                 10, Vector2.Zero, new Vector2(150, 150), 5, 6, true, false, false));
 
-            ListaCompletaDeFichas.Add(new Ficha(Content.Load<Texture2D>(@"Imagenes/66"),
+            ListaCompletaDeFichas.Add(new Tile(Content.Load<Texture2D>(@"Imagenes/66"),
                 10, Vector2.Zero, new Vector2(150, 150), 6, 6, true, true, false));
 
             #endregion
@@ -550,7 +550,7 @@ namespace Domino_Beta_v0._1
 
                             for (int i = 0; i < Jugadores.Count; i++)
                             {
-                                foreach (Ficha f in Jugadores[i].FichasDeJugador)
+                                foreach (Tile f in Jugadores[i].FichasDeJugador)
                                 {
                                     if (f.PrimerValor == 6 && f.SegundoValor == 6)
                                     {
@@ -622,7 +622,7 @@ namespace Domino_Beta_v0._1
                     // Inteligencia Artificial
                     switch (NivelActual)
                     {
-                        case Nivel.MuyFacil:
+                        case DifficultyLevel.VeryEasy:
                             if (!Mesa1.JugadorEnTurno.EsHumano && (!FinDeRonda) && !InicioDePartida && !InicioMano)
                             {
                                 DibujarFichasJugadoresNoHumanosNivel1(Mesa1.JugadorEnTurno);
@@ -631,7 +631,7 @@ namespace Domino_Beta_v0._1
                             }
                             break;
 
-                        case Nivel.Facil:
+                        case DifficultyLevel.Easy:
                             if (!Mesa1.JugadorEnTurno.EsHumano && (!FinDeRonda) && !InicioDePartida && !InicioMano)
                             {
                                 DibujarFichasJugadoresNoHumanosNivel1(Mesa1.JugadorEnTurno);
@@ -641,7 +641,7 @@ namespace Domino_Beta_v0._1
                             break;
 
 
-                        case Nivel.Normal:
+                        case DifficultyLevel.Normal:
                             if (!Mesa1.JugadorEnTurno.EsHumano && (!FinDeRonda) && !InicioDePartida && !InicioMano)
                             {
                                 DibujarFichasJugadoresNoHumanosNivel3(Mesa1.JugadorEnTurno);
@@ -650,7 +650,7 @@ namespace Domino_Beta_v0._1
                             }
                             break;
 
-                        case Nivel.Experto:
+                        case DifficultyLevel.Expert:
                             if (!Mesa1.JugadorEnTurno.EsHumano && (!FinDeRonda) && !InicioDePartida && !InicioMano)
                             {
                                 DibujarFichasJugadoresNoHumanosNivel3(Mesa1.JugadorEnTurno);
@@ -672,7 +672,7 @@ namespace Domino_Beta_v0._1
                     #region Update para arrastrar fichas
                     
 
-                    foreach (Ficha f in jugador1.FichasDeJugador)
+                    foreach (Tile f in jugador1.FichasDeJugador)
                     {
 
                         //if the user just clicked inside the draggable white square - set SeEstaArrastrando to true
@@ -837,22 +837,22 @@ namespace Domino_Beta_v0._1
 
                     if (MuyFacil.seHizoClic == true)
                     {
-                        NivelActual = Nivel.MuyFacil;
+                        NivelActual = DifficultyLevel.VeryEasy;
                     }
 
                     if (Facil.seHizoClic == true)
                     {
-                        NivelActual = Nivel.Facil;
+                        NivelActual = DifficultyLevel.Easy;
                     }
 
                     if (Normal.seHizoClic == true)
                     {
-                        NivelActual = Nivel.Normal;
+                        NivelActual = DifficultyLevel.Normal;
                     }
 
                     if (Experto.seHizoClic == true)
                     {
-                        NivelActual = Nivel.Experto;
+                        NivelActual = DifficultyLevel.Expert;
                     }
 
                     MuyFacil.Update(EstadoActualDeMouse);
@@ -872,31 +872,31 @@ namespace Domino_Beta_v0._1
 
                     if (Blanco.seHizoClic == true)
                     {
-                        ColorDeFichaActual = ColorDeFicha.Blanco;
+                        ColorDeFichaActual = TileColor.White;
                         ColorADibujar = Color.White;
                     }
 
                     if (Amarillo.seHizoClic == true)
                     {
-                        ColorDeFichaActual = ColorDeFicha.Amarillo;
+                        ColorDeFichaActual = TileColor.Yellow;
                         ColorADibujar = Color.Yellow;
                     }
 
                     if (Azul.seHizoClic == true)
                     {
-                        ColorDeFichaActual = ColorDeFicha.Azul;
+                        ColorDeFichaActual = TileColor.Blue;
                         ColorADibujar = Color.Cyan;
                     }
 
                     if (Rojo.seHizoClic == true)
                     {
-                        ColorDeFichaActual = ColorDeFicha.Rojo;
+                        ColorDeFichaActual = TileColor.Red;
                         ColorADibujar = Color.Red;
                     }
 
                     if (Verde.seHizoClic == true)
                     {
-                        ColorDeFichaActual = ColorDeFicha.Verde;
+                        ColorDeFichaActual = TileColor.Green;
                         ColorADibujar = Color.DarkGreen;
                     }
 
@@ -978,7 +978,7 @@ namespace Domino_Beta_v0._1
                     DibujarCuadroArrastrable();     // Draw the draggable Cuadro, wherever it may be
 
 
-                    foreach (Ficha s in jugador1.FichasDeJugador)       // Dibujar fichas de jugador excepto la que se esta arrastrando
+                    foreach (Tile s in jugador1.FichasDeJugador)       // Dibujar fichas de jugador excepto la que se esta arrastrando
                         if (!s.SeEstaArrastrando)
                         {
                             spriteBatch.Draw(s.Imagen,
@@ -1123,7 +1123,7 @@ namespace Domino_Beta_v0._1
                     BotonSiguienteRonda.Draw(spriteBatch, 1f);
 
                     Vector2 PosicionInicialFichasJugador1 = new Vector2(300, 180);
-                    foreach (Ficha s in jugador1.FichasDeJugador)       // Dibujar fichas de jugador excepto la que se esta arrastrando
+                    foreach (Tile s in jugador1.FichasDeJugador)       // Dibujar fichas de jugador excepto la que se esta arrastrando
                     {
                         s.UltimaOrientacion = 1;
                         spriteBatch.Draw(s.Imagen,
@@ -1135,7 +1135,7 @@ namespace Domino_Beta_v0._1
                     }
 
                     Vector2 PosicionInicialFichasJugador2 = new Vector2(300, 240);
-                    foreach (Ficha s in jugador2.FichasDeJugador)       // Dibujar fichas de jugador excepto la que se esta arrastrando
+                    foreach (Tile s in jugador2.FichasDeJugador)       // Dibujar fichas de jugador excepto la que se esta arrastrando
                     {
                         s.UltimaOrientacion = 1;
                         spriteBatch.Draw(s.Imagen,
@@ -1146,7 +1146,7 @@ namespace Domino_Beta_v0._1
                     }
 
                     Vector2 PosicionInicialFichasJugador3 = new Vector2(300, 300);
-                    foreach (Ficha s in jugador3.FichasDeJugador)       // Dibujar fichas de jugador excepto la que se esta arrastrando
+                    foreach (Tile s in jugador3.FichasDeJugador)       // Dibujar fichas de jugador excepto la que se esta arrastrando
                     {
                         s.UltimaOrientacion = 1;
                         spriteBatch.Draw(s.Imagen,
@@ -1158,7 +1158,7 @@ namespace Domino_Beta_v0._1
 
 
                     Vector2 PosicionInicialFichasJugador4 = new Vector2(300, 360);
-                    foreach (Ficha s in jugador4.FichasDeJugador)       // Dibujar fichas de jugador excepto la que se esta arrastrando
+                    foreach (Tile s in jugador4.FichasDeJugador)       // Dibujar fichas de jugador excepto la que se esta arrastrando
                     {
                         s.UltimaOrientacion = 1;
                         spriteBatch.Draw(s.Imagen,
@@ -1216,7 +1216,7 @@ namespace Domino_Beta_v0._1
                         new Rectangle(0, 0, screenWidth, screenHeight),
                         Color.White);
 
-                    if (NivelActual==Nivel.MuyFacil)
+                    if (NivelActual==DifficultyLevel.VeryEasy)
                     {
                         MuyFacil.Draw(spriteBatch, Color.Black);
                         Facil.Draw(spriteBatch);
@@ -1224,7 +1224,7 @@ namespace Domino_Beta_v0._1
                         Experto.Draw(spriteBatch);
                     }
 
-                    if (NivelActual == Nivel.Facil)
+                    if (NivelActual == DifficultyLevel.Easy)
                     {
                         Facil.Draw(spriteBatch, Color.Black);
                         MuyFacil.Draw(spriteBatch);
@@ -1232,7 +1232,7 @@ namespace Domino_Beta_v0._1
                         Experto.Draw(spriteBatch);
                     }
 
-                    if (NivelActual == Nivel.Normal)
+                    if (NivelActual == DifficultyLevel.Normal)
                     {
                         Normal.Draw(spriteBatch, Color.Black);
                         MuyFacil.Draw(spriteBatch);
@@ -1240,7 +1240,7 @@ namespace Domino_Beta_v0._1
                         Experto.Draw(spriteBatch);
                     }
 
-                    if (NivelActual == Nivel.Experto)
+                    if (NivelActual == DifficultyLevel.Expert)
                     {
                         Experto.Draw(spriteBatch, Color.Black);
                         MuyFacil.Draw(spriteBatch);
@@ -1259,7 +1259,7 @@ namespace Domino_Beta_v0._1
                         new Rectangle(0, 0, screenWidth, screenHeight),
                         Color.White);
 
-                    if (ColorDeFichaActual==ColorDeFicha.Blanco)
+                    if (ColorDeFichaActual==TileColor.White)
                     {
                         Blanco.Draw(spriteBatch,Color.Black);
                         Amarillo.Draw(spriteBatch);
@@ -1268,7 +1268,7 @@ namespace Domino_Beta_v0._1
                         Verde.Draw(spriteBatch);
                     }
 
-                    if (ColorDeFichaActual == ColorDeFicha.Amarillo)
+                    if (ColorDeFichaActual == TileColor.Yellow)
                     {
                         Blanco.Draw(spriteBatch);
                         Amarillo.Draw(spriteBatch, Color.Black);
@@ -1277,7 +1277,7 @@ namespace Domino_Beta_v0._1
                         Verde.Draw(spriteBatch);
                     }
 
-                    if (ColorDeFichaActual == ColorDeFicha.Azul)
+                    if (ColorDeFichaActual == TileColor.Blue)
                     {
                         Blanco.Draw(spriteBatch);
                         Amarillo.Draw(spriteBatch);
@@ -1286,7 +1286,7 @@ namespace Domino_Beta_v0._1
                         Verde.Draw(spriteBatch);
                     }
 
-                    if (ColorDeFichaActual == ColorDeFicha.Rojo)
+                    if (ColorDeFichaActual == TileColor.Red)
                     {
                         Blanco.Draw(spriteBatch);
                         Amarillo.Draw(spriteBatch);
@@ -1295,7 +1295,7 @@ namespace Domino_Beta_v0._1
                         Verde.Draw(spriteBatch);
                     }
 
-                    if (ColorDeFichaActual == ColorDeFicha.Verde)
+                    if (ColorDeFichaActual == TileColor.Green)
                     {
                         Blanco.Draw(spriteBatch);
                         Amarillo.Draw(spriteBatch);
@@ -1339,7 +1339,7 @@ namespace Domino_Beta_v0._1
         // Draws the draggable Cuadro either under the mouse, if it is currently being dragged, or in its default posicion
         private void DibujarCuadroArrastrable()
         {
-            foreach (Ficha h in jugador1.FichasDeJugador)
+            foreach (Tile h in jugador1.FichasDeJugador)
             {
                 if (h.SeEstaArrastrando)
                 {
@@ -1445,7 +1445,7 @@ namespace Domino_Beta_v0._1
         private void DibujarFichasMesa()
         {
 
-            foreach (Ficha h in Mesa1.FichasEnMesa)
+            foreach (Tile h in Mesa1.FichasEnMesa)
             {
                 if (h.UltimaOrientacion == 1)
                     spriteBatch.Draw(h.Imagen, h.Posicion, null, ColorADibujar, 0, Vector2.Zero, 0.07f, SpriteEffects.None, .9f);
@@ -1497,12 +1497,12 @@ namespace Domino_Beta_v0._1
         /// <summary> 
         /// Deals seven dominoes to each player 
         /// </summary> 
-        private void RepartirFichas(List<Ficha> ListaCompletaDeFichasParaRepartir)
+        private void RepartirFichas(List<Tile> ListaCompletaDeFichasParaRepartir)
         {
 
             // Con esta condicion "if", se reparen las fichas
             // variable to hold the Domino to remove 
-            Ficha fichaARemover = null;
+            Tile fichaARemover = null;
             if (ListaCompletaDeFichasParaRepartir.Count > 0)
             {
                 //seven times 
@@ -1537,7 +1537,7 @@ namespace Domino_Beta_v0._1
         }
 
 
-        private void ActualizarMesa(Mesa Mesa1, Ficha FichaAActualizar)
+        private void ActualizarMesa(Mesa Mesa1, Tile FichaAActualizar)
         {
 
             //...give each player a domino 
@@ -1582,7 +1582,7 @@ namespace Domino_Beta_v0._1
 
 
 
-        private void RegularMesa(Mesa Mesa1, Ficha FichaAActualizar, Jugador Jugador, int PosicionARemover)
+        private void RegularMesa(Mesa Mesa1, Tile FichaAActualizar, Jugador Jugador, int PosicionARemover)
         {
             Vector2 PosicionDeReferencia = FichaAActualizar.Posicion;
             if (Mesa1.FichasEnMesa.Count < 1)
@@ -1989,7 +1989,7 @@ namespace Domino_Beta_v0._1
         }
 
 
-        private void AnadirFicha(Mesa Mesa1, Ficha FichaAActualizar, Jugador Jugador, int PosicionARemover)
+        private void AnadirFicha(Mesa Mesa1, Tile FichaAActualizar, Jugador Jugador, int PosicionARemover)
         {
             //remove it from the list 
             Jugador.FichasDeJugador.RemoveAt(PosicionARemover);
@@ -2040,7 +2040,7 @@ namespace Domino_Beta_v0._1
         private void DecideSiJugadorPasa(Jugador jugador)
         {
             bool tmpPaso = true;
-            foreach (Ficha f in jugador.FichasDeJugador)
+            foreach (Tile f in jugador.FichasDeJugador)
             {   
                 if (f.PrimerValor == Mesa1.ExtremoDerecho
                     ||f.PrimerValor == Mesa1.ExtremoIzquierdo
@@ -2198,7 +2198,7 @@ namespace Domino_Beta_v0._1
             int tmpder = 0;
             int tmpizq = 0;
             bool ExtremoDerecho = true;
-            Ficha FichaTemporal = new Ficha();
+            Tile FichaTemporal = new Tile();
             FichaTemporal.ValorTotal = 0;
             for (int i = 0; i < JugadorAJugar.FichasDeJugador.Count; i++)
             {
@@ -2263,7 +2263,7 @@ namespace Domino_Beta_v0._1
                     {
                         dobles++;
                         int temporal = 0;
-                        foreach (Ficha g in Mesa1.FichasEnMesa)
+                        foreach (Tile g in Mesa1.FichasEnMesa)
                         {
                             if (g.PrimerValor == JugadorAJugar.FichasDeJugador[i].PrimerValor || g.SegundoValor == JugadorAJugar.FichasDeJugador[i].PrimerValor)
                             {
@@ -2532,7 +2532,7 @@ namespace Domino_Beta_v0._1
             bool tempJuegoTrancado = true;
             foreach (Jugador j in Jugadores)
             {
-                foreach (Ficha f in j.FichasDeJugador)
+                foreach (Tile f in j.FichasDeJugador)
                 {
                     if (Mesa1.ExtremoIzquierdo == f.PrimerValor || Mesa1.ExtremoDerecho == f.PrimerValor
                         || Mesa1.ExtremoIzquierdo == f.SegundoValor || Mesa1.ExtremoDerecho == f.SegundoValor)

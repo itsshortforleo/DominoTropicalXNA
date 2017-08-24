@@ -107,8 +107,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entities\BotonDeMenu.cs" />
-    <Compile Include="Entities\eColor.cs" />
+    <Compile Include="Entities\MenuButton.cs" />
+    <Compile Include="Entities\eTileColor.cs" />
     <Compile Include="Entities\eNivel.cs" />
     <Compile Include="Entities\Ficha.cs" />
     <Compile Include="Entities\FiguraGrafica.cs" />
@@ -123,7 +123,7 @@
     <Content Include="GameThumbnail.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Domino Beta v0.1Content\Domino Content.contentproj">
+    <ProjectReference Include="..\Domino Content\Domino Content.contentproj">
       <Name>Domino Content</Name>
       <XnaReferenceType>Content</XnaReferenceType>
       <Project>{A328A56A-420D-4547-8584-A7E7F625C5B1}</Project>

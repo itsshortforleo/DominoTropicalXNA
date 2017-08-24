@@ -7,16 +7,16 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
 
-namespace Domino_Beta_v0._1.Entidades
+namespace Domino.Entities
 {
    public class Mesa 
     {
-        #region Campos
+        #region Fields
         int _numeroMesa;
         int _extremoIzquierdo;
         int _extremoDerecho;
-        Ficha _fichaExtremoDerecho;
-        Ficha _fichaExtremoIzquierdo;
+        Tile _fichaExtremoDerecho;
+        Tile _fichaExtremoIzquierdo;
         Vector2 _posicionExtremoDerecho;
         Vector2 _posicionExtremoIzquierdo;
         Vector2 _posUltimoCuadroIzquierdo;
@@ -24,7 +24,7 @@ namespace Domino_Beta_v0._1.Entidades
         Jugador _jugadorEnTurno;
         #endregion
 
-        #region Propiedades
+        #region Properties
         public int NumeroMesa
         {
             get { return _numeroMesa; }
@@ -43,13 +43,13 @@ namespace Domino_Beta_v0._1.Entidades
             set { _extremoDerecho = value; }
         }
 
-        public Ficha FichaExtremoDerecho
+        public Tile FichaExtremoDerecho
         {
             get { return _fichaExtremoDerecho; }
             set { _fichaExtremoDerecho = value; }
         }
 
-        public Ficha FichaExtremoIzquierdo
+        public Tile FichaExtremoIzquierdo
         {
             get { return _fichaExtremoIzquierdo; }
             set { _fichaExtremoIzquierdo = value; }
@@ -86,7 +86,7 @@ namespace Domino_Beta_v0._1.Entidades
             set { _jugadorEnTurno = value; }
         }
 
-        public List<Ficha> FichasEnMesa { get; set; } 
+        public List<Tile> FichasEnMesa { get; set; } 
         #endregion
 
         #region Constructores
@@ -107,18 +107,18 @@ namespace Domino_Beta_v0._1.Entidades
             this.PosUltimoCuadroDerecho = new Vector2();
             this.PosUltimoCuadroIzquierdo = new Vector2();
             this.JugadorEnTurno = new Jugador();
-            this.FichasEnMesa = new List<Ficha>();
+            this.FichasEnMesa = new List<Tile>();
 
         }
         
         #endregion
 
-        #region Metodos/Funciones
+        #region Methods/Functions
         
 
         #endregion
 
-        #region Eventos
+        #region Events
         
         #endregion
     }

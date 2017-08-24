@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Domino_Beta_v0._1.Entidades
+namespace Domino.Entities
 {
     public class Jugador
     {
-        #region Campos
+        #region Fields
 
         string _strNombre;
         bool _miTurno;
@@ -17,7 +17,7 @@ namespace Domino_Beta_v0._1.Entidades
 
         #endregion
 
-        #region Propiedades
+        #region Properties
 
         public string Nombre
         {
@@ -43,7 +43,7 @@ namespace Domino_Beta_v0._1.Entidades
             set { _extremoUltimaJugada = value; }
         }
 
-        public List<Ficha> FichasDeJugador { get; set; } 
+        public List<Tile> FichasDeJugador { get; set; } 
       
         #endregion
 
@@ -57,7 +57,7 @@ namespace Domino_Beta_v0._1.Entidades
         {
             this.Nombre = Nombre;
 
-            this.FichasDeJugador = new List<Ficha>();
+            this.FichasDeJugador = new List<Tile>();
 
             this.MiTurno = MiTurno;
             this.EsHumano = EsHumano;
@@ -65,11 +65,11 @@ namespace Domino_Beta_v0._1.Entidades
         }
         #endregion
 
-        #region Metodos/Funciones
+        #region Methods/Functions
         
         #endregion
 
-        #region Eventos
+        #region Events
         
         #endregion
 

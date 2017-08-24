@@ -6,11 +6,11 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
-namespace Domino_Beta_v0._1.Entidades
+namespace Domino.Entities
 {
-    public class FiguraGrafica
+    public class Sprite
     {
-        #region Campos
+        #region Fields
 
         // Para dibujar la figura
         Texture2D _imagen;
@@ -25,7 +25,7 @@ namespace Domino_Beta_v0._1.Entidades
 
         #endregion
 
-        #region Propiedades
+        #region Properties
 
 
         public Texture2D Imagen
@@ -57,11 +57,11 @@ namespace Domino_Beta_v0._1.Entidades
 
         #region Contructores
 
-        public FiguraGrafica()
+        public Sprite()
          
         { }
 
-        public FiguraGrafica(Texture2D Imagen,
+        public Sprite(Texture2D Imagen,
             int Colision, Vector2 Velocidad,
             Vector2 Posicion)
         {
@@ -74,7 +74,7 @@ namespace Domino_Beta_v0._1.Entidades
         
         #endregion
 
-        #region Metodos/Funciones
+        #region Methods/Functions
 
         public virtual void Update(GameTime gameTime, Rectangle clientBounds)
         {
@@ -92,7 +92,7 @@ namespace Domino_Beta_v0._1.Entidades
 
         #endregion
 
-        #region Eventos
+        #region Events
         
         #endregion
 

@@ -3,19 +3,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Domino_Beta_v0._1.Entidades
+namespace Domino.Entities
 {
 
-    #region "Enums"
+    #region Enums
     /// <summary>
     /// Enum para el nivel de juego para Inteligencia Artificial
     /// </summary>
-    public enum Nivel
+    public enum DifficultyLevel
     {
-        MuyFacil = 1,
-        Facil,
+        VeryEasy = 1,
+        Easy,
         Normal,
-        Experto,
+        Expert,
     }
     #endregion
 

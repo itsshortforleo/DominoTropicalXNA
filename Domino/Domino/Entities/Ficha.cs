@@ -7,11 +7,11 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
 
-namespace Domino_Beta_v0._1.Entidades
+namespace Domino.Entities
 {
-    public class Ficha : FiguraGrafica
+    public class Tile : Sprite
     {
-        #region Campos
+        #region Fields
 
         // Movement stuff
         int _primerValor;
@@ -25,7 +25,7 @@ namespace Domino_Beta_v0._1.Entidades
 
         #endregion
 
-        #region Propiedades
+        #region Properties
 
         public int PrimerValor
         {
@@ -91,11 +91,11 @@ namespace Domino_Beta_v0._1.Entidades
 
         #region Constructor
 
-        public Ficha()
+        public Tile()
         {
         }
 
-        public Ficha(Texture2D Imagen, 
+        public Tile(Texture2D Imagen, 
             int Colision, Vector2 Velocidad, 
             Vector2 Posicion,
             int PrimerValor, int SegundoValor, bool Vertical, bool Doble, bool SeEstaArrastrando)
@@ -116,7 +116,7 @@ namespace Domino_Beta_v0._1.Entidades
 
         #endregion
 
-        #region Metodos/Funciones
+        #region Methods/Functions
         public override void Update(GameTime gameTime, Rectangle clientBounds)
         {
 
@@ -125,7 +125,7 @@ namespace Domino_Beta_v0._1.Entidades
         
         #endregion
 
-        #region Eventos
+        #region Events
 
         #endregion
 
