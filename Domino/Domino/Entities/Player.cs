@@ -5,63 +5,64 @@ using System.Text;
 
 namespace Domino.Entities
 {
-    public class Jugador
+    public class Player
     {
         #region Fields
 
-        string _strNombre;
-        bool _miTurno;
-        bool _esHumano;
-        //Si es 1 jugo por extremo derecho, si es 2 jugo por extremo izquierdo
-        int _extremoUltimaJugada;
+        string _strName;
+        bool _myTurn;
+        bool _isHuman;
+        
+        // If 1, a tile was played on the right hand side of the table. If 2, tile was played on the left hand side of the table
+        int _positionOfTileLastPlayed;
 
         #endregion
 
         #region Properties
 
-        public string Nombre
+        public string Name
         {
-            get { return _strNombre; }
-            set { _strNombre = value; }
+            get { return _strName; }
+            set { _strName = value; }
         }
 
-        public bool MiTurno
+        public bool MyTurn
         {
-            get { return _miTurno; }
-            set { _miTurno = value; }
+            get { return _myTurn; }
+            set { _myTurn = value; }
         }
 
-        public bool EsHumano
+        public bool IsHuman
         {
-            get { return _esHumano; }
-            set { _esHumano = value; }
+            get { return _isHuman; }
+            set { _isHuman = value; }
         }
 
-        public int ExtremoUltimaJugada
+        public int PositionOfTileLastPlayed
         {
-            get { return _extremoUltimaJugada; }
-            set { _extremoUltimaJugada = value; }
+            get { return _positionOfTileLastPlayed; }
+            set { _positionOfTileLastPlayed = value; }
         }
 
-        public List<Tile> FichasDeJugador { get; set; } 
+        public List<Tile> PlayerTileList { get; set; } 
       
         #endregion
 
-        #region Constructores
+        #region Constructors
 
-        public Jugador()
+        public Player()
         {
         }
 
-        public Jugador(string Nombre, bool MiTurno, bool EsHumano)
+        public Player(string Name, bool MyTurn, bool IsHuman)
         {
-            this.Nombre = Nombre;
+            this.Name = Name;
 
-            this.FichasDeJugador = new List<Tile>();
+            this.PlayerTileList = new List<Tile>();
 
-            this.MiTurno = MiTurno;
-            this.EsHumano = EsHumano;
-            this.ExtremoUltimaJugada = new int();
+            this.MyTurn = MyTurn;
+            this.IsHuman = IsHuman;
+            this.PositionOfTileLastPlayed = new int();
         }
         #endregion
 

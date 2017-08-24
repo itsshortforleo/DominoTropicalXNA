@@ -9,105 +9,105 @@ using Microsoft.Xna.Framework.Input;
 
 namespace Domino.Entities
 {
-   public class Mesa 
+   public class Table 
     {
         #region Fields
-        int _numeroMesa;
-        int _extremoIzquierdo;
-        int _extremoDerecho;
-        Tile _fichaExtremoDerecho;
-        Tile _fichaExtremoIzquierdo;
-        Vector2 _posicionExtremoDerecho;
-        Vector2 _posicionExtremoIzquierdo;
-        Vector2 _posUltimoCuadroIzquierdo;
-        Vector2 _posUltimoCuadroDerecho;
-        Jugador _jugadorEnTurno;
+        int _tableNumber;
+        int _leftHandSide;
+        int _rightHandSide;
+        Tile _tileOnLeftHandSide;
+        Tile _tileOnRightHandSide;
+        Vector2 _positionOfLeftHandSideEdge;
+        Vector2 _positionOfRightHandSideEdge;
+        Vector2 _positionOfTileOnLeftHandSide;
+        Vector2 _positionOfTileOnRightHandSide;
+        Player _playerInTurn;
         #endregion
 
         #region Properties
-        public int NumeroMesa
+        public int TableNumber
         {
-            get { return _numeroMesa; }
-            set { _numeroMesa = value; }
+            get { return _tableNumber; }
+            set { _tableNumber = value; }
         }
 
-        public int ExtremoIzquierdo
+        public int LeftHandSide
         {
-            get { return _extremoIzquierdo; }
-            set { _extremoIzquierdo = value; }
+            get { return _leftHandSide; }
+            set { _leftHandSide = value; }
         }
 
-        public int ExtremoDerecho
+        public int RightHandSide
         {
-            get { return _extremoDerecho; }
-            set { _extremoDerecho = value; }
+            get { return _rightHandSide; }
+            set { _rightHandSide = value; }
         }
 
-        public Tile FichaExtremoDerecho
+        public Tile TileOnRightHandSide
         {
-            get { return _fichaExtremoDerecho; }
-            set { _fichaExtremoDerecho = value; }
+            get { return _tileOnRightHandSide; }
+            set { _tileOnRightHandSide = value; }
         }
 
-        public Tile FichaExtremoIzquierdo
+        public Tile TileOnLeftHandSide
         {
-            get { return _fichaExtremoIzquierdo; }
-            set { _fichaExtremoIzquierdo = value; }
+            get { return _tileOnLeftHandSide; }
+            set { _tileOnLeftHandSide = value; }
         }
 
-        public Vector2 PosicionExtremoDerecho
+        public Vector2 PositionOfRightHandSideEdge
         {
-            get { return _posicionExtremoDerecho; }
-            set { _posicionExtremoDerecho = value; }
+            get { return _positionOfRightHandSideEdge; }
+            set { _positionOfRightHandSideEdge = value; }
         }
 
-        public Vector2 PosicionExtremoIzquierdo
+        public Vector2 PositionOfLeftHandSideEdge
         {
-            get { return _posicionExtremoIzquierdo; }
-            set { _posicionExtremoIzquierdo = value; }
+            get { return _positionOfLeftHandSideEdge; }
+            set { _positionOfLeftHandSideEdge = value; }
         }
 
 
-        public Vector2 PosUltimoCuadroIzquierdo
+        public Vector2 PositionOfTileOnLeftHandSide
         {
-            get { return _posUltimoCuadroIzquierdo; }
-            set { _posUltimoCuadroIzquierdo = value; }
+            get { return _positionOfTileOnLeftHandSide; }
+            set { _positionOfTileOnLeftHandSide = value; }
         }
 
-        public Vector2 PosUltimoCuadroDerecho
+        public Vector2 PositionOfTileOnRightHandSide
         {
-            get { return _posUltimoCuadroDerecho; }
-            set { _posUltimoCuadroDerecho = value; }
+            get { return _positionOfTileOnRightHandSide; }
+            set { _positionOfTileOnRightHandSide = value; }
         }
         
-        public Jugador JugadorEnTurno
+        public Player PlayerInTurn
         {
-            get { return _jugadorEnTurno; }
-            set { _jugadorEnTurno = value; }
+            get { return _playerInTurn; }
+            set { _playerInTurn = value; }
         }
 
-        public List<Tile> FichasEnMesa { get; set; } 
+        public List<Tile> TilesPlayedOnTableList { get; set; } 
         #endregion
 
-        #region Constructores
-        public Mesa()
+        #region Constructors
+        public Table()
         {
         }
 
-        public Mesa(int NumeroMesa)
+        public Table(int TableNumber)
             
         {
-            this.NumeroMesa = NumeroMesa;
-            this.FichaExtremoDerecho = FichaExtremoDerecho;
-            this.FichaExtremoIzquierdo = FichaExtremoIzquierdo;
-            this.ExtremoDerecho = new int();
-            this.ExtremoIzquierdo = new int();
-            this.PosicionExtremoDerecho = new Vector2();
-            this.PosicionExtremoIzquierdo = new Vector2();
-            this.PosUltimoCuadroDerecho = new Vector2();
-            this.PosUltimoCuadroIzquierdo = new Vector2();
-            this.JugadorEnTurno = new Jugador();
-            this.FichasEnMesa = new List<Tile>();
+            this.TableNumber = TableNumber;
+            this.TileOnRightHandSide = TileOnRightHandSide;
+            this.TileOnLeftHandSide = TileOnLeftHandSide;
+            this.RightHandSide = new int();
+            this.LeftHandSide = new int();
+            this.PositionOfRightHandSideEdge = new Vector2();
+            this.PositionOfLeftHandSideEdge = new Vector2();
+            this.PositionOfTileOnRightHandSide = new Vector2();
+            this.PositionOfTileOnLeftHandSide = new Vector2();
+            this.PlayerInTurn = new Player();
+            this.TilesPlayedOnTableList = new List<Tile>();
 
         }
         

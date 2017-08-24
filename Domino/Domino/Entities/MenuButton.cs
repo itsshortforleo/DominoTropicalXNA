@@ -107,9 +107,9 @@ namespace Domino.Entities
             spriteBatch.Draw(_image, _rectangle, color);
         }
 
-        public void Draw(SpriteBatch spriteBatch, Color colorDeseado)
+        public void Draw(SpriteBatch spriteBatch, Color desiredColor)
         {
-            spriteBatch.Draw(_image, _rectangle, colorDeseado);
+            spriteBatch.Draw(_image, _rectangle, desiredColor);
         }
 
         public void Draw(SpriteBatch spriteBatch, float depth)
@@ -118,8 +118,6 @@ namespace Domino.Entities
         }
 
         #endregion
-
-       
 
     }   
 }

@@ -14,75 +14,75 @@ namespace Domino.Entities
         #region Fields
 
         // Movement stuff
-        int _primerValor;
-        int _segundoValor;
-        bool _vertical;
-        bool _doble;
-        bool _seEstaArrastrando;
-        int _valorTotal;
-        int _prioridad;
+        int _firstTileValue;
+        int _secondTileValue;
+        bool _isTileVertical;
+        bool _isTileADouble;
+        bool _isTileBeingDragged;
+        int _totalPointsValue;
+        int _priority;
        
 
         #endregion
 
         #region Properties
 
-        public int PrimerValor
+        public int FirstTileValue
         {
-            get { return _primerValor; }
-            set { _primerValor = value; }
+            get { return _firstTileValue; }
+            set { _firstTileValue = value; }
         }
 
-        public int SegundoValor
+        public int SecondTileValue
         {
-            get { return _segundoValor; }
-            set { _segundoValor = value; }
+            get { return _secondTileValue; }
+            set { _secondTileValue = value; }
         }
 
-        public bool Vertical
+        public bool IsTileVertical
         {
-            get { return _vertical; }
-            set { _vertical = value; }
+            get { return _isTileVertical; }
+            set { _isTileVertical = value; }
         }
 
-        public bool Doble
+        public bool IsTileADouble
         {
-            get { return _doble; }
-            set { _doble = value; }
+            get { return _isTileADouble; }
+            set { _isTileADouble = value; }
         }
 
-        public bool SeEstaArrastrando
+        public bool IsTileBeingDragged
         {
-            get { return _seEstaArrastrando; }
-            set { _seEstaArrastrando = value; }
+            get { return _isTileBeingDragged; }
+            set { _isTileBeingDragged = value; }
         }
 
-        public int ValorTotal
+        public int TotalPointsValue
         {
-            get { return _valorTotal; }
-            set { _valorTotal = value; }
+            get { return _totalPointsValue; }
+            set { _totalPointsValue = value; }
         }
 
-        public int Prioridad
+        public int Priority
         {
-            get { return _prioridad; }
-            set { _prioridad = value; }
+            get { return _priority; }
+            set { _priority = value; }
         }
 
-        public int UltimaOrientacion
+        public int LastOrientation
         {
             get;
             set;
         }
 
-        public bool DentroDeMesa
+        public bool IsInsideTable
         {
             get;
             set;
         }
 
         
-        public Rectangle BordeFicha
+        public Rectangle TileEdge
         {
             get;
             set;
@@ -95,23 +95,23 @@ namespace Domino.Entities
         {
         }
 
-        public Tile(Texture2D Imagen, 
-            int Colision, Vector2 Velocidad, 
-            Vector2 Posicion,
-            int PrimerValor, int SegundoValor, bool Vertical, bool Doble, bool SeEstaArrastrando)
-            : base( Imagen, Colision, Velocidad, 
-             Posicion)
+        public Tile(Texture2D Image, 
+            int Collision, Vector2 Speed, 
+            Vector2 Position,
+            int FirstTileValue, int SecondTileValue, bool IsTileVertical, bool IsTileADouble, bool IsTileBeingDragged)
+            : base( Image, Collision, Speed, 
+             Position)
         {
-            this.PrimerValor = PrimerValor;
-            this.SegundoValor = SegundoValor;
-            this.Vertical = Vertical;
-            this.Doble = Doble;
-            this.SeEstaArrastrando = SeEstaArrastrando;
-            this.BordeFicha = new Rectangle((int)Posicion.X, (int)Posicion.Y, 28, 56);
-            this.DentroDeMesa = false;
-            this.UltimaOrientacion = 2;
-            this.ValorTotal = PrimerValor + SegundoValor;
-            this.Prioridad = new int();
+            this.FirstTileValue = FirstTileValue;
+            this.SecondTileValue = SecondTileValue;
+            this.IsTileVertical = IsTileVertical;
+            this.IsTileADouble = IsTileADouble;
+            this.IsTileBeingDragged = IsTileBeingDragged;
+            this.TileEdge = new Rectangle((int)Position.X, (int)Position.Y, 28, 56);
+            this.IsInsideTable = false;
+            this.LastOrientation = 2;
+            this.TotalPointsValue = FirstTileValue + SecondTileValue;
+            this.Priority = new int();
         } 
 
         #endregion

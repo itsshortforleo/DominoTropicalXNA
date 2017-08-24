@@ -12,45 +12,45 @@ namespace Domino.Entities
     {
         #region Fields
 
-        // Para dibujar la figura
-        Texture2D _imagen;
+        // To draw the sprite
+        Texture2D _image;
 
-        // Data para colisiones
-        int _colision;
+        // Collision data
+        int _collision;
 
-        // Datos de movimiento
-        protected Vector2 _velocidad;
-        protected Vector2 _posicion;
-        //MouseState EstadoPrevioDeMouse;
+        // Movement data
+        protected Vector2 _speed;
+        protected Vector2 _position;
+        //MouseState PreviousMouseState;
 
         #endregion
 
         #region Properties
 
 
-        public Texture2D Imagen
+        public Texture2D Image
         {
-            get { return _imagen; }
-            set { _imagen = value; }
+            get { return _image; }
+            set { _image = value; }
         }
         
 
-        public int Colision
+        public int Collision
         {
-            get { return _colision; }
-            set { _colision = value; }
+            get { return _collision; }
+            set { _collision = value; }
         }
 
-        public Vector2 Velocidad
+        public Vector2 Speed
         {
-            get { return _velocidad; }
-            set { _velocidad = value; }
+            get { return _speed; }
+            set { _speed = value; }
         }
 
-        public Vector2 Posicion
+        public Vector2 Position
         {
-            get { return _posicion; }
-            set { _posicion = value; }
+            get { return _position; }
+            set { _position = value; }
         }
 
         #endregion
@@ -61,14 +61,14 @@ namespace Domino.Entities
          
         { }
 
-        public Sprite(Texture2D Imagen,
-            int Colision, Vector2 Velocidad,
-            Vector2 Posicion)
+        public Sprite(Texture2D Image,
+            int Collision, Vector2 Speed,
+            Vector2 Position)
         {
-            this.Imagen = Imagen;
-            this.Colision = Colision;
-            this.Velocidad = Velocidad;
-            this.Posicion = Posicion;
+            this.Image = Image;
+            this.Collision = Collision;
+            this.Speed = Speed;
+            this.Position = Position;
            
         }
         
@@ -84,8 +84,8 @@ namespace Domino.Entities
         public virtual void Draw(GameTime gameTime, SpriteBatch spriteBatch)
         {
             // Draw the sprite
-            spriteBatch.Draw(Imagen,
-                Posicion, null,
+            spriteBatch.Draw(Image,
+                Position, null,
                 Color.White, 0, Vector2.Zero,
                 .07f, SpriteEffects.None, 1);
         }
