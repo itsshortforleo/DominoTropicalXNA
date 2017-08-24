@@ -90,7 +90,7 @@ namespace Domino
         Player PlayerWhoLastPlayed;
 
         Vector2 TablePosition;              // where to position the board
-        Vector2 DragableSquarePosition;     // the draggable square
+        Vector2 DraggableSquarePosition;     // the draggable square
 
 
         Random rand = new Random();         // Se crea una variable de tipo random (random)
@@ -159,13 +159,13 @@ namespace Domino
 
         Vector2 MousePosition;                   // the current position of the mouse
 
-        Rectangle DragableSquareBorder;            // the boundaries of the draggable Cuadro
+        Rectangle DraggableSquareBorder;            // the boundaries of the draggable Cuadro
 
         bool[,] Table = new bool[32, 21];        // stores whether there is something in a square
 
         int SquareSize = 28;                   // how wide/tall the tiles are
 
-        Texture2D FichaDeOponente;
+        Texture2D OpponentTile;
         Texture2D FichaDePareja;
 
         //stores the previous and current states of the mouse
@@ -190,7 +190,7 @@ namespace Domino
             TablePosition = new Vector2(95, 85);
 
             //positions the square to drag
-            DragableSquarePosition = new Vector2((graphics.PreferredBackBufferWidth) - 120, 608);
+            DraggableSquarePosition = new Vector2((graphics.PreferredBackBufferWidth) - 120, 608);
 
             // Add necessary component to read/write files
             //Components.Add(new GamerServicesComponent(this));
@@ -324,7 +324,7 @@ namespace Domino
             FontCent = Content.Load<SpriteFont>(@"Font\Cent");
 
             // remembers the draggable squares position, so we can easily test for mouseclicks on it
-            DragableSquareBorder = new Rectangle((int)DragableSquarePosition.X, (int)DragableSquarePosition.Y, SquareSize, SquareSize);
+            DraggableSquareBorder = new Rectangle((int)DraggableSquarePosition.X, (int)DraggableSquarePosition.Y, SquareSize, SquareSize);
 
             Background = Content.Load<Texture2D>(@"Images\MesaExtendida");
 
@@ -333,7 +333,7 @@ namespace Domino
             Congratulations = Content.Load<Texture2D>(@"Images\Felicidades");
             SorryTryAgain = Content.Load<Texture2D>(@"Images\MalaSuerte");
 
-            FichaDeOponente = Content.Load<Texture2D>(@"Images\FichaDeMiOponente");
+            OpponentTile = Content.Load<Texture2D>(@"Images\FichaDeMiOponente");
 
             FichaDePareja = Content.Load<Texture2D>(@"Images\FichaDeMiFrente");
 
@@ -564,7 +564,7 @@ namespace Domino
                                         {
                                             Table1.PlayerInTurn.PlayerTileList[i].Position = new Vector2(TablePosition.X + 16 * SquareSize, TablePosition.Y + 10 * SquareSize);
                                             StartOfNewGame = false;
-                                            RegularMesa(Table1, Table1.PlayerInTurn.PlayerTileList[i], Table1.PlayerInTurn, i);
+                                            TilePlacementLogic(Table1, Table1.PlayerInTurn.PlayerTileList[i], Table1.PlayerInTurn, i);
 
                                             break;
 
@@ -573,7 +573,7 @@ namespace Domino
 
                                 }
 
-                                CalcularTurno(Table1.PlayerInTurn);
+                                CalculateTurn(Table1.PlayerInTurn);
 
                             }
                         }
@@ -590,8 +590,8 @@ namespace Domino
                                     Table1.PlayerInTurn = j;
                                     j.PlayerTileList[0].Position = new Vector2(TablePosition.X + 16 * SquareSize, TablePosition.Y + 10 * SquareSize);
                                     
-                                    RegularMesa(Table1, j.PlayerTileList[0], j, 0);
-                                    CalcularTurno(Table1.PlayerInTurn);
+                                    TilePlacementLogic(Table1, j.PlayerTileList[0], j, 0);
+                                    CalculateTurn(Table1.PlayerInTurn);
                                     break;
 
                                 }
@@ -609,27 +609,27 @@ namespace Domino
 
                     }
 
-                    #region Inteligencia Artificial
+                    #region AI
 
 
-                    // Inteligencia Artificial
+                    // AI
                     switch (CurrentDifficultyLevel)
                     {
                         case DifficultyLevel.VeryEasy:
                             if (!Table1.PlayerInTurn.IsHuman && (!EndOfRound) && !StartOfNewGame && !StartOfRound)
                             {
-                                DibujarFichasJugadoresNoHumanosNivel1(Table1.PlayerInTurn);
+                                DrawTilesForNonHumanPlayersLevel1(Table1.PlayerInTurn);
                                 Thread.Sleep(2000);
-                                CalcularTurno(Table1.PlayerInTurn);
+                                CalculateTurn(Table1.PlayerInTurn);
                             }
                             break;
 
                         case DifficultyLevel.Easy:
                             if (!Table1.PlayerInTurn.IsHuman && (!EndOfRound) && !StartOfNewGame && !StartOfRound)
                             {
-                                DibujarFichasJugadoresNoHumanosNivel1(Table1.PlayerInTurn);
+                                DrawTilesForNonHumanPlayersLevel1(Table1.PlayerInTurn);
                                 Thread.Sleep(2000);
-                                CalcularTurno(Table1.PlayerInTurn);
+                                CalculateTurn(Table1.PlayerInTurn);
                             }
                             break;
 
@@ -637,38 +637,38 @@ namespace Domino
                         case DifficultyLevel.Normal:
                             if (!Table1.PlayerInTurn.IsHuman && (!EndOfRound) && !StartOfNewGame && !StartOfRound)
                             {
-                                DibujarFichasJugadoresNoHumanosNivel3(Table1.PlayerInTurn);
+                                DrawTilesForNonHumanPlayersLevel3(Table1.PlayerInTurn);
                                 Thread.Sleep(2000);
-                                CalcularTurno(Table1.PlayerInTurn);
+                                CalculateTurn(Table1.PlayerInTurn);
                             }
                             break;
 
                         case DifficultyLevel.Expert:
                             if (!Table1.PlayerInTurn.IsHuman && (!EndOfRound) && !StartOfNewGame && !StartOfRound)
                             {
-                                DibujarFichasJugadoresNoHumanosNivel3(Table1.PlayerInTurn);
+                                DrawTilesForNonHumanPlayersLevel3(Table1.PlayerInTurn);
                                 Thread.Sleep(2000);
-                                CalcularTurno(Table1.PlayerInTurn);
+                                CalculateTurn(Table1.PlayerInTurn);
                             }
                             break;
                     }
 
                     if (Table1.PlayerInTurn.IsHuman)
                     {
-                        DecideSiJugadorPasa(Table1.PlayerInTurn);
+                        FindOutIfPlayerPassesHisTurn(Table1.PlayerInTurn);
                     }
 
 
                     #endregion
 
 
-                    #region Update para arrastrar fichas
+                    #region Update to drag tiles
                     
 
                     foreach (Tile f in player1.PlayerTileList)
                     {
 
-                        //if the user just clicked inside the draggable white square - set IsTileBeingDragged to true
+                        // if the user just clicked inside the draggable white square - set IsTileBeingDragged to true
                         if (PreviousMouseState.LeftButton == ButtonState.Released && CurrentMouseState.LeftButton == ButtonState.Pressed && f.TileEdge.Contains((int)MousePosition.X, (int)MousePosition.Y))
                         {
                             f.IsTileBeingDragged = true;
@@ -678,26 +678,26 @@ namespace Domino
                             trackCue.Play();
                         }
 
-                        //if the user just released the mousebutton - set IsTileBeingDragged to false, and check if we should add the Cuadro to the board
+                        // if the user just released the mousebutton - set IsTileBeingDragged to false, and check if we should add the square to the board
                         if (PreviousMouseState.LeftButton == ButtonState.Pressed && CurrentMouseState.LeftButton == ButtonState.Released)
                         {
                             f.IsTileBeingDragged = false;
 
 
-                            Vector2 Cuadro = ObtenerCuadroAPartirDePosicion(MousePosition);
-                            Rectangle RecPrimeraFichaAJugar = new Rectangle((int)(TablePosition.X + 14 * SquareSize), (int)(TablePosition.Y + 8 * SquareSize), 5 * SquareSize, 5 * SquareSize);
+                            Vector2 Square = GetSquareFromMousePosition(MousePosition);
+                            Rectangle rectFirstTileToPlay = new Rectangle((int)(TablePosition.X + 14 * SquareSize), (int)(TablePosition.Y + 8 * SquareSize), 5 * SquareSize, 5 * SquareSize);
 
                             if (Table1.TilesPlayedOnTableList.Count < 1)
                             {
 
-                                //if the mousebutton was released inside the board
-                                if (MouseDentroDelTablero() && (RecPrimeraFichaAJugar.Contains((int)MousePosition.X, (int)MousePosition.Y)) &&
+                                // if the mousebutton was released inside the board
+                                if (IsMouseInsideBoard() && (rectFirstTileToPlay.Contains((int)MousePosition.X, (int)MousePosition.Y)) &&
                                     Table1.PlayerInTurn.IsHuman)
                                 {
-                                    //find out which square the mouse is over
+                                    // find out which square the mouse is over
 
-                                    //and set that square to true (has a piece)
-                                    Table[(int)Cuadro.X, (int)Cuadro.Y] = true;
+                                    // and set that square to true (has a piece)
+                                    Table[(int)Square.X, (int)Square.Y] = true;
 
                                 }
                             }
@@ -707,17 +707,16 @@ namespace Domino
                                 Rectangle RecFichaExtremoIzquierdo = new Rectangle((int)Table1.PositionOfLeftHandSideEdge.X, (int)Table1.PositionOfLeftHandSideEdge.Y, SquareSize, SquareSize);
                                 if (RecFichaExtremoDerecho.Contains((int)MousePosition.X, (int)MousePosition.Y) || RecFichaExtremoIzquierdo.Contains((int)MousePosition.X, (int)MousePosition.Y))
                                 {
-                                    //find out which square the mouse is over
+                                    // find out which square the mouse is over
 
-                                    //and set that square to true (has a piece)
+                                    // and set that square to true (has a piece)
                                     try
                                     {
-                                        Table[(int)Cuadro.X, (int)Cuadro.Y] = true;
+                                        Table[(int)Square.X, (int)Square.Y] = true;
                                     }
-                                    catch (Exception)
+                                    catch (Exception e)
                                     {
-                                        
-                                        throw;
+                                        throw e;
                                     }
                                     
 
@@ -726,21 +725,11 @@ namespace Domino
                         }
                     }
 
-
-
-
-
-
-                    
-
                     #endregion
-
 
                     btnPlay.Update(CurrentMouseState);
 
-
-                    
-                    // Si teclas Escape, vuele al menu anterior
+                    // If Escape is hit, go back to the main menu
                     if (Keyboard.GetState().IsKeyDown(Keys.Escape))
                     {
                         GameStarted = true;
@@ -750,12 +739,12 @@ namespace Domino
 
                     if (btnPassTurn.isClicked == true)
                     {
-                        CalcularTurno(Table1.PlayerInTurn);
+                        CalculateTurn(Table1.PlayerInTurn);
                     }
                     btnPassTurn.Update(CurrentMouseState);
 
 
-                    VerificarCondicionDeFinDeRonda();
+                    VerifyEndOfRoundCondition();
 
                     break;
 
@@ -791,7 +780,7 @@ namespace Domino
 
                 case GameState.Options:
 
-                    // Si teclas Escape, vuele al menu anterior
+                    // If Escape is hit, go back to the main menu
                     if (Keyboard.GetState().IsKeyDown(Keys.Escape))
                         CurrentGameState = GameState.MainMenu;
 
@@ -817,7 +806,7 @@ namespace Domino
 
                 case GameState.About:
 
-                    // Si teclas Escape, vuele al menu anterior
+                    // If Escape is hit, go back to the main menu
                     if (Keyboard.GetState().IsKeyDown(Keys.Escape))
                         CurrentGameState = GameState.MainMenu;
 
@@ -906,13 +895,9 @@ namespace Domino
 
                     break;
 
-
-
-
-
             }
 
-            //store the current state of the mouse as the old
+            // store the current state of the mouse as the old
             PreviousMouseState = CurrentMouseState;
           
             base.Update(gameTime);
@@ -940,7 +925,7 @@ namespace Domino
                         new Rectangle(0, 0, screenWidth, screenHeight),
                         Color.White);
                     
-                    // Condicion que muestra el boton de "Seguir Jugando" si el juego ya ha sido comenzado
+                    // Replace new game button with Keep Playing button if the game has already started
                     if (!GameStarted)
                     {
                         btnPlay.Draw(spriteBatch);
@@ -959,19 +944,19 @@ namespace Domino
 
                 case GameState.Playing:
 
-                    // Agregar un fondo de color tal
+                    // Add a background color
                     GraphicsDevice.Clear(Color.DarkGreen);
 
-                    // Empezar a dibujar
+                    // Draw everything
                     spriteBatch.Begin(SpriteSortMode.FrontToBack, BlendState.AlphaBlend);
                     
-                    DibujarTexto();                 //draw helptext
-                    DibujarTablero();               //draw the board
-                    DibujarFichasMesa();            // Dibujar las fichas que ya se han jugado
-                    DibujarCuadroArrastrable();     // Draw the draggable Cuadro, wherever it may be
+                    DrawText();                // Draw help text
+                    DrawBoard();               // Draw the board
+                    DrawTilesOnBoard();        // Draw tiles that have already been played
+                    DrawDraggableSquare();     // Draw the draggable square, wherever it may be
 
 
-                    foreach (Tile s in player1.PlayerTileList)       // Dibujar fichas de jugador excepto la que se esta arrastrando
+                    foreach (Tile s in player1.PlayerTileList)       // Draw player's tiles except the one he's dragging
                         if (!s.IsTileBeingDragged)
                         {
                             spriteBatch.Draw(s.Image,
@@ -982,50 +967,48 @@ namespace Domino
 
 
 
-                    #region Dibujar Fichas de los otros jugadores
-                    // Dibujar las fichas del jugador 2 (OPONENTE DERECHO)
-                    Vector2 PosicionInicialDeJugador2 = new Vector2(1047, 270);
+                    #region Draw other player's domino tiles
+
+                    // Draw player 2's tiles (right hand side)
+                    Vector2 Player2InitialPosition = new Vector2(1047, 270);
 
                     for (int i = 0; i < player2.PlayerTileList.Count; i++)
                     {
-                        spriteBatch.Draw(FichaDeOponente, PosicionInicialDeJugador2, null,
+                        spriteBatch.Draw(OpponentTile, Player2InitialPosition, null,
                             ColorToDraw, 0, Vector2.Zero,
                             .07f, SpriteEffects.None, .5f);
-                        PosicionInicialDeJugador2 = new Vector2(PosicionInicialDeJugador2.X, PosicionInicialDeJugador2.Y + 28.8f);
+                        Player2InitialPosition = new Vector2(Player2InitialPosition.X, Player2InitialPosition.Y + 28.8f);
                     }
 
-                    // Dibujar las fichas del jugador 3 (PAREJA)
-                    Vector2 PosicionInicialDeJugador3 = new Vector2(449, 32);
+                    // Draw player 3's tiles (teammate)
+                    Vector2 Player3InitialPosition = new Vector2(449, 32);
 
                     for (int i = 0; i < player3.PlayerTileList.Count; i++)
                     {
-                        spriteBatch.Draw(FichaDePareja, PosicionInicialDeJugador3, null,
+                        spriteBatch.Draw(FichaDePareja, Player3InitialPosition, null,
                             ColorToDraw, 0, Vector2.Zero,
                             .07f, SpriteEffects.None, .5f);
-                        PosicionInicialDeJugador3 = new Vector2(PosicionInicialDeJugador3.X + 28.8f, PosicionInicialDeJugador3.Y);
+                        Player3InitialPosition = new Vector2(Player3InitialPosition.X + 28.8f, Player3InitialPosition.Y);
                     }
 
-                    // Dibujar las fichas del jugador 4 (OPONENTE IZQUIERDO)
-                    Vector2 PosicionInicialDeJugador4 = new Vector2(40, 272);
+                    // Draw player 4's tiles (left hand side)
+                    Vector2 Player4InitialPosition = new Vector2(40, 272);
 
                     for (int i = 0; i < player4.PlayerTileList.Count; i++)
                     {
-                        spriteBatch.Draw(FichaDeOponente, PosicionInicialDeJugador4, null,
+                        spriteBatch.Draw(OpponentTile, Player4InitialPosition, null,
                             ColorToDraw, 0, Vector2.Zero,
                             .07f, SpriteEffects.None, .5f);
-                        PosicionInicialDeJugador4 = new Vector2(PosicionInicialDeJugador4.X, PosicionInicialDeJugador4.Y + 28.8f);
+                        Player4InitialPosition = new Vector2(Player4InitialPosition.X, Player4InitialPosition.Y + 28.8f);
                     }
                     #endregion
 
-                    //Dibuja el fondo de la mesa
+                    // Draw board's background
                     spriteBatch.Draw(Background,
                         new Rectangle(0, 0, Window.ClientBounds.Width,
                         Window.ClientBounds.Height), null,
                         Color.White, 0, Vector2.Zero,
                         SpriteEffects.None, 0.0f);
-
-                  
-
                   
 
                     if (Table1.PlayerInTurn.IsHuman && IsPlayerPassing && Table1.PlayerInTurn.PlayerTileList.Count>0)
@@ -1034,8 +1017,8 @@ namespace Domino
                         btnPassTurn.Draw(spriteBatch, 1f);
                     }
 
-                    // Imprime el jugador en turno actual 
-                    spriteBatch.DrawString(FontLetras, "Turno:", new Vector2(1162, 720), Color.White);
+                    // Print current player in turn
+                    spriteBatch.DrawString(FontLetras, "Turn:", new Vector2(1162, 720), Color.White);
 
                     foreach (Player j in PlayersList)
                     {
@@ -1051,24 +1034,18 @@ namespace Domino
 
                 case GameState.EndOfRound:
                     
-                        
-                    
-    
- 
-                    String PuntosDeEquipo1 = TeamOneTotalPoints.ToString();
-                    String PuntosDeEquipo2 = TeamTwoTotalPoints.ToString();
+                    String TeamOnePoints = TeamOneTotalPoints.ToString();
+                    String TeamTwoPoints = TeamTwoTotalPoints.ToString();
 
 
                     spriteBatch.Begin();
 
-                    DelegateObject miDelegado = n => { string s = n ; spriteBatch.DrawString(FontLetras, s, new Vector2(570, 300), Color.Black, 0f, Vector2.Zero, 1f, SpriteEffects.None, .99f); };
-                    DelegateObject miDelegado1 = j => { string s = j; spriteBatch.DrawString(FontLetras, s, new Vector2(702, 300), Color.Black, 0f, Vector2.Zero, 1f, SpriteEffects.None, .99f); };
+                    DelegateObject myDelegate = n => { string s = n ; spriteBatch.DrawString(FontLetras, s, new Vector2(570, 300), Color.Black, 0f, Vector2.Zero, 1f, SpriteEffects.None, .99f); };
+                    DelegateObject myDelegate2 = j => { string s = j; spriteBatch.DrawString(FontLetras, s, new Vector2(702, 300), Color.Black, 0f, Vector2.Zero, 1f, SpriteEffects.None, .99f); };
                     
-                    miDelegado(PuntosDeEquipo1);
-                    miDelegado1(PuntosDeEquipo2);
+                    myDelegate(TeamOnePoints);
+                    myDelegate2(TeamTwoPoints);
 
-
-                   
 
                     spriteBatch.Draw(EndOfRoundBackground, new Vector2(110, 60), null, Color.White, 0f, Vector2.Zero, .9f, SpriteEffects.None, .95f);
 
@@ -1083,12 +1060,12 @@ namespace Domino
 
                     if (GameStuck)
                     {
-                        spriteBatch.DrawString(FontCent, "Juego Trancado por: " + PlayerWhoLastPlayed.Name, new Vector2(250, 100), Color.DarkGreen, 0f, Vector2.Zero, .7f, SpriteEffects.None, .99f);
+                        spriteBatch.DrawString(FontCent, "Game was locked by: " + PlayerWhoLastPlayed.Name, new Vector2(250, 100), Color.DarkGreen, 0f, Vector2.Zero, .7f, SpriteEffects.None, .99f);
                     }
 
                     else
                     {
-                        spriteBatch.DrawString(FontCent, "FIN DE RONDA", new Vector2(220, 100), Color.DarkGreen, 0f, Vector2.Zero, 1f, SpriteEffects.None, .99f);
+                        spriteBatch.DrawString(FontCent, "END OF ROUND", new Vector2(220, 100), Color.DarkGreen, 0f, Vector2.Zero, 1f, SpriteEffects.None, .99f);
                     }
                         
 
@@ -1098,67 +1075,67 @@ namespace Domino
                     spriteBatch.DrawString(FontCent, player4.Name, new Vector2(170, 370), Color.DarkGreen, 0f, Vector2.Zero, 1f, SpriteEffects.None, .99f);
 
 
-                    spriteBatch.DrawString(FontLetras, "PUNTUACION", new Vector2(580, 200), Color.Black, 0f, Vector2.Zero, 1f, SpriteEffects.None, .99f);
-                    spriteBatch.DrawString(FontLetras, "Equipo de: ", new Vector2(530, 240), Color.Black, 0f, Vector2.Zero, 1f, SpriteEffects.None, .99f);
+                    spriteBatch.DrawString(FontLetras, "SCORE", new Vector2(580, 200), Color.Black, 0f, Vector2.Zero, 1f, SpriteEffects.None, .99f);
+                    spriteBatch.DrawString(FontLetras, "Team 1: ", new Vector2(530, 240), Color.Black, 0f, Vector2.Zero, 1f, SpriteEffects.None, .99f);
                     spriteBatch.DrawString(FontLetras, player1.Name, new Vector2(530, 260), Color.Black, 0f, Vector2.Zero, 1f, SpriteEffects.None, .99f);
                     spriteBatch.DrawString(FontLetras, player3.Name, new Vector2(530, 280), Color.Black, 0f, Vector2.Zero, 1f, SpriteEffects.None, .99f);
                     
-                    spriteBatch.DrawString(FontLetras, PuntosDeEquipo1, new Vector2(570, 300), Color.Black, 0f, Vector2.Zero, 1f, SpriteEffects.None, .99f);
+                    spriteBatch.DrawString(FontLetras, TeamOnePoints, new Vector2(570, 300), Color.Black, 0f, Vector2.Zero, 1f, SpriteEffects.None, .99f);
 
-                    spriteBatch.DrawString(FontLetras, "Equipo de: ", new Vector2(662, 240), Color.Black, 0f, Vector2.Zero, 1f, SpriteEffects.None, .99f);
+                    spriteBatch.DrawString(FontLetras, "Team 2: ", new Vector2(662, 240), Color.Black, 0f, Vector2.Zero, 1f, SpriteEffects.None, .99f);
                     spriteBatch.DrawString(FontLetras, player2.Name, new Vector2(662, 260), Color.Black, 0f, Vector2.Zero, 1f, SpriteEffects.None, .99f);
                     spriteBatch.DrawString(FontLetras, player4.Name, new Vector2(662, 280), Color.Black, 0f, Vector2.Zero, 1f, SpriteEffects.None, .99f);
 
-                    spriteBatch.DrawString(FontLetras, PuntosDeEquipo2, new Vector2(702, 300), Color.Black, 0f, Vector2.Zero, 1f, SpriteEffects.None, .99f);
+                    spriteBatch.DrawString(FontLetras, TeamTwoPoints, new Vector2(702, 300), Color.Black, 0f, Vector2.Zero, 1f, SpriteEffects.None, .99f);
 
                     
 
                     btnNextRound.Draw(spriteBatch, 1f);
 
-                    Vector2 PosicionInicialFichasJugador1 = new Vector2(300, 180);
-                    foreach (Tile s in player1.PlayerTileList)       // Dibujar fichas de jugador excepto la que se esta arrastrando
+                    Vector2 Player1EndOfRoundTilePosition = new Vector2(300, 180);
+                    foreach (Tile s in player1.PlayerTileList)       // Draw player's tiles
                     {
                         s.LastOrientation = 1;
                         spriteBatch.Draw(s.Image,
-                                    PosicionInicialFichasJugador1, null,
+                                    Player1EndOfRoundTilePosition, null,
                                     ColorToDraw, 0, Vector2.Zero,
                                     .07f, SpriteEffects.None, 1);
 
-                        PosicionInicialFichasJugador1 = new Vector2(PosicionInicialFichasJugador1.X + 28.8f, PosicionInicialFichasJugador1.Y);
+                        Player1EndOfRoundTilePosition = new Vector2(Player1EndOfRoundTilePosition.X + 28.8f, Player1EndOfRoundTilePosition.Y);
                     }
 
-                    Vector2 PosicionInicialFichasJugador2 = new Vector2(300, 240);
-                    foreach (Tile s in player2.PlayerTileList)       // Dibujar fichas de jugador excepto la que se esta arrastrando
+                    Vector2 Player2EndOfRoundTilePosition = new Vector2(300, 240);
+                    foreach (Tile s in player2.PlayerTileList)       // Draw player's tiles
                     {
                         s.LastOrientation = 1;
                         spriteBatch.Draw(s.Image,
-                                    PosicionInicialFichasJugador2, null,
+                                    Player2EndOfRoundTilePosition, null,
                                     ColorToDraw, 0, Vector2.Zero,
                                     .07f, SpriteEffects.None, 1);
-                        PosicionInicialFichasJugador2 = new Vector2(PosicionInicialFichasJugador2.X + 28.8f, PosicionInicialFichasJugador2.Y);
+                        Player2EndOfRoundTilePosition = new Vector2(Player2EndOfRoundTilePosition.X + 28.8f, Player2EndOfRoundTilePosition.Y);
                     }
 
-                    Vector2 PosicionInicialFichasJugador3 = new Vector2(300, 300);
-                    foreach (Tile s in player3.PlayerTileList)       // Dibujar fichas de jugador excepto la que se esta arrastrando
+                    Vector2 Player3EndOfRoundTilePosition = new Vector2(300, 300);
+                    foreach (Tile s in player3.PlayerTileList)       // Draw player's tiles
                     {
                         s.LastOrientation = 1;
                         spriteBatch.Draw(s.Image,
-                                    PosicionInicialFichasJugador3, null,
+                                    Player3EndOfRoundTilePosition, null,
                                     ColorToDraw, 0, Vector2.Zero,
                                     .07f, SpriteEffects.None, 1);
-                        PosicionInicialFichasJugador3 = new Vector2(PosicionInicialFichasJugador3.X + 28.8f, PosicionInicialFichasJugador3.Y);
+                        Player3EndOfRoundTilePosition = new Vector2(Player3EndOfRoundTilePosition.X + 28.8f, Player3EndOfRoundTilePosition.Y);
                     }
 
 
-                    Vector2 PosicionInicialFichasJugador4 = new Vector2(300, 360);
-                    foreach (Tile s in player4.PlayerTileList)       // Dibujar fichas de jugador excepto la que se esta arrastrando
+                    Vector2 Player4EndOfRoundTilePosition = new Vector2(300, 360);
+                    foreach (Tile s in player4.PlayerTileList)       // Draw player's tiles
                     {
                         s.LastOrientation = 1;
                         spriteBatch.Draw(s.Image,
-                                    PosicionInicialFichasJugador4, null,
+                                    Player4EndOfRoundTilePosition, null,
                                     ColorToDraw, 0, Vector2.Zero,
                                     .07f, SpriteEffects.None, 1);
-                        PosicionInicialFichasJugador4 = new Vector2(PosicionInicialFichasJugador4.X + 28.8f, PosicionInicialFichasJugador4.Y);
+                        Player4EndOfRoundTilePosition = new Vector2(Player4EndOfRoundTilePosition.X + 28.8f, Player4EndOfRoundTilePosition.Y);
                     }
 
                     spriteBatch.End();
@@ -1193,10 +1170,10 @@ namespace Domino
 
                     spriteBatch.DrawString(FontCent, "Sobre...", new Vector2(621, 500), Color.DarkGreen);
                     spriteBatch.DrawString(FontCent, "Domino Tropical v1.0", new Vector2(621, 540), Color.DarkGreen);
-                    spriteBatch.DrawString(FontCent, "Desarrollado por:   Anthony Ortiz 2009-1407", new Vector2(621, 580), Color.DarkGreen);
-                    spriteBatch.DrawString(FontCent, "Leonardo Lopez 2008-2455", new Vector2(845, 620), Color.DarkGreen);
+                    spriteBatch.DrawString(FontCent, "Developed by:   Leonardo Lopez", new Vector2(621, 580), Color.DarkGreen);
+                    spriteBatch.DrawString(FontCent, "Anthony Ortiz", new Vector2(845, 620), Color.DarkGreen);
 
-                    spriteBatch.DrawString(FontLetras, "Presione Esc para continuar...", new Vector2(945, 700), Color.DarkGreen, 0, Vector2.Zero, .7f, SpriteEffects.None, 1);
+                    spriteBatch.DrawString(FontLetras, "Press Escape to continue...", new Vector2(945, 700), Color.DarkGreen, 0, Vector2.Zero, .7f, SpriteEffects.None, 1);
 
                     spriteBatch.End();
 
@@ -1309,19 +1286,19 @@ namespace Domino
         #region Draw Helper Methods
 
         // Dibuja el texto
-        private void DibujarTexto()
+        private void DrawText()
         {
             String PuntosDeEquipo1 = TeamOneTotalPoints.ToString();
             String PuntosDeEquipo2 = TeamTwoTotalPoints.ToString();
             spriteBatch.DrawString(FontLetras, "Domino Tropical", new Vector2(50, 20), Color.White);
 
-            spriteBatch.DrawString(FontLetras, "PUNTUACION", new Vector2(1150, 100), Color.White);
-            spriteBatch.DrawString(FontLetras, "Equipo de: "  , new Vector2(1100, 140), Color.White);
+            spriteBatch.DrawString(FontLetras, "SCORE", new Vector2(1150, 100), Color.White);
+            spriteBatch.DrawString(FontLetras, "Team 1: "  , new Vector2(1100, 140), Color.White);
             spriteBatch.DrawString(FontLetras, player1.Name, new Vector2(1100, 160), Color.White);
             spriteBatch.DrawString(FontLetras,  player3.Name, new Vector2(1100, 180), Color.White);
             spriteBatch.DrawString(FontLetras, PuntosDeEquipo1, new Vector2(1140, 200), Color.White);
 
-            spriteBatch.DrawString(FontLetras, "Equipo de: ", new Vector2(1232, 140), Color.White);
+            spriteBatch.DrawString(FontLetras, "Team 2: ", new Vector2(1232, 140), Color.White);
             spriteBatch.DrawString(FontLetras, player2.Name, new Vector2(1232, 160), Color.White);
             spriteBatch.DrawString(FontLetras, player4.Name, new Vector2(1232, 180), Color.White);
             spriteBatch.DrawString(FontLetras, PuntosDeEquipo2, new Vector2(1272, 200), Color.White);
@@ -1329,8 +1306,8 @@ namespace Domino
         }
 
 
-        // Draws the draggable Cuadro either under the mouse, if it is currently being dragged, or in its default position
-        private void DibujarCuadroArrastrable()
+        // Draws the draggable square either under the mouse, if it is currently being dragged, or in its default position
+        private void DrawDraggableSquare()
         {
             foreach (Tile h in player1.PlayerTileList)
             {
@@ -1343,70 +1320,69 @@ namespace Domino
 
 
         // Draws the game board
-        private void DibujarTablero()
+        private void DrawBoard()
         {
-            float Opacidad = 1;                                  //how opaque/transparent to draw the square
-            Color ColorAUsar = Color.White;                     //background color to use
-            Rectangle PosicionParaDibujarCuadro = new Rectangle();   //the square to draw (local variable to avoid creating a new variable per square)
+            float Opacity = 1;                                      // how opaque/transparent to draw the square
+            Color ColorToUse = Color.White;                         // background color to use
+            Rectangle PositionToDrawSquare = new Rectangle();       // the square to draw (local variable to avoid creating a new variable per square)
 
-            //for all columns
+            // for all columns
             for (int x = 0; x < Table.GetLength(0); x++)
             {
-                //for all rows
+                // for all rows
                 for (int y = 0; y < Table.GetLength(1); y++)
                 {
-                    //figure out where to draw the square
-                    PosicionParaDibujarCuadro = new Rectangle((int)(x * SquareSize + TablePosition.X), (int)(y * SquareSize + TablePosition.Y), SquareSize, SquareSize);
+                    // figure out where to draw the square
+                    PositionToDrawSquare = new Rectangle((int)(x * SquareSize + TablePosition.X), (int)(y * SquareSize + TablePosition.Y), SquareSize, SquareSize);
 
-                    //the code below will make the board checkered using only a single, white square:
+                    // the code below will make the board checkered using only a single, white square:
 
-                    //if we add the x and y value of the Cuadro
-                    //and it is even, we make it one third opaque
+                    // if we add the x and y value of the Cuadro
+                    // and it is even, we make it one third opaque
                     if ((x + y) % 2 == 0)
                     {
-                        Opacidad = .15f;
+                        Opacity = .15f;
                     }
                     else
                     {
-                        //otherwise it is one tenth opaque
-                        Opacidad = .1f;
+                        // otherwise it is one tenth opaque
+                        Opacity = .1f;
                     }
 
-                    //make the square the mouse is over red
-                    if (MouseDentroDelTablero() && MouseSobreCuadro(x, y))
+                    // make the square the mouse is over red
+                    if (IsMouseInsideBoard() && IsMouseCoordinateWithinBoard(x, y))
                     {
-                        ColorAUsar = Color.Red;
-                        Opacidad = .5f;
+                        ColorToUse = Color.Red;
+                        Opacity = .5f;
                     }
                     else
                     {
-                        ColorAUsar = Color.White;
+                        ColorToUse = Color.White;
                     }
 
+                    // draw the white square at the given position, offset by the x- and y-offset, in the opacity desired
+                    spriteBatch.Draw(WhiteSquare, PositionToDrawSquare, null, ColorToUse * Opacity, 0, Vector2.Zero, SpriteEffects.None, 0);
 
-                    //draw the white square at the given position, offset by the x- and y-offset, in the Opacidad desired
-                    spriteBatch.Draw(WhiteSquare, PosicionParaDibujarCuadro, null, ColorAUsar * Opacidad, 0, Vector2.Zero, SpriteEffects.None, 0);
 
-
-                    //if the square has a Cuadro - draw it
+                    //if the square has a rectangle - draw it
                     if (Table[x, y])
                     {
-                        Rectangle RecFichaExtremoDerecho = new Rectangle((int)Table1.PositionOfRightHandSideEdge.X, (int)Table1.PositionOfRightHandSideEdge.Y, SquareSize, SquareSize);
-                        Rectangle RecFichaExtremoIzquierdo = new Rectangle((int)Table1.PositionOfLeftHandSideEdge.X, (int)Table1.PositionOfLeftHandSideEdge.Y, SquareSize, SquareSize);
+                        Rectangle recTileRightHandSide = new Rectangle((int)Table1.PositionOfRightHandSideEdge.X, (int)Table1.PositionOfRightHandSideEdge.Y, SquareSize, SquareSize);
+                        Rectangle recTileLeftHandSide = new Rectangle((int)Table1.PositionOfLeftHandSideEdge.X, (int)Table1.PositionOfLeftHandSideEdge.Y, SquareSize, SquareSize);
                         if (((LastTileTaken.FirstTileValue == Table1.RightHandSide) || (LastTileTaken.SecondTileValue == Table1.RightHandSide)
-                            || (StartOfNewGame) || (StartOfRound)) && (RecFichaExtremoDerecho.Contains((int)MousePosition.X, (int)MousePosition.Y)))
+                            || (StartOfNewGame) || (StartOfRound)) && (recTileRightHandSide.Contains((int)MousePosition.X, (int)MousePosition.Y)))
                         {
                             TileToUpdate = LastTileTaken;
                             TileToUpdate.Position = new Vector2((int)(x * SquareSize + TablePosition.X), (int)(y * SquareSize + TablePosition.Y));
-                            ActualizarMesa(Table1, TileToUpdate);
+                            UpdateTable(Table1, TileToUpdate);
                             Table[x, y] = false;
                         }
                         else if (((LastTileTaken.SecondTileValue == Table1.LeftHandSide)
-                              || (LastTileTaken.FirstTileValue == Table1.LeftHandSide) || (StartOfNewGame) || (StartOfRound)) && (RecFichaExtremoIzquierdo.Contains((int)MousePosition.X, (int)MousePosition.Y)))
+                              || (LastTileTaken.FirstTileValue == Table1.LeftHandSide) || (StartOfNewGame) || (StartOfRound)) && (recTileLeftHandSide.Contains((int)MousePosition.X, (int)MousePosition.Y)))
                     	{
                             TileToUpdate = LastTileTaken;
                             TileToUpdate.Position = new Vector2((int)(x * SquareSize + TablePosition.X), (int)(y * SquareSize + TablePosition.Y));
-                            ActualizarMesa(Table1, TileToUpdate);
+                            UpdateTable(Table1, TileToUpdate);
                             Table[x, y] = false;
 	                    }
 
@@ -1414,14 +1390,14 @@ namespace Domino
                         {
                             TileToUpdate = LastTileTaken;
                             TileToUpdate.Position = new Vector2((int)(x * SquareSize + TablePosition.X), (int)(y * SquareSize + TablePosition.Y));
-                            ActualizarMesa(Table1, TileToUpdate);
+                            UpdateTable(Table1, TileToUpdate);
                             Table[x, y] = false;
                         }
                         else if (StartOfRound)
                         {
                             TileToUpdate = LastTileTaken;
                             TileToUpdate.Position = new Vector2((int)(x * SquareSize + TablePosition.X), (int)(y * SquareSize + TablePosition.Y));
-                            ActualizarMesa(Table1, TileToUpdate);
+                            UpdateTable(Table1, TileToUpdate);
                             Table[x, y] = false;
                         }
                         else
@@ -1435,7 +1411,7 @@ namespace Domino
             }
         }
 
-        private void DibujarFichasMesa()
+        private void DrawTilesOnBoard()
         {
 
             foreach (Tile h in Table1.TilesPlayedOnTableList)
@@ -1459,14 +1435,14 @@ namespace Domino
         #region Table and Mouse Behaviour Methods
 
         // Checks to see whether a given coordinate is within the board
-        private bool MouseSobreCuadro(int x, int y)
+        private bool IsMouseCoordinateWithinBoard(int x, int y)
         {
-            //do an integerdivision (whole-number) of the coordinates relative to the board offset with the tilesize in mind
+            // do an integerdivision (whole-number) of the coordinates relative to the board offset with the tilesize in mind
             return (int)(MousePosition.X - TablePosition.X) / SquareSize == x && (int)(MousePosition.Y - TablePosition.Y) / SquareSize == y;
         }
 
-        //find out whether the mouse is inside the board
-        bool MouseDentroDelTablero()
+        // find out whether the mouse is inside the board
+        bool IsMouseInsideBoard()
         {
             if (MousePosition.X >= TablePosition.X && MousePosition.X <= TablePosition.X + Table.GetLength(0) * SquareSize && MousePosition.Y >= TablePosition.Y && MousePosition.Y <= TablePosition.Y + Table.GetLength(1) * SquareSize)
             {
@@ -1476,10 +1452,10 @@ namespace Domino
             { return false; }
         }
 
-        //get the column/row on the board for a given coordinate
-        Vector2 ObtenerCuadroAPartirDePosicion(Vector2 position)
+        // get the column/row on the board for a given coordinate
+        Vector2 GetSquareFromMousePosition(Vector2 position)
         {
-            //adjust for the boards offset (PosicionDeTablero) and do an integerdivision
+            // adjust for the boards offset (TablePosition) and do an integer division
             return new Vector2((int)(MousePosition.X - TablePosition.X) / SquareSize, (int)(MousePosition.Y - TablePosition.Y) / SquareSize);
         }
 
@@ -1490,63 +1466,63 @@ namespace Domino
         /// <summary> 
         /// Deals seven dominoes to each player 
         /// </summary> 
-        private void DealDominoTilesToPlayers(List<Tile> ListaCompletaDeFichasParaRepartir)
+        private void DealDominoTilesToPlayers(List<Tile> ListOfDominoTilesToDeal)
         {
 
-            // Con esta condicion "if", se reparen las fichas
-            // variable to hold the Domino to remove 
-            Tile fichaARemover = null;
-            if (ListaCompletaDeFichasParaRepartir.Count > 0)
+            // Tiles are dealt
+            // variable to hold the domino to remove 
+            Tile dominoTileToRemove = null;
+            if (ListOfDominoTilesToDeal.Count > 0)
             {
-                //seven times 
+                // seven times per player
                 for (int i = 0; i < 7; i++)
                 {
-                    //...give each player a domino 
-                    foreach (Player jugador in PlayersList)
+                    // ...give each player a domino 
+                    foreach (Player player in PlayersList)
                     {
-                        //get a random position 
-                        int PosicionDeFichaAleatoria = rand.Next(ListaCompletaDeFichasParaRepartir.Count);
-                        //store the domino in a variable 
-                        fichaARemover = ListaCompletaDeFichasParaRepartir[PosicionDeFichaAleatoria];
-                        //remove it from the list 
-                        ListaCompletaDeFichasParaRepartir.RemoveAt(PosicionDeFichaAleatoria);
-                        //add it to the player's dominoes 
-                        jugador.PlayerTileList.Add(fichaARemover);
+                        // get a random position 
+                        int RandomTilePosition = rand.Next(ListOfDominoTilesToDeal.Count);
+                        // store the domino in a variable 
+                        dominoTileToRemove = ListOfDominoTilesToDeal[RandomTilePosition];
+                        // remove it from the list 
+                        ListOfDominoTilesToDeal.RemoveAt(RandomTilePosition);
+                        // add it to the player's dominoes 
+                        player.PlayerTileList.Add(dominoTileToRemove);
 
                     }
                 }
 
             }
 
-            Vector2 PosicionInicialDeJugador = new Vector2(449, 680);
+            Vector2 InitialPlayerPosition = new Vector2(449, 680);
 
             for (int i = 0; i < player1.PlayerTileList.Count; i++)
             {
-                player1.PlayerTileList[i].Position = PosicionInicialDeJugador;
+                player1.PlayerTileList[i].Position = InitialPlayerPosition;
                 player1.PlayerTileList[i].TileEdge = new Rectangle((int)player1.PlayerTileList[i].Position.X, (int)player1.PlayerTileList[i].Position.Y, 28, 56);
 
-                PosicionInicialDeJugador = new Vector2(PosicionInicialDeJugador.X + 28.8f, 680);
+                InitialPlayerPosition = new Vector2(InitialPlayerPosition.X + 28.8f, 680);
             }
         }
 
 
-        private void ActualizarMesa(Table Mesa1, Tile FichaAActualizar)
+        private void UpdateTable(Table Table1, Tile TileToUpdate)
         {
 
-            //...give each player a domino 
-            foreach (Player jugador in PlayersList)
+            // ...give each player a domino 
+            foreach (Player player in PlayersList)
             {
-                for (int i = 0; i < jugador.PlayerTileList.Count; i++)
+                for (int i = 0; i < player.PlayerTileList.Count; i++)
                 {
 
-                    if ((jugador.PlayerTileList[i].FirstTileValue == FichaAActualizar.FirstTileValue) && (jugador.PlayerTileList[i].SecondTileValue == FichaAActualizar.SecondTileValue)
-                        && jugador.IsHuman && (Mesa1.PlayerInTurn == jugador))
+                    if ((player.PlayerTileList[i].FirstTileValue == TileToUpdate.FirstTileValue) && (player.PlayerTileList[i].SecondTileValue == TileToUpdate.SecondTileValue)
+                        && player.IsHuman && (Table1.PlayerInTurn == player))
                     {
                         if (StartOfNewGame)
                         {
-                            if (jugador.PlayerTileList[i].FirstTileValue == 6 && jugador.PlayerTileList[i].SecondTileValue == 6)
+                            if (player.PlayerTileList[i].FirstTileValue == 6 && player.PlayerTileList[i].SecondTileValue == 6)
                             {
-                                RegularMesa(Mesa1, FichaAActualizar, jugador, i);
+                                TilePlacementLogic(Table1, TileToUpdate, player, i);
                                 StartOfNewGame = false;
                             }
 
@@ -1554,14 +1530,14 @@ namespace Domino
 
                         else if (StartOfRound)
                         {
-                            RegularMesa(Mesa1, FichaAActualizar, jugador, i);
+                            TilePlacementLogic(Table1, TileToUpdate, player, i);
                             StartOfRound = false;
                         }
 
-                        else if ((jugador.PlayerTileList[i].FirstTileValue == Mesa1.RightHandSide) || (jugador.PlayerTileList[i].FirstTileValue == Mesa1.LeftHandSide)
-                            || (jugador.PlayerTileList[i].SecondTileValue == Mesa1.RightHandSide) || (jugador.PlayerTileList[i].SecondTileValue == Mesa1.LeftHandSide))
+                        else if ((player.PlayerTileList[i].FirstTileValue == Table1.RightHandSide) || (player.PlayerTileList[i].FirstTileValue == Table1.LeftHandSide)
+                            || (player.PlayerTileList[i].SecondTileValue == Table1.RightHandSide) || (player.PlayerTileList[i].SecondTileValue == Table1.LeftHandSide))
                         {
-                            RegularMesa(Mesa1, FichaAActualizar, jugador, i);
+                            TilePlacementLogic(Table1, TileToUpdate, player, i);
                         }
 
 
@@ -1574,35 +1550,41 @@ namespace Domino
         }
 
 
-
-        private void RegularMesa(Table Mesa1, Tile FichaAActualizar, Player Jugador, int PosicionARemover)
+        /// <summary>
+        /// This is very messy and needs some emergency refactoring
+        /// </summary>
+        /// <param name="Table1"></param>
+        /// <param name="TileToUpdate"></param>
+        /// <param name="Player"></param>
+        /// <param name="PositionToRemove"></param>
+        private void TilePlacementLogic(Table Table1, Tile TileToUpdate, Player Player, int PositionToRemove)
         {
-            Vector2 PosicionDeReferencia = FichaAActualizar.Position;
-            if (Mesa1.TilesPlayedOnTableList.Count < 1)
+            Vector2 ReferencePosition = TileToUpdate.Position;
+            if (Table1.TilesPlayedOnTableList.Count < 1)
             {
-                if (FichaAActualizar.IsTileADouble)
+                if (TileToUpdate.IsTileADouble)
                 {
-                    FichaAActualizar.LastOrientation = 1;
-                    FichaAActualizar.Position = new Vector2(FichaAActualizar.Position.X, FichaAActualizar.Position.Y - 14);
-                    Mesa1.PositionOfRightHandSideEdge = new Vector2((int)(PosicionDeReferencia.X + SquareSize), (int)(PosicionDeReferencia.Y));
-                    Mesa1.PositionOfLeftHandSideEdge = new Vector2((int)(PosicionDeReferencia.X - SquareSize), (int)(PosicionDeReferencia.Y));
+                    TileToUpdate.LastOrientation = 1;
+                    TileToUpdate.Position = new Vector2(TileToUpdate.Position.X, TileToUpdate.Position.Y - 14);
+                    Table1.PositionOfRightHandSideEdge = new Vector2((int)(ReferencePosition.X + SquareSize), (int)(ReferencePosition.Y));
+                    Table1.PositionOfLeftHandSideEdge = new Vector2((int)(ReferencePosition.X - SquareSize), (int)(ReferencePosition.Y));
                 }
                 else
                 {
-                    Mesa1.PositionOfRightHandSideEdge = new Vector2((int)(PosicionDeReferencia.X + SquareSize), (int)(PosicionDeReferencia.Y));
-                    Mesa1.PositionOfLeftHandSideEdge = new Vector2((int)(PosicionDeReferencia.X - 2 * SquareSize), (int)(PosicionDeReferencia.Y));
+                    Table1.PositionOfRightHandSideEdge = new Vector2((int)(ReferencePosition.X + SquareSize), (int)(ReferencePosition.Y));
+                    Table1.PositionOfLeftHandSideEdge = new Vector2((int)(ReferencePosition.X - 2 * SquareSize), (int)(ReferencePosition.Y));
                 }
 
-                Mesa1.RightHandSide = FichaAActualizar.FirstTileValue;
-                Mesa1.LeftHandSide = FichaAActualizar.SecondTileValue;
-                Mesa1.TileOnRightHandSide = FichaAActualizar;
-                Mesa1.TileOnLeftHandSide = FichaAActualizar;
-                Mesa1.PositionOfTileOnRightHandSide = PosicionDeReferencia;
-                Mesa1.PositionOfTileOnLeftHandSide = PosicionDeReferencia;
-                AnadirFicha(Mesa1, FichaAActualizar, Jugador, PosicionARemover);
-                if (Mesa1.PlayerInTurn == player1)
+                Table1.RightHandSide = TileToUpdate.FirstTileValue;
+                Table1.LeftHandSide = TileToUpdate.SecondTileValue;
+                Table1.TileOnRightHandSide = TileToUpdate;
+                Table1.TileOnLeftHandSide = TileToUpdate;
+                Table1.PositionOfTileOnRightHandSide = ReferencePosition;
+                Table1.PositionOfTileOnLeftHandSide = ReferencePosition;
+                AddDominoTile(Table1, TileToUpdate, Player, PositionToRemove);
+                if (Table1.PlayerInTurn == player1)
                 {
-                    CalcularTurno(Mesa1.PlayerInTurn);
+                    CalculateTurn(Table1.PlayerInTurn);
                 }
 
 
@@ -1610,370 +1592,358 @@ namespace Domino
 
             else
             {
-                if ((Mesa1.TileOnRightHandSide.LastOrientation == 1 || Mesa1.TileOnRightHandSide.LastOrientation == 3) && (FichaAActualizar.IsTileADouble)
-                    && (PosicionDeReferencia.Y > Mesa1.PositionOfTileOnRightHandSide.Y) && (Mesa1.RightHandSide == FichaAActualizar.FirstTileValue))
+                if ((Table1.TileOnRightHandSide.LastOrientation == 1 || Table1.TileOnRightHandSide.LastOrientation == 3) && (TileToUpdate.IsTileADouble)
+                    && (ReferencePosition.Y > Table1.PositionOfTileOnRightHandSide.Y) && (Table1.RightHandSide == TileToUpdate.FirstTileValue))
                 {
 
-                    FichaAActualizar.LastOrientation = 2;
-                    FichaAActualizar.Position = new Vector2(FichaAActualizar.Position.X + 14, FichaAActualizar.Position.Y);
-                    Mesa1.TileOnRightHandSide = FichaAActualizar;
-                    Mesa1.PositionOfRightHandSideEdge = new Vector2(PosicionDeReferencia.X, PosicionDeReferencia.Y + SquareSize);
-                    Mesa1.PositionOfTileOnRightHandSide = PosicionDeReferencia;
-                    AnadirFicha(Mesa1, FichaAActualizar, Jugador, PosicionARemover);
+                    TileToUpdate.LastOrientation = 2;
+                    TileToUpdate.Position = new Vector2(TileToUpdate.Position.X + 14, TileToUpdate.Position.Y);
+                    Table1.TileOnRightHandSide = TileToUpdate;
+                    Table1.PositionOfRightHandSideEdge = new Vector2(ReferencePosition.X, ReferencePosition.Y + SquareSize);
+                    Table1.PositionOfTileOnRightHandSide = ReferencePosition;
+                    AddDominoTile(Table1, TileToUpdate, Player, PositionToRemove);
 
 
                 }
 
-                else if ((Mesa1.TileOnLeftHandSide.LastOrientation == 1 || Mesa1.TileOnLeftHandSide.LastOrientation == 3) && (FichaAActualizar.IsTileADouble)
-                     && (PosicionDeReferencia.Y < Mesa1.PositionOfTileOnLeftHandSide.Y) && (Mesa1.LeftHandSide == FichaAActualizar.FirstTileValue))
+                else if ((Table1.TileOnLeftHandSide.LastOrientation == 1 || Table1.TileOnLeftHandSide.LastOrientation == 3) && (TileToUpdate.IsTileADouble)
+                     && (ReferencePosition.Y < Table1.PositionOfTileOnLeftHandSide.Y) && (Table1.LeftHandSide == TileToUpdate.FirstTileValue))
                 {
 
-                    FichaAActualizar.LastOrientation = 2;
-                    FichaAActualizar.Position = new Vector2(FichaAActualizar.Position.X + 14, FichaAActualizar.Position.Y);
-                    Mesa1.TileOnLeftHandSide = FichaAActualizar;
-                    Mesa1.PositionOfLeftHandSideEdge = new Vector2(PosicionDeReferencia.X, PosicionDeReferencia.Y - SquareSize);
-                    Mesa1.PositionOfTileOnLeftHandSide = PosicionDeReferencia;
-                    AnadirFicha(Mesa1, FichaAActualizar, Jugador, PosicionARemover);
+                    TileToUpdate.LastOrientation = 2;
+                    TileToUpdate.Position = new Vector2(TileToUpdate.Position.X + 14, TileToUpdate.Position.Y);
+                    Table1.TileOnLeftHandSide = TileToUpdate;
+                    Table1.PositionOfLeftHandSideEdge = new Vector2(ReferencePosition.X, ReferencePosition.Y - SquareSize);
+                    Table1.PositionOfTileOnLeftHandSide = ReferencePosition;
+                    AddDominoTile(Table1, TileToUpdate, Player, PositionToRemove);
 
                 }
-                else if ((Mesa1.TileOnLeftHandSide.LastOrientation == 2 || Mesa1.TileOnLeftHandSide.LastOrientation == 4) && (FichaAActualizar.IsTileADouble)
-                    && PosicionDeReferencia.X < Mesa1.PositionOfTileOnLeftHandSide.X && Mesa1.LeftHandSide == FichaAActualizar.FirstTileValue)
+                else if ((Table1.TileOnLeftHandSide.LastOrientation == 2 || Table1.TileOnLeftHandSide.LastOrientation == 4) && (TileToUpdate.IsTileADouble)
+                    && ReferencePosition.X < Table1.PositionOfTileOnLeftHandSide.X && Table1.LeftHandSide == TileToUpdate.FirstTileValue)
                 {
 
-                    FichaAActualizar.LastOrientation = 1;
-                    FichaAActualizar.Position = new Vector2(FichaAActualizar.Position.X, FichaAActualizar.Position.Y - 14);
-                    Mesa1.TileOnLeftHandSide = FichaAActualizar;
-                    Mesa1.PositionOfLeftHandSideEdge = new Vector2(PosicionDeReferencia.X - SquareSize, PosicionDeReferencia.Y);
-                    if (PosicionDeReferencia.X < (TablePosition.X + (4 * SquareSize)))
+                    TileToUpdate.LastOrientation = 1;
+                    TileToUpdate.Position = new Vector2(TileToUpdate.Position.X, TileToUpdate.Position.Y - 14);
+                    Table1.TileOnLeftHandSide = TileToUpdate;
+                    Table1.PositionOfLeftHandSideEdge = new Vector2(ReferencePosition.X - SquareSize, ReferencePosition.Y);
+                    if (ReferencePosition.X < (TablePosition.X + (4 * SquareSize)))
                     {
-                        FichaAActualizar.Position = new Vector2(FichaAActualizar.Position.X, FichaAActualizar.Position.Y + 14);
-                        FichaAActualizar.LastOrientation = 2;
-                        Mesa1.PositionOfLeftHandSideEdge = new Vector2(PosicionDeReferencia.X - SquareSize, PosicionDeReferencia.Y - SquareSize);
+                        TileToUpdate.Position = new Vector2(TileToUpdate.Position.X, TileToUpdate.Position.Y + 14);
+                        TileToUpdate.LastOrientation = 2;
+                        Table1.PositionOfLeftHandSideEdge = new Vector2(ReferencePosition.X - SquareSize, ReferencePosition.Y - SquareSize);
 
 
                     }
 
-                    Mesa1.PositionOfTileOnLeftHandSide = PosicionDeReferencia;
-                    AnadirFicha(Mesa1, FichaAActualizar, Jugador, PosicionARemover);
+                    Table1.PositionOfTileOnLeftHandSide = ReferencePosition;
+                    AddDominoTile(Table1, TileToUpdate, Player, PositionToRemove);
 
 
                 }
 
-                else if ((Mesa1.TileOnRightHandSide.LastOrientation == 2 || Mesa1.TileOnRightHandSide.LastOrientation == 4) && (FichaAActualizar.IsTileADouble)
-                       && PosicionDeReferencia.X > Mesa1.PositionOfTileOnRightHandSide.X && Mesa1.RightHandSide == FichaAActualizar.FirstTileValue)
+                else if ((Table1.TileOnRightHandSide.LastOrientation == 2 || Table1.TileOnRightHandSide.LastOrientation == 4) && (TileToUpdate.IsTileADouble)
+                       && ReferencePosition.X > Table1.PositionOfTileOnRightHandSide.X && Table1.RightHandSide == TileToUpdate.FirstTileValue)
                 {
 
-                    FichaAActualizar.LastOrientation = 1;
-                    FichaAActualizar.Position = new Vector2(FichaAActualizar.Position.X, FichaAActualizar.Position.Y - 14);
-                    Mesa1.TileOnRightHandSide = FichaAActualizar;
-                    Mesa1.PositionOfRightHandSideEdge = new Vector2(PosicionDeReferencia.X + SquareSize, PosicionDeReferencia.Y);
-                    if (PosicionDeReferencia.X > (TablePosition.X + (27 * SquareSize)))
+                    TileToUpdate.LastOrientation = 1;
+                    TileToUpdate.Position = new Vector2(TileToUpdate.Position.X, TileToUpdate.Position.Y - 14);
+                    Table1.TileOnRightHandSide = TileToUpdate;
+                    Table1.PositionOfRightHandSideEdge = new Vector2(ReferencePosition.X + SquareSize, ReferencePosition.Y);
+                    if (ReferencePosition.X > (TablePosition.X + (27 * SquareSize)))
                     {
-                        FichaAActualizar.Position = new Vector2(FichaAActualizar.Position.X, FichaAActualizar.Position.Y + 14);
-                        FichaAActualizar.LastOrientation = 4;
-                        Mesa1.PositionOfRightHandSideEdge = new Vector2(PosicionDeReferencia.X + SquareSize, PosicionDeReferencia.Y + SquareSize);
+                        TileToUpdate.Position = new Vector2(TileToUpdate.Position.X, TileToUpdate.Position.Y + 14);
+                        TileToUpdate.LastOrientation = 4;
+                        Table1.PositionOfRightHandSideEdge = new Vector2(ReferencePosition.X + SquareSize, ReferencePosition.Y + SquareSize);
 
 
                     }
-                    Mesa1.PositionOfTileOnRightHandSide = PosicionDeReferencia;
-                    AnadirFicha(Mesa1, FichaAActualizar, Jugador, PosicionARemover);
+                    Table1.PositionOfTileOnRightHandSide = ReferencePosition;
+                    AddDominoTile(Table1, TileToUpdate, Player, PositionToRemove);
 
                 }
 
 
-               // Hasta aquí todo bn
+               // All well so far
 
 
-                else if ((Mesa1.TileOnRightHandSide.LastOrientation == 1 || Mesa1.TileOnRightHandSide.LastOrientation == 3) && (!FichaAActualizar.IsTileADouble)
-                    && Mesa1.TileOnRightHandSide.IsTileADouble && PosicionDeReferencia.X > Mesa1.TileOnRightHandSide.Position.X)
+                else if ((Table1.TileOnRightHandSide.LastOrientation == 1 || Table1.TileOnRightHandSide.LastOrientation == 3) && (!TileToUpdate.IsTileADouble)
+                    && Table1.TileOnRightHandSide.IsTileADouble && ReferencePosition.X > Table1.TileOnRightHandSide.Position.X)
                 {
 
                     // Mesa1.TileOnRightHandSide = FichaAActualizar;
-                    if (Mesa1.RightHandSide == FichaAActualizar.FirstTileValue)
+                    if (Table1.RightHandSide == TileToUpdate.FirstTileValue)
                     {
-                        FichaAActualizar.LastOrientation = 4;
+                        TileToUpdate.LastOrientation = 4;
 
-                        Mesa1.TileOnRightHandSide = FichaAActualizar;
-                        Mesa1.RightHandSide = FichaAActualizar.SecondTileValue;
+                        Table1.TileOnRightHandSide = TileToUpdate;
+                        Table1.RightHandSide = TileToUpdate.SecondTileValue;
 
 
                     }
 
-                    else if (Mesa1.RightHandSide == FichaAActualizar.SecondTileValue)
+                    else if (Table1.RightHandSide == TileToUpdate.SecondTileValue)
                     {
-                        FichaAActualizar.LastOrientation = 2;
-                        FichaAActualizar.Position = new Vector2(FichaAActualizar.Position.X + 28, FichaAActualizar.Position.Y);
-                        Mesa1.TileOnRightHandSide = FichaAActualizar;
-                        Mesa1.RightHandSide = FichaAActualizar.FirstTileValue;
+                        TileToUpdate.LastOrientation = 2;
+                        TileToUpdate.Position = new Vector2(TileToUpdate.Position.X + 28, TileToUpdate.Position.Y);
+                        Table1.TileOnRightHandSide = TileToUpdate;
+                        Table1.RightHandSide = TileToUpdate.FirstTileValue;
 
 
                     }
-                    Mesa1.PositionOfRightHandSideEdge = new Vector2(PosicionDeReferencia.X + 2 * SquareSize, PosicionDeReferencia.Y);
-                    if (PosicionDeReferencia.X > (TablePosition.X + (27 * SquareSize)))
+                    Table1.PositionOfRightHandSideEdge = new Vector2(ReferencePosition.X + 2 * SquareSize, ReferencePosition.Y);
+                    if (ReferencePosition.X > (TablePosition.X + (27 * SquareSize)))
                     {
-                        Mesa1.PositionOfRightHandSideEdge = new Vector2(PosicionDeReferencia.X + SquareSize, PosicionDeReferencia.Y + SquareSize);
+                        Table1.PositionOfRightHandSideEdge = new Vector2(ReferencePosition.X + SquareSize, ReferencePosition.Y + SquareSize);
 
 
                     }
-                    Mesa1.PositionOfTileOnRightHandSide = PosicionDeReferencia;
-                    AnadirFicha(Mesa1, FichaAActualizar, Jugador, PosicionARemover);
+                    Table1.PositionOfTileOnRightHandSide = ReferencePosition;
+                    AddDominoTile(Table1, TileToUpdate, Player, PositionToRemove);
 
                 }
-                else if ((Mesa1.TileOnLeftHandSide.LastOrientation == 1 || Mesa1.TileOnLeftHandSide.LastOrientation == 3)
-                 && (!FichaAActualizar.IsTileADouble) && Mesa1.TileOnLeftHandSide.IsTileADouble && (PosicionDeReferencia.X < Mesa1.TileOnLeftHandSide.Position.X))
+                else if ((Table1.TileOnLeftHandSide.LastOrientation == 1 || Table1.TileOnLeftHandSide.LastOrientation == 3)
+                 && (!TileToUpdate.IsTileADouble) && Table1.TileOnLeftHandSide.IsTileADouble && (ReferencePosition.X < Table1.TileOnLeftHandSide.Position.X))
                 {
 
-                    if (Mesa1.LeftHandSide == FichaAActualizar.FirstTileValue)
+                    if (Table1.LeftHandSide == TileToUpdate.FirstTileValue)
                     {
-                        FichaAActualizar.LastOrientation = 2;
+                        TileToUpdate.LastOrientation = 2;
 
-                        Mesa1.TileOnLeftHandSide = FichaAActualizar;
-                        Mesa1.LeftHandSide = FichaAActualizar.SecondTileValue;
+                        Table1.TileOnLeftHandSide = TileToUpdate;
+                        Table1.LeftHandSide = TileToUpdate.SecondTileValue;
 
                     }
 
-                    else if (Mesa1.LeftHandSide == FichaAActualizar.SecondTileValue)
+                    else if (Table1.LeftHandSide == TileToUpdate.SecondTileValue)
                     {
-                        FichaAActualizar.LastOrientation = 4;
-                        FichaAActualizar.Position = new Vector2(FichaAActualizar.Position.X - SquareSize, PosicionDeReferencia.Y);
-                        Mesa1.TileOnLeftHandSide = FichaAActualizar;
-                        Mesa1.LeftHandSide = FichaAActualizar.FirstTileValue;
+                        TileToUpdate.LastOrientation = 4;
+                        TileToUpdate.Position = new Vector2(TileToUpdate.Position.X - SquareSize, ReferencePosition.Y);
+                        Table1.TileOnLeftHandSide = TileToUpdate;
+                        Table1.LeftHandSide = TileToUpdate.FirstTileValue;
 
                     }
-                    Mesa1.PositionOfLeftHandSideEdge = new Vector2(PosicionDeReferencia.X - 2 * SquareSize, PosicionDeReferencia.Y);
-                    if (PosicionDeReferencia.X < (TablePosition.X + (4 * SquareSize)))
+                    Table1.PositionOfLeftHandSideEdge = new Vector2(ReferencePosition.X - 2 * SquareSize, ReferencePosition.Y);
+                    if (ReferencePosition.X < (TablePosition.X + (4 * SquareSize)))
                     {
-                        Mesa1.PositionOfLeftHandSideEdge = new Vector2(PosicionDeReferencia.X - SquareSize, PosicionDeReferencia.Y - SquareSize);
-
-
-                    }
-                    Mesa1.PositionOfTileOnLeftHandSide = PosicionDeReferencia;
-                    AnadirFicha(Mesa1, FichaAActualizar, Jugador, PosicionARemover);
-                }
-
-
-
-                else if ((Mesa1.TileOnRightHandSide.LastOrientation == 2 || Mesa1.TileOnRightHandSide.LastOrientation == 4)
-                     && (!FichaAActualizar.IsTileADouble) && Mesa1.TileOnRightHandSide.IsTileADouble && PosicionDeReferencia.Y > Mesa1.TileOnRightHandSide.Position.Y)
-                {
-                    if (Mesa1.RightHandSide == FichaAActualizar.FirstTileValue)
-                    {
-                        FichaAActualizar.LastOrientation = 1;
-                        Mesa1.TileOnRightHandSide = FichaAActualizar;
-                        Mesa1.RightHandSide = FichaAActualizar.SecondTileValue;
-
-                    }
-
-                    else if (Mesa1.RightHandSide == FichaAActualizar.SecondTileValue)
-                    {
-                        FichaAActualizar.LastOrientation = 3;
-                        FichaAActualizar.Position = new Vector2(FichaAActualizar.Position.X, FichaAActualizar.Position.Y + 28);
-                        Mesa1.TileOnRightHandSide = FichaAActualizar;
-                        Mesa1.RightHandSide = FichaAActualizar.FirstTileValue;
-
-                    }
-                    Mesa1.PositionOfRightHandSideEdge = new Vector2(PosicionDeReferencia.X, PosicionDeReferencia.Y + 2 * SquareSize);
-                    Mesa1.PositionOfTileOnRightHandSide = PosicionDeReferencia;
-                    AnadirFicha(Mesa1, FichaAActualizar, Jugador, PosicionARemover);
-                }
-
-                else if ((Mesa1.TileOnLeftHandSide.LastOrientation == 2 || Mesa1.TileOnLeftHandSide.LastOrientation == 4)
-                     && (!FichaAActualizar.IsTileADouble) && Mesa1.TileOnLeftHandSide.IsTileADouble && PosicionDeReferencia.Y < Mesa1.TileOnLeftHandSide.Position.Y)
-                {
-                    if (Mesa1.LeftHandSide == FichaAActualizar.FirstTileValue)
-                    {
-                        FichaAActualizar.LastOrientation = 3;
-                        Mesa1.LeftHandSide = FichaAActualizar.SecondTileValue;
-                        Mesa1.TileOnLeftHandSide = FichaAActualizar;
-
-                    }
-
-                    else if (Mesa1.LeftHandSide == FichaAActualizar.SecondTileValue)
-                    {
-                        FichaAActualizar.LastOrientation = 1;
-                        FichaAActualizar.Position = new Vector2(FichaAActualizar.Position.X, FichaAActualizar.Position.Y - SquareSize);
-                        Mesa1.TileOnLeftHandSide = FichaAActualizar;
-                        Mesa1.LeftHandSide = FichaAActualizar.FirstTileValue;
+                        Table1.PositionOfLeftHandSideEdge = new Vector2(ReferencePosition.X - SquareSize, ReferencePosition.Y - SquareSize);
 
 
                     }
-                    Mesa1.PositionOfLeftHandSideEdge = new Vector2(PosicionDeReferencia.X, PosicionDeReferencia.Y - 2 * SquareSize);
-                    Mesa1.PositionOfTileOnLeftHandSide = PosicionDeReferencia;
-                    AnadirFicha(Mesa1, FichaAActualizar, Jugador, PosicionARemover);
-
-                }
-
-                    //Aqui arreglar algo
-                else if ((Mesa1.TileOnRightHandSide.LastOrientation == 1 || Mesa1.TileOnRightHandSide.LastOrientation == 3)
-                     && (!FichaAActualizar.IsTileADouble) && (!Mesa1.TileOnRightHandSide.IsTileADouble) && PosicionDeReferencia.Y > Mesa1.TileOnRightHandSide.Position.Y)
-                {
-                    if (Mesa1.RightHandSide == FichaAActualizar.FirstTileValue)
-                    {
-                        FichaAActualizar.LastOrientation = 1;
-
-                        Mesa1.TileOnRightHandSide = FichaAActualizar;
-                        Mesa1.RightHandSide = FichaAActualizar.SecondTileValue;
-                    }
-
-                    else if (Mesa1.RightHandSide == FichaAActualizar.SecondTileValue)
-                    {
-                        FichaAActualizar.LastOrientation = 3;
-                        FichaAActualizar.Position = new Vector2(FichaAActualizar.Position.X, FichaAActualizar.Position.Y + SquareSize);
-                        Mesa1.TileOnRightHandSide = FichaAActualizar;
-                        Mesa1.RightHandSide = FichaAActualizar.FirstTileValue;
-
-
-                    }
-
-
-
-                    Mesa1.PositionOfRightHandSideEdge = new Vector2(PosicionDeReferencia.X, PosicionDeReferencia.Y + 2 * SquareSize);
-                    Mesa1.PositionOfTileOnRightHandSide = PosicionDeReferencia;
-                    AnadirFicha(Mesa1, FichaAActualizar, Jugador, PosicionARemover);
+                    Table1.PositionOfTileOnLeftHandSide = ReferencePosition;
+                    AddDominoTile(Table1, TileToUpdate, Player, PositionToRemove);
                 }
 
 
-                else if ((Mesa1.TileOnLeftHandSide.LastOrientation == 1 || Mesa1.TileOnLeftHandSide.LastOrientation == 3)
-                    && (!FichaAActualizar.IsTileADouble) && (!Mesa1.TileOnLeftHandSide.IsTileADouble) && PosicionDeReferencia.Y < Mesa1.TileOnLeftHandSide.Position.Y)
+
+                else if ((Table1.TileOnRightHandSide.LastOrientation == 2 || Table1.TileOnRightHandSide.LastOrientation == 4)
+                     && (!TileToUpdate.IsTileADouble) && Table1.TileOnRightHandSide.IsTileADouble && ReferencePosition.Y > Table1.TileOnRightHandSide.Position.Y)
                 {
-                    if (Mesa1.LeftHandSide == FichaAActualizar.FirstTileValue)
+                    if (Table1.RightHandSide == TileToUpdate.FirstTileValue)
                     {
-                        FichaAActualizar.LastOrientation = 3;
+                        TileToUpdate.LastOrientation = 1;
+                        Table1.TileOnRightHandSide = TileToUpdate;
+                        Table1.RightHandSide = TileToUpdate.SecondTileValue;
 
-                        Mesa1.TileOnLeftHandSide = FichaAActualizar;
-                        Mesa1.LeftHandSide = FichaAActualizar.SecondTileValue;
                     }
 
-                    else if (Mesa1.LeftHandSide == FichaAActualizar.SecondTileValue)
+                    else if (Table1.RightHandSide == TileToUpdate.SecondTileValue)
                     {
-                        FichaAActualizar.LastOrientation = 1;
-                        FichaAActualizar.Position = new Vector2(FichaAActualizar.Position.X, FichaAActualizar.Position.Y - SquareSize);
-                        Mesa1.TileOnLeftHandSide = FichaAActualizar;
-                        Mesa1.LeftHandSide = FichaAActualizar.FirstTileValue;
-
+                        TileToUpdate.LastOrientation = 3;
+                        TileToUpdate.Position = new Vector2(TileToUpdate.Position.X, TileToUpdate.Position.Y + 28);
+                        Table1.TileOnRightHandSide = TileToUpdate;
+                        Table1.RightHandSide = TileToUpdate.FirstTileValue;
 
                     }
-                    Mesa1.PositionOfLeftHandSideEdge = new Vector2(PosicionDeReferencia.X, PosicionDeReferencia.Y - 2 * SquareSize);
-                    Mesa1.PositionOfTileOnLeftHandSide = PosicionDeReferencia;
-                    AnadirFicha(Mesa1, FichaAActualizar, Jugador, PosicionARemover);
+                    Table1.PositionOfRightHandSideEdge = new Vector2(ReferencePosition.X, ReferencePosition.Y + 2 * SquareSize);
+                    Table1.PositionOfTileOnRightHandSide = ReferencePosition;
+                    AddDominoTile(Table1, TileToUpdate, Player, PositionToRemove);
                 }
 
-                else if ((Mesa1.TileOnLeftHandSide.LastOrientation == 2 || Mesa1.TileOnLeftHandSide.LastOrientation == 4)
-                    && (!FichaAActualizar.IsTileADouble) && (!Mesa1.TileOnLeftHandSide.IsTileADouble) && PosicionDeReferencia.X < Mesa1.TileOnLeftHandSide.Position.X)
+                else if ((Table1.TileOnLeftHandSide.LastOrientation == 2 || Table1.TileOnLeftHandSide.LastOrientation == 4)
+                     && (!TileToUpdate.IsTileADouble) && Table1.TileOnLeftHandSide.IsTileADouble && ReferencePosition.Y < Table1.TileOnLeftHandSide.Position.Y)
                 {
-                    if (Mesa1.LeftHandSide == FichaAActualizar.FirstTileValue)
+                    if (Table1.LeftHandSide == TileToUpdate.FirstTileValue)
                     {
-                        FichaAActualizar.LastOrientation = 2;
-
-                        Mesa1.TileOnLeftHandSide = FichaAActualizar;
-                        Mesa1.LeftHandSide = FichaAActualizar.SecondTileValue;
-                    }
-
-                    else if (Mesa1.LeftHandSide == FichaAActualizar.SecondTileValue)
-                    {
-                        FichaAActualizar.LastOrientation = 4;
-                        FichaAActualizar.Position = new Vector2(FichaAActualizar.Position.X - SquareSize, FichaAActualizar.Position.Y);
-                        Mesa1.TileOnLeftHandSide = FichaAActualizar;
-                        Mesa1.LeftHandSide = FichaAActualizar.FirstTileValue;
-
-
-                    }
-                    Mesa1.PositionOfLeftHandSideEdge = new Vector2(PosicionDeReferencia.X - 2 * SquareSize, PosicionDeReferencia.Y);
-                    if (PosicionDeReferencia.X < (TablePosition.X + (4 * SquareSize)))
-                    {
-                        Mesa1.PositionOfLeftHandSideEdge = new Vector2(PosicionDeReferencia.X - SquareSize, PosicionDeReferencia.Y - SquareSize);
-
+                        TileToUpdate.LastOrientation = 3;
+                        Table1.LeftHandSide = TileToUpdate.SecondTileValue;
+                        Table1.TileOnLeftHandSide = TileToUpdate;
 
                     }
 
-                    Mesa1.PositionOfTileOnLeftHandSide = PosicionDeReferencia;
-                    AnadirFicha(Mesa1, FichaAActualizar, Jugador, PosicionARemover);
+                    else if (Table1.LeftHandSide == TileToUpdate.SecondTileValue)
+                    {
+                        TileToUpdate.LastOrientation = 1;
+                        TileToUpdate.Position = new Vector2(TileToUpdate.Position.X, TileToUpdate.Position.Y - SquareSize);
+                        Table1.TileOnLeftHandSide = TileToUpdate;
+                        Table1.LeftHandSide = TileToUpdate.FirstTileValue;
+
+
+                    }
+                    Table1.PositionOfLeftHandSideEdge = new Vector2(ReferencePosition.X, ReferencePosition.Y - 2 * SquareSize);
+                    Table1.PositionOfTileOnLeftHandSide = ReferencePosition;
+                    AddDominoTile(Table1, TileToUpdate, Player, PositionToRemove);
+
+                }
+
+                    // Needs fixing
+                else if ((Table1.TileOnRightHandSide.LastOrientation == 1 || Table1.TileOnRightHandSide.LastOrientation == 3)
+                     && (!TileToUpdate.IsTileADouble) && (!Table1.TileOnRightHandSide.IsTileADouble) && ReferencePosition.Y > Table1.TileOnRightHandSide.Position.Y)
+                {
+                    if (Table1.RightHandSide == TileToUpdate.FirstTileValue)
+                    {
+                        TileToUpdate.LastOrientation = 1;
+
+                        Table1.TileOnRightHandSide = TileToUpdate;
+                        Table1.RightHandSide = TileToUpdate.SecondTileValue;
+                    }
+
+                    else if (Table1.RightHandSide == TileToUpdate.SecondTileValue)
+                    {
+                        TileToUpdate.LastOrientation = 3;
+                        TileToUpdate.Position = new Vector2(TileToUpdate.Position.X, TileToUpdate.Position.Y + SquareSize);
+                        Table1.TileOnRightHandSide = TileToUpdate;
+                        Table1.RightHandSide = TileToUpdate.FirstTileValue;
+                    }
+
+                    Table1.PositionOfRightHandSideEdge = new Vector2(ReferencePosition.X, ReferencePosition.Y + 2 * SquareSize);
+                    Table1.PositionOfTileOnRightHandSide = ReferencePosition;
+                    AddDominoTile(Table1, TileToUpdate, Player, PositionToRemove);
                 }
 
 
-                else if ((Mesa1.TileOnRightHandSide.LastOrientation == 2 || Mesa1.TileOnRightHandSide.LastOrientation == 4)
-                    && (!FichaAActualizar.IsTileADouble) && (!Mesa1.TileOnRightHandSide.IsTileADouble) && PosicionDeReferencia.X > Mesa1.TileOnRightHandSide.Position.X)
+                else if ((Table1.TileOnLeftHandSide.LastOrientation == 1 || Table1.TileOnLeftHandSide.LastOrientation == 3)
+                    && (!TileToUpdate.IsTileADouble) && (!Table1.TileOnLeftHandSide.IsTileADouble) && ReferencePosition.Y < Table1.TileOnLeftHandSide.Position.Y)
                 {
-                    if (Mesa1.RightHandSide == FichaAActualizar.FirstTileValue)
+                    if (Table1.LeftHandSide == TileToUpdate.FirstTileValue)
                     {
-                        FichaAActualizar.LastOrientation = 4;
+                        TileToUpdate.LastOrientation = 3;
 
-                        Mesa1.TileOnRightHandSide = FichaAActualizar;
-                        Mesa1.RightHandSide = FichaAActualizar.SecondTileValue;
+                        Table1.TileOnLeftHandSide = TileToUpdate;
+                        Table1.LeftHandSide = TileToUpdate.SecondTileValue;
                     }
 
-                    else if (Mesa1.RightHandSide == FichaAActualizar.SecondTileValue)
+                    else if (Table1.LeftHandSide == TileToUpdate.SecondTileValue)
                     {
-                        FichaAActualizar.LastOrientation = 2;
-                        FichaAActualizar.Position = new Vector2(FichaAActualizar.Position.X + SquareSize, FichaAActualizar.Position.Y);
-                        Mesa1.TileOnRightHandSide = FichaAActualizar;
-                        Mesa1.RightHandSide = FichaAActualizar.FirstTileValue;
-
+                        TileToUpdate.LastOrientation = 1;
+                        TileToUpdate.Position = new Vector2(TileToUpdate.Position.X, TileToUpdate.Position.Y - SquareSize);
+                        Table1.TileOnLeftHandSide = TileToUpdate;
+                        Table1.LeftHandSide = TileToUpdate.FirstTileValue;
                     }
-
-                    Mesa1.PositionOfRightHandSideEdge = new Vector2(PosicionDeReferencia.X + 2 * SquareSize, PosicionDeReferencia.Y);
-
-                    if (PosicionDeReferencia.X > (TablePosition.X + (27 * SquareSize)))
-                    {
-                        Mesa1.PositionOfRightHandSideEdge = new Vector2(PosicionDeReferencia.X + SquareSize, PosicionDeReferencia.Y + SquareSize);
-
-
-                    }
-
-                    Mesa1.PositionOfTileOnRightHandSide = PosicionDeReferencia;
-                    AnadirFicha(Mesa1, FichaAActualizar, Jugador, PosicionARemover);
+                    Table1.PositionOfLeftHandSideEdge = new Vector2(ReferencePosition.X, ReferencePosition.Y - 2 * SquareSize);
+                    Table1.PositionOfTileOnLeftHandSide = ReferencePosition;
+                    AddDominoTile(Table1, TileToUpdate, Player, PositionToRemove);
                 }
 
-                else if ((Mesa1.TileOnRightHandSide.LastOrientation == 2 || Mesa1.TileOnRightHandSide.LastOrientation == 4)
-                    && (!FichaAActualizar.IsTileADouble) && (!Mesa1.TileOnRightHandSide.IsTileADouble) && PosicionDeReferencia.Y > Mesa1.TileOnRightHandSide.Position.Y)
+                else if ((Table1.TileOnLeftHandSide.LastOrientation == 2 || Table1.TileOnLeftHandSide.LastOrientation == 4)
+                    && (!TileToUpdate.IsTileADouble) && (!Table1.TileOnLeftHandSide.IsTileADouble) && ReferencePosition.X < Table1.TileOnLeftHandSide.Position.X)
                 {
-                    if (Mesa1.RightHandSide == FichaAActualizar.FirstTileValue)
+                    if (Table1.LeftHandSide == TileToUpdate.FirstTileValue)
                     {
-                        FichaAActualizar.LastOrientation = 1;
+                        TileToUpdate.LastOrientation = 2;
 
-                        Mesa1.TileOnRightHandSide = FichaAActualizar;
-                        Mesa1.RightHandSide = FichaAActualizar.SecondTileValue;
+                        Table1.TileOnLeftHandSide = TileToUpdate;
+                        Table1.LeftHandSide = TileToUpdate.SecondTileValue;
                     }
 
-                    else if (Mesa1.RightHandSide == FichaAActualizar.SecondTileValue)
+                    else if (Table1.LeftHandSide == TileToUpdate.SecondTileValue)
                     {
-                        FichaAActualizar.LastOrientation = 3;
-                        FichaAActualizar.Position = new Vector2(FichaAActualizar.Position.X, FichaAActualizar.Position.Y + SquareSize);
-                        Mesa1.TileOnRightHandSide = FichaAActualizar;
-                        Mesa1.RightHandSide = FichaAActualizar.FirstTileValue;
-
+                        TileToUpdate.LastOrientation = 4;
+                        TileToUpdate.Position = new Vector2(TileToUpdate.Position.X - SquareSize, TileToUpdate.Position.Y);
+                        Table1.TileOnLeftHandSide = TileToUpdate;
+                        Table1.LeftHandSide = TileToUpdate.FirstTileValue;
                     }
-                    Mesa1.PositionOfRightHandSideEdge = new Vector2(PosicionDeReferencia.X, PosicionDeReferencia.Y + 2 * SquareSize);
-                    Mesa1.PositionOfTileOnRightHandSide = PosicionDeReferencia;
-                    AnadirFicha(Mesa1, FichaAActualizar, Jugador, PosicionARemover);
+                    Table1.PositionOfLeftHandSideEdge = new Vector2(ReferencePosition.X - 2 * SquareSize, ReferencePosition.Y);
+                    if (ReferencePosition.X < (TablePosition.X + (4 * SquareSize)))
+                    {
+                        Table1.PositionOfLeftHandSideEdge = new Vector2(ReferencePosition.X - SquareSize, ReferencePosition.Y - SquareSize);
+                    }
+
+                    Table1.PositionOfTileOnLeftHandSide = ReferencePosition;
+                    AddDominoTile(Table1, TileToUpdate, Player, PositionToRemove);
                 }
 
-                else if ((Mesa1.TileOnLeftHandSide.LastOrientation == 2 || Mesa1.TileOnLeftHandSide.LastOrientation == 4)
-                    && (!FichaAActualizar.IsTileADouble) && (!Mesa1.TileOnLeftHandSide.IsTileADouble) && PosicionDeReferencia.Y < Mesa1.TileOnLeftHandSide.Position.Y)
+
+                else if ((Table1.TileOnRightHandSide.LastOrientation == 2 || Table1.TileOnRightHandSide.LastOrientation == 4)
+                    && (!TileToUpdate.IsTileADouble) && (!Table1.TileOnRightHandSide.IsTileADouble) && ReferencePosition.X > Table1.TileOnRightHandSide.Position.X)
                 {
-                    if (Mesa1.LeftHandSide == FichaAActualizar.FirstTileValue)
+                    if (Table1.RightHandSide == TileToUpdate.FirstTileValue)
                     {
-                        FichaAActualizar.LastOrientation = 3;
+                        TileToUpdate.LastOrientation = 4;
 
-                        Mesa1.TileOnLeftHandSide = FichaAActualizar;
-                        Mesa1.LeftHandSide = FichaAActualizar.SecondTileValue;
+                        Table1.TileOnRightHandSide = TileToUpdate;
+                        Table1.RightHandSide = TileToUpdate.SecondTileValue;
                     }
 
-                    else if (Mesa1.LeftHandSide == FichaAActualizar.SecondTileValue)
+                    else if (Table1.RightHandSide == TileToUpdate.SecondTileValue)
                     {
-                        FichaAActualizar.LastOrientation = 1;
-                        FichaAActualizar.Position = new Vector2(FichaAActualizar.Position.X, FichaAActualizar.Position.Y - SquareSize);
-                        Mesa1.TileOnLeftHandSide = FichaAActualizar;
-                        Mesa1.LeftHandSide = FichaAActualizar.FirstTileValue;
+                        TileToUpdate.LastOrientation = 2;
+                        TileToUpdate.Position = new Vector2(TileToUpdate.Position.X + SquareSize, TileToUpdate.Position.Y);
+                        Table1.TileOnRightHandSide = TileToUpdate;
+                        Table1.RightHandSide = TileToUpdate.FirstTileValue;
 
                     }
-                    Mesa1.PositionOfLeftHandSideEdge = new Vector2(PosicionDeReferencia.X, PosicionDeReferencia.Y - 2 * SquareSize);
-                    Mesa1.PositionOfTileOnLeftHandSide = PosicionDeReferencia;
-                    AnadirFicha(Mesa1, FichaAActualizar, Jugador, PosicionARemover);
+
+                    Table1.PositionOfRightHandSideEdge = new Vector2(ReferencePosition.X + 2 * SquareSize, ReferencePosition.Y);
+
+                    if (ReferencePosition.X > (TablePosition.X + (27 * SquareSize)))
+                    {
+                        Table1.PositionOfRightHandSideEdge = new Vector2(ReferencePosition.X + SquareSize, ReferencePosition.Y + SquareSize);
+                    }
+
+                    Table1.PositionOfTileOnRightHandSide = ReferencePosition;
+                    AddDominoTile(Table1, TileToUpdate, Player, PositionToRemove);
                 }
-                if (Mesa1.PlayerInTurn == player1)
+
+                else if ((Table1.TileOnRightHandSide.LastOrientation == 2 || Table1.TileOnRightHandSide.LastOrientation == 4)
+                    && (!TileToUpdate.IsTileADouble) && (!Table1.TileOnRightHandSide.IsTileADouble) && ReferencePosition.Y > Table1.TileOnRightHandSide.Position.Y)
                 {
-                    CalcularTurno(Mesa1.PlayerInTurn);
+                    if (Table1.RightHandSide == TileToUpdate.FirstTileValue)
+                    {
+                        TileToUpdate.LastOrientation = 1;
+
+                        Table1.TileOnRightHandSide = TileToUpdate;
+                        Table1.RightHandSide = TileToUpdate.SecondTileValue;
+                    }
+
+                    else if (Table1.RightHandSide == TileToUpdate.SecondTileValue)
+                    {
+                        TileToUpdate.LastOrientation = 3;
+                        TileToUpdate.Position = new Vector2(TileToUpdate.Position.X, TileToUpdate.Position.Y + SquareSize);
+                        Table1.TileOnRightHandSide = TileToUpdate;
+                        Table1.RightHandSide = TileToUpdate.FirstTileValue;
+
+                    }
+                    Table1.PositionOfRightHandSideEdge = new Vector2(ReferencePosition.X, ReferencePosition.Y + 2 * SquareSize);
+                    Table1.PositionOfTileOnRightHandSide = ReferencePosition;
+                    AddDominoTile(Table1, TileToUpdate, Player, PositionToRemove);
+                }
+
+                else if ((Table1.TileOnLeftHandSide.LastOrientation == 2 || Table1.TileOnLeftHandSide.LastOrientation == 4)
+                    && (!TileToUpdate.IsTileADouble) && (!Table1.TileOnLeftHandSide.IsTileADouble) && ReferencePosition.Y < Table1.TileOnLeftHandSide.Position.Y)
+                {
+                    if (Table1.LeftHandSide == TileToUpdate.FirstTileValue)
+                    {
+                        TileToUpdate.LastOrientation = 3;
+
+                        Table1.TileOnLeftHandSide = TileToUpdate;
+                        Table1.LeftHandSide = TileToUpdate.SecondTileValue;
+                    }
+
+                    else if (Table1.LeftHandSide == TileToUpdate.SecondTileValue)
+                    {
+                        TileToUpdate.LastOrientation = 1;
+                        TileToUpdate.Position = new Vector2(TileToUpdate.Position.X, TileToUpdate.Position.Y - SquareSize);
+                        Table1.TileOnLeftHandSide = TileToUpdate;
+                        Table1.LeftHandSide = TileToUpdate.FirstTileValue;
+
+                    }
+                    Table1.PositionOfLeftHandSideEdge = new Vector2(ReferencePosition.X, ReferencePosition.Y - 2 * SquareSize);
+                    Table1.PositionOfTileOnLeftHandSide = ReferencePosition;
+                    AddDominoTile(Table1, TileToUpdate, Player, PositionToRemove);
+                }
+                if (Table1.PlayerInTurn == player1)
+                {
+                    CalculateTurn(Table1.PlayerInTurn);
                 }
 
             }
@@ -1982,45 +1952,46 @@ namespace Domino
         }
 
 
-        private void AnadirFicha(Table Mesa1, Tile FichaAActualizar, Player Jugador, int PosicionARemover)
+        private void AddDominoTile(Table Table1, Tile DominoTileToUpdate, Player Player, int PositionToRemove)
         {
-            //remove it from the list 
-            Jugador.PlayerTileList.RemoveAt(PosicionARemover);
-            //add it to the player's dominoes 
-            Mesa1.TilesPlayedOnTableList.Add(FichaAActualizar);
+            // remove it from the list 
+            Player.PlayerTileList.RemoveAt(PositionToRemove);
+            // add it to the player's dominoes 
+            Table1.TilesPlayedOnTableList.Add(DominoTileToUpdate);
            
-            LastDominoTilePlayed = FichaAActualizar;
-            PlayerWhoLastPlayed = Mesa1.PlayerInTurn;
+            LastDominoTilePlayed = DominoTileToUpdate;
+            PlayerWhoLastPlayed = Table1.PlayerInTurn;
+
             trackCue = soundBank.GetCue("DominoSetDown");
             trackCue.Play();
 
 
         }
 
-        private void CalcularTurno(Player JugadorEnTurno)
+        private void CalculateTurn(Player PlayerInTurn)
         {
-            if (JugadorEnTurno == player4)
+            if (PlayerInTurn == player4)
             {
                 Table1.PlayerInTurn = player1;
                 player4.MyTurn = false;
                 player1.MyTurn = true;
             }
 
-            else if (JugadorEnTurno == player1)
+            else if (PlayerInTurn == player1)
             {
                 Table1.PlayerInTurn = player2;
                 player1.MyTurn = false;
                 player2.MyTurn = true;
             }
 
-            else if (JugadorEnTurno == player2)
+            else if (PlayerInTurn == player2)
             {
                 Table1.PlayerInTurn = player3;
                 player2.MyTurn = false;
                 player3.MyTurn = true;
             }
 
-            else if (JugadorEnTurno == player3)
+            else if (PlayerInTurn == player3)
             {
                 Table1.PlayerInTurn = player4;
                 player3.MyTurn = false;
@@ -2030,154 +2001,154 @@ namespace Domino
 
         }
 
-        private void DecideSiJugadorPasa(Player jugador)
+        private void FindOutIfPlayerPassesHisTurn(Player player)
         {
-            bool tmpPaso = true;
-            foreach (Tile f in jugador.PlayerTileList)
+            bool tempPlayerPassedTurn = true;
+            foreach (Tile f in player.PlayerTileList)
             {   
                 if (f.FirstTileValue == Table1.RightHandSide
                     ||f.FirstTileValue == Table1.LeftHandSide
                     ||f.SecondTileValue == Table1.RightHandSide
                     ||f.SecondTileValue == Table1.LeftHandSide)
                 {
-                    tmpPaso = false;
+                    tempPlayerPassedTurn = false;
                 }
             }
-            IsPlayerPassing = tmpPaso;
+            IsPlayerPassing = tempPlayerPassedTurn;
         }
 
         /// <summary>
-        /// Calcula la puntuacion del equipo ganador
+        /// Calculate the score of the winning team
         /// </summary>
-        private void CalcularPuntuaciones()
+        private void ScoreTheGame()
         {
-            int puntosASumar = 0;
-                
-            // Si al jugador 1 o el jugador 3 se le acaban las fichas, este equipo gana y se le suma a puntosASumar el total de puntos de fichas de jugador 2 y del 4.
+            int pointsToAdd = 0;
+            
+            // If player 1 or 3 ran out of dominoes, they win, and we add pointsToAdd to the total of points from player 2 and 4
             if ((player1.PlayerTileList.Count == 0) || (player3.PlayerTileList.Count == 0))
             {
                 for (int i = 0; i < player1.PlayerTileList.Count; i++)
 			    {
-                    puntosASumar += player1.PlayerTileList[i].TotalPointsValue;
+                    pointsToAdd += player1.PlayerTileList[i].TotalPointsValue;
                 }
                 for (int i = 0; i < player2.PlayerTileList.Count; i++)
                 {
-                    puntosASumar += player2.PlayerTileList[i].TotalPointsValue;
+                    pointsToAdd += player2.PlayerTileList[i].TotalPointsValue;
                 }
                 for (int i = 0; i < player3.PlayerTileList.Count; i++)
                 {
-                    puntosASumar += player3.PlayerTileList[i].TotalPointsValue;
+                    pointsToAdd += player3.PlayerTileList[i].TotalPointsValue;
                 }
                 for (int i = 0; i < player4.PlayerTileList.Count; i++)
                 {
-                    puntosASumar += player4.PlayerTileList[i].TotalPointsValue;
+                    pointsToAdd += player4.PlayerTileList[i].TotalPointsValue;
                 }
 
-                TeamOneTotalPoints += puntosASumar;
+                TeamOneTotalPoints += pointsToAdd;
                     
             }
             else if ((player2.PlayerTileList.Count == 0 )|| (player4.PlayerTileList.Count == 0))
             {
                 for (int i = 0; i < player1.PlayerTileList.Count; i++)
                 {
-                    puntosASumar += player1.PlayerTileList[i].TotalPointsValue;
+                    pointsToAdd += player1.PlayerTileList[i].TotalPointsValue;
                 }
                 for (int i = 0; i < player2.PlayerTileList.Count; i++)
                 {
-                    puntosASumar += player2.PlayerTileList[i].TotalPointsValue;
+                    pointsToAdd += player2.PlayerTileList[i].TotalPointsValue;
                 }
                 for (int i = 0; i < player3.PlayerTileList.Count; i++)
                 {
-                    puntosASumar += player3.PlayerTileList[i].TotalPointsValue;
+                    pointsToAdd += player3.PlayerTileList[i].TotalPointsValue;
                 }
                 for (int i = 0; i < player4.PlayerTileList.Count; i++)
                 {
-                    puntosASumar += player4.PlayerTileList[i].TotalPointsValue;
+                    pointsToAdd += player4.PlayerTileList[i].TotalPointsValue;
                 }
 
-                TeamTwoTotalPoints += puntosASumar;
+                TeamTwoTotalPoints += pointsToAdd;
             }
 
 
-            else if (GameStuck )
+            else if (GameStuck)
             {
                 if (PlayerWhoLastPlayed.Name==player1.Name)
                 {
-                    int PuntosDeJugadorQueTranco=0, PuntosDeJugadorALaDerechaDelQueTranco=0;
+                    int PointsFromPlayerWhoMadeGameStuck=0, PointsOfPlayerToTheRightOfPlayerWhoMadeGameStuck=0;
                     for (int i = 0; i < player1.PlayerTileList.Count; i++)
                     {
-                        PuntosDeJugadorQueTranco += player1.PlayerTileList[i].TotalPointsValue;
+                        PointsFromPlayerWhoMadeGameStuck += player1.PlayerTileList[i].TotalPointsValue;
                     }
                     for (int i = 0; i < player2.PlayerTileList.Count; i++)
                     {
-                        PuntosDeJugadorALaDerechaDelQueTranco += player2.PlayerTileList[i].TotalPointsValue;
+                        PointsOfPlayerToTheRightOfPlayerWhoMadeGameStuck += player2.PlayerTileList[i].TotalPointsValue;
                     }
 
-                    // Si el total de las fichas del jugador que tranco es menor o igual al jugador de su derecha, gana la ronda
-                    if (PuntosDeJugadorQueTranco<PuntosDeJugadorALaDerechaDelQueTranco || PuntosDeJugadorQueTranco==PuntosDeJugadorALaDerechaDelQueTranco)
+                    // If the total of the dominoes from the player who made game stuck is less or equal to the player on his right, the player who made game stuck wins
+                    if (PointsFromPlayerWhoMadeGameStuck<PointsOfPlayerToTheRightOfPlayerWhoMadeGameStuck || PointsFromPlayerWhoMadeGameStuck==PointsOfPlayerToTheRightOfPlayerWhoMadeGameStuck)
                     {
                         for (int i = 0; i < player1.PlayerTileList.Count; i++)
                         {
-                            puntosASumar += player1.PlayerTileList[i].TotalPointsValue;
+                            pointsToAdd += player1.PlayerTileList[i].TotalPointsValue;
                         }
                         for (int i = 0; i < player2.PlayerTileList.Count; i++)
                         {
-                            puntosASumar += player2.PlayerTileList[i].TotalPointsValue;
+                            pointsToAdd += player2.PlayerTileList[i].TotalPointsValue;
                         }
                         for (int i = 0; i < player3.PlayerTileList.Count; i++)
                         {
-                            puntosASumar += player3.PlayerTileList[i].TotalPointsValue;
+                            pointsToAdd += player3.PlayerTileList[i].TotalPointsValue;
                         }
                         for (int i = 0; i < player4.PlayerTileList.Count; i++)
                         {
-                            puntosASumar += player4.PlayerTileList[i].TotalPointsValue;
+                            pointsToAdd += player4.PlayerTileList[i].TotalPointsValue;
                         }
-                        // Se le suman los puntos al equipo que trancó
-                        TeamOneTotalPoints += puntosASumar;
+                        // Add points to the team who made game stuck
+                        TeamOneTotalPoints += pointsToAdd;
 
                     }
-                    // Si el total de las fichas del jugador que tranco es mayor al jugador de su derecha, pierde la ronda
-                    else if (PuntosDeJugadorQueTranco>PuntosDeJugadorALaDerechaDelQueTranco)
+                    // If the total of the dominoes from the player who made game stuck is greater than the player on his right, the player to his right wins
+                    else if (PointsFromPlayerWhoMadeGameStuck>PointsOfPlayerToTheRightOfPlayerWhoMadeGameStuck)
                     {
                         for (int i = 0; i < player1.PlayerTileList.Count; i++)
                     {
-                        puntosASumar += player1.PlayerTileList[i].TotalPointsValue;
+                        pointsToAdd += player1.PlayerTileList[i].TotalPointsValue;
                     }
                     for (int i = 0; i < player2.PlayerTileList.Count; i++)
                     {
-                        puntosASumar += player2.PlayerTileList[i].TotalPointsValue;
+                        pointsToAdd += player2.PlayerTileList[i].TotalPointsValue;
                     }
                     for (int i = 0; i < player3.PlayerTileList.Count; i++)
                     {
-                        puntosASumar += player3.PlayerTileList[i].TotalPointsValue;
+                        pointsToAdd += player3.PlayerTileList[i].TotalPointsValue;
                     }
                     for (int i = 0; i < player4.PlayerTileList.Count; i++)
                     {
-                        puntosASumar += player4.PlayerTileList[i].TotalPointsValue;
+                        pointsToAdd += player4.PlayerTileList[i].TotalPointsValue;
                     }
-                    // Se le suman los puntos al equipo que no trancó
-                    TeamTwoTotalPoints += puntosASumar;
+                    // Add points to the team that did not get the game stuck
+                    TeamTwoTotalPoints += pointsToAdd;
                     }
                 }    
             }
         }
 
 
-        private void DibujarFichasJugadoresNoHumanosNivel1(Player JugadorAJugar)
+        private void DrawTilesForNonHumanPlayersLevel1(Player playerOnTurn)
         {
-            for (int i = 0; i < JugadorAJugar.PlayerTileList.Count; i++)
+            for (int i = 0; i < playerOnTurn.PlayerTileList.Count; i++)
             {
-                if ((Table1.LeftHandSide == JugadorAJugar.PlayerTileList[i].FirstTileValue) || (Table1.LeftHandSide == JugadorAJugar.PlayerTileList[i].SecondTileValue))
+                if ((Table1.LeftHandSide == playerOnTurn.PlayerTileList[i].FirstTileValue) || (Table1.LeftHandSide == playerOnTurn.PlayerTileList[i].SecondTileValue))
                 {
-                    JugadorAJugar.PlayerTileList[i].Position = Table1.PositionOfLeftHandSideEdge;
-                    RegularMesa(Table1, JugadorAJugar.PlayerTileList[i], JugadorAJugar, i);
+                    playerOnTurn.PlayerTileList[i].Position = Table1.PositionOfLeftHandSideEdge;
+                    TilePlacementLogic(Table1, playerOnTurn.PlayerTileList[i], playerOnTurn, i);
                     break;
                 }
 
-                else if ((Table1.RightHandSide == JugadorAJugar.PlayerTileList[i].FirstTileValue) || (Table1.RightHandSide == JugadorAJugar.PlayerTileList[i].SecondTileValue))
+                else if ((Table1.RightHandSide == playerOnTurn.PlayerTileList[i].FirstTileValue) || (Table1.RightHandSide == playerOnTurn.PlayerTileList[i].SecondTileValue))
                 {
-                    JugadorAJugar.PlayerTileList[i].Position = Table1.PositionOfRightHandSideEdge;
-                    RegularMesa(Table1, JugadorAJugar.PlayerTileList[i], JugadorAJugar, i);
+                    playerOnTurn.PlayerTileList[i].Position = Table1.PositionOfRightHandSideEdge;
+                    TilePlacementLogic(Table1, playerOnTurn.PlayerTileList[i], playerOnTurn, i);
                     break;
                 }
 
@@ -2186,51 +2157,50 @@ namespace Domino
         }
 
 
-        private void DibujarFichasJugadoresNoHumanosNivel2(Player JugadorAJugar)
+        private void DrawTilesForNonHumanPlayersLevel2(Player playerOnTurn)
         {
-            int tmpder = 0;
-            int tmpizq = 0;
-            bool ExtremoDerecho = true;
-            Tile FichaTemporal = new Tile();
-            FichaTemporal.TotalPointsValue = 0;
-            for (int i = 0; i < JugadorAJugar.PlayerTileList.Count; i++)
+            int tempRight = 0;
+            int tempLeft = 0;
+            bool RightHandSideEdge = true;
+            Tile tempTile = new Tile();
+            tempTile.TotalPointsValue = 0;
+            for (int i = 0; i < playerOnTurn.PlayerTileList.Count; i++)
             {
-
-                if ((Table1.LeftHandSide == JugadorAJugar.PlayerTileList[i].FirstTileValue) || (Table1.LeftHandSide == JugadorAJugar.PlayerTileList[i].SecondTileValue))
+                if ((Table1.LeftHandSide == playerOnTurn.PlayerTileList[i].FirstTileValue) || (Table1.LeftHandSide == playerOnTurn.PlayerTileList[i].SecondTileValue))
                 {
-                    if (JugadorAJugar.PlayerTileList[i].TotalPointsValue > FichaTemporal.TotalPointsValue)
+                    if (playerOnTurn.PlayerTileList[i].TotalPointsValue > tempTile.TotalPointsValue)
                     {
-                        tmpizq = i;
-                        FichaTemporal = JugadorAJugar.PlayerTileList[i];
-                        ExtremoDerecho = false;
+                        tempLeft = i;
+                        tempTile = playerOnTurn.PlayerTileList[i];
+                        RightHandSideEdge = false;
                     }
 
 
 
                 }
 
-                else if ((Table1.RightHandSide == JugadorAJugar.PlayerTileList[i].FirstTileValue) || (Table1.RightHandSide == JugadorAJugar.PlayerTileList[i].SecondTileValue))
+                else if ((Table1.RightHandSide == playerOnTurn.PlayerTileList[i].FirstTileValue) || (Table1.RightHandSide == playerOnTurn.PlayerTileList[i].SecondTileValue))
                 {
-                    if (JugadorAJugar.PlayerTileList[i].TotalPointsValue > FichaTemporal.TotalPointsValue)
+                    if (playerOnTurn.PlayerTileList[i].TotalPointsValue > tempTile.TotalPointsValue)
                     {
-                        tmpder = i;
-                        FichaTemporal = JugadorAJugar.PlayerTileList[i];
-                        ExtremoDerecho = true;
+                        tempRight = i;
+                        tempTile = playerOnTurn.PlayerTileList[i];
+                        RightHandSideEdge = true;
                     }
 
 
                 }
 
-                if ((FichaTemporal.TotalPointsValue != 0) && (ExtremoDerecho))
+                if ((tempTile.TotalPointsValue != 0) && (RightHandSideEdge))
                 {
-                    JugadorAJugar.PlayerTileList[tmpder].Position = Table1.PositionOfRightHandSideEdge;
-                    RegularMesa(Table1, JugadorAJugar.PlayerTileList[tmpder], JugadorAJugar, tmpder);
+                    playerOnTurn.PlayerTileList[tempRight].Position = Table1.PositionOfRightHandSideEdge;
+                    TilePlacementLogic(Table1, playerOnTurn.PlayerTileList[tempRight], playerOnTurn, tempRight);
                 }
 
-                else if ((FichaTemporal.TotalPointsValue != 0) && (!ExtremoDerecho))
+                else if ((tempTile.TotalPointsValue != 0) && (!RightHandSideEdge))
                 {
-                    JugadorAJugar.PlayerTileList[tmpizq].Position = Table1.PositionOfLeftHandSideEdge;
-                    RegularMesa(Table1, JugadorAJugar.PlayerTileList[tmpizq], JugadorAJugar, tmpizq);
+                    playerOnTurn.PlayerTileList[tempLeft].Position = Table1.PositionOfLeftHandSideEdge;
+                    TilePlacementLogic(Table1, playerOnTurn.PlayerTileList[tempLeft], playerOnTurn, tempLeft);
                 }
 
 
@@ -2239,97 +2209,92 @@ namespace Domino
 
 
 
-        private void DibujarFichasJugadoresNoHumanosNivel3(Player JugadorAJugar)
+        private void DrawTilesForNonHumanPlayersLevel3(Player playerOnTurn)
         {
 
-            List<int> FichasConLasQuePuedeJugar = new List<int>();
-            int dobles = 0;
-            for (int i = 0; i < JugadorAJugar.PlayerTileList.Count; i++)
+            List<int> TilesThatThePlayerIsAbleToPlayWith = new List<int>();
+            int Doubles = 0;
+            for (int i = 0; i < playerOnTurn.PlayerTileList.Count; i++)
             {
 
-                if ((Table1.LeftHandSide == JugadorAJugar.PlayerTileList[i].FirstTileValue) || (Table1.LeftHandSide == JugadorAJugar.PlayerTileList[i].SecondTileValue)
-                    || (Table1.RightHandSide == JugadorAJugar.PlayerTileList[i].FirstTileValue) || (Table1.RightHandSide == JugadorAJugar.PlayerTileList[i].SecondTileValue))
+                if ((Table1.LeftHandSide == playerOnTurn.PlayerTileList[i].FirstTileValue) || (Table1.LeftHandSide == playerOnTurn.PlayerTileList[i].SecondTileValue)
+                    || (Table1.RightHandSide == playerOnTurn.PlayerTileList[i].FirstTileValue) || (Table1.RightHandSide == playerOnTurn.PlayerTileList[i].SecondTileValue))
                 {
-                    FichasConLasQuePuedeJugar.Add(i);
+                    TilesThatThePlayerIsAbleToPlayWith.Add(i);
 
-                    if (JugadorAJugar.PlayerTileList[i].IsTileADouble)
+                    if (playerOnTurn.PlayerTileList[i].IsTileADouble)
                     {
-                        dobles++;
-                        int temporal = 0;
+                        Doubles++;
+                        int temp = 0;
                         foreach (Tile g in Table1.TilesPlayedOnTableList)
                         {
-                            if (g.FirstTileValue == JugadorAJugar.PlayerTileList[i].FirstTileValue || g.SecondTileValue == JugadorAJugar.PlayerTileList[i].FirstTileValue)
+                            if (g.FirstTileValue == playerOnTurn.PlayerTileList[i].FirstTileValue || g.SecondTileValue == playerOnTurn.PlayerTileList[i].FirstTileValue)
                             {
-                                temporal++;
+                                temp++;
                             }
 
                         }
-                        if (temporal >= 3 && temporal < 5)
+                        if (temp >= 3 && temp < 5)
                         {
-                            JugadorAJugar.PlayerTileList[i].Priority = 2;
+                            playerOnTurn.PlayerTileList[i].Priority = 2;
                         }
-                        else if (temporal >= 5)
+                        else if (temp >= 5)
                         {
-                            JugadorAJugar.PlayerTileList[i].Priority = 3;
+                            playerOnTurn.PlayerTileList[i].Priority = 3;
                         }
 
                     }
                 }
 
-                if (FichasConLasQuePuedeJugar.Count == 1)
+                if (TilesThatThePlayerIsAbleToPlayWith.Count == 1)
                 {
-                    if ((Table1.LeftHandSide == JugadorAJugar.PlayerTileList[FichasConLasQuePuedeJugar[0]].FirstTileValue) || (Table1.LeftHandSide == JugadorAJugar.PlayerTileList[FichasConLasQuePuedeJugar[0]].SecondTileValue))
+                    if ((Table1.LeftHandSide == playerOnTurn.PlayerTileList[TilesThatThePlayerIsAbleToPlayWith[0]].FirstTileValue) || (Table1.LeftHandSide == playerOnTurn.PlayerTileList[TilesThatThePlayerIsAbleToPlayWith[0]].SecondTileValue))
                     {
-                        JugadorAJugar.PlayerTileList[FichasConLasQuePuedeJugar[0]].Position = Table1.PositionOfLeftHandSideEdge;
-                        RegularMesa(Table1, JugadorAJugar.PlayerTileList[FichasConLasQuePuedeJugar[0]], JugadorAJugar, FichasConLasQuePuedeJugar[0]);
+                        playerOnTurn.PlayerTileList[TilesThatThePlayerIsAbleToPlayWith[0]].Position = Table1.PositionOfLeftHandSideEdge;
+                        TilePlacementLogic(Table1, playerOnTurn.PlayerTileList[TilesThatThePlayerIsAbleToPlayWith[0]], playerOnTurn, TilesThatThePlayerIsAbleToPlayWith[0]);
                     }
-                    else if ((Table1.RightHandSide == JugadorAJugar.PlayerTileList[FichasConLasQuePuedeJugar[0]].FirstTileValue) || (Table1.RightHandSide == JugadorAJugar.PlayerTileList[FichasConLasQuePuedeJugar[0]].SecondTileValue))
+                    else if ((Table1.RightHandSide == playerOnTurn.PlayerTileList[TilesThatThePlayerIsAbleToPlayWith[0]].FirstTileValue) || (Table1.RightHandSide == playerOnTurn.PlayerTileList[TilesThatThePlayerIsAbleToPlayWith[0]].SecondTileValue))
                     {
-                        JugadorAJugar.PlayerTileList[FichasConLasQuePuedeJugar[0]].Position = Table1.PositionOfRightHandSideEdge;
-                        RegularMesa(Table1, JugadorAJugar.PlayerTileList[FichasConLasQuePuedeJugar[0]], JugadorAJugar, FichasConLasQuePuedeJugar[0]);
+                        playerOnTurn.PlayerTileList[TilesThatThePlayerIsAbleToPlayWith[0]].Position = Table1.PositionOfRightHandSideEdge;
+                        TilePlacementLogic(Table1, playerOnTurn.PlayerTileList[TilesThatThePlayerIsAbleToPlayWith[0]], playerOnTurn, TilesThatThePlayerIsAbleToPlayWith[0]);
                     }
 
                 }
-                else if (dobles > 0)
+                else if (Doubles > 0)
                 {
                     int itmp = new int();
-                    for (int h = 0; h < JugadorAJugar.PlayerTileList.Count; h++)
+                    for (int h = 0; h < playerOnTurn.PlayerTileList.Count; h++)
                     {
-                        if (JugadorAJugar.PlayerTileList[h].Priority > JugadorAJugar.PlayerTileList[itmp].Priority)
+                        if (playerOnTurn.PlayerTileList[h].Priority > playerOnTurn.PlayerTileList[itmp].Priority)
                         {
                             itmp = h;
                         }
 
                     }
-                    if ((Table1.LeftHandSide == JugadorAJugar.PlayerTileList[itmp].FirstTileValue) || (Table1.LeftHandSide == JugadorAJugar.PlayerTileList[itmp].SecondTileValue))
+                    if ((Table1.LeftHandSide == playerOnTurn.PlayerTileList[itmp].FirstTileValue) || (Table1.LeftHandSide == playerOnTurn.PlayerTileList[itmp].SecondTileValue))
                     {
-                        JugadorAJugar.PlayerTileList[itmp].Position = Table1.PositionOfLeftHandSideEdge;
-                        RegularMesa(Table1, JugadorAJugar.PlayerTileList[itmp], JugadorAJugar, itmp);
+                        playerOnTurn.PlayerTileList[itmp].Position = Table1.PositionOfLeftHandSideEdge;
+                        TilePlacementLogic(Table1, playerOnTurn.PlayerTileList[itmp], playerOnTurn, itmp);
 
                     }
-                    else if ((Table1.RightHandSide == JugadorAJugar.PlayerTileList[itmp].FirstTileValue) || (Table1.RightHandSide == JugadorAJugar.PlayerTileList[itmp].SecondTileValue))
+                    else if ((Table1.RightHandSide == playerOnTurn.PlayerTileList[itmp].FirstTileValue) || (Table1.RightHandSide == playerOnTurn.PlayerTileList[itmp].SecondTileValue))
                     {
-                        JugadorAJugar.PlayerTileList[itmp].Position = Table1.PositionOfRightHandSideEdge;
-                        RegularMesa(Table1, JugadorAJugar.PlayerTileList[itmp], JugadorAJugar, itmp);
+                        playerOnTurn.PlayerTileList[itmp].Position = Table1.PositionOfRightHandSideEdge;
+                        TilePlacementLogic(Table1, playerOnTurn.PlayerTileList[itmp], playerOnTurn, itmp);
 
                     }
-
-
                 }
                 else
                 {
-                    DibujarFichasJugadoresNoHumanosNivel1(JugadorAJugar);
+                    DrawTilesForNonHumanPlayersLevel1(playerOnTurn);
                 }
-
-
             }
         }
 
 
-        private void DibujarFichasJugadoresNoHumanosNivel4(Player JugadorAJugar)
+        private void DrawTilesForNonHumanPlayersLevel4(Player PlayerInTurn)
         {
-
-            if (JugadorAJugar == player1)
+            if (PlayerInTurn == player1)
             {
                 if ((player2.PositionOfTileLastPlayed != player3.PositionOfTileLastPlayed) && (player2.PositionOfTileLastPlayed != player4.PositionOfTileLastPlayed))
                 {
@@ -2337,10 +2302,10 @@ namespace Domino
                     {
                         for (int i = 0; i < player1.PlayerTileList.Count; i++)
                         {
-                            if ((Table1.LeftHandSide == JugadorAJugar.PlayerTileList[i].FirstTileValue) || (Table1.LeftHandSide == JugadorAJugar.PlayerTileList[i].SecondTileValue))
+                            if ((Table1.LeftHandSide == PlayerInTurn.PlayerTileList[i].FirstTileValue) || (Table1.LeftHandSide == PlayerInTurn.PlayerTileList[i].SecondTileValue))
                             {
-                                JugadorAJugar.PlayerTileList[i].Position = Table1.PositionOfLeftHandSideEdge;
-                                RegularMesa(Table1, JugadorAJugar.PlayerTileList[i], JugadorAJugar, i);
+                                PlayerInTurn.PlayerTileList[i].Position = Table1.PositionOfLeftHandSideEdge;
+                                TilePlacementLogic(Table1, PlayerInTurn.PlayerTileList[i], PlayerInTurn, i);
                             }
                         }
 
@@ -2349,10 +2314,10 @@ namespace Domino
                     {
                         for (int i = 0; i < player1.PlayerTileList.Count; i++)
                         {
-                            if ((Table1.RightHandSide == JugadorAJugar.PlayerTileList[i].FirstTileValue) || (Table1.RightHandSide == JugadorAJugar.PlayerTileList[i].SecondTileValue))
+                            if ((Table1.RightHandSide == PlayerInTurn.PlayerTileList[i].FirstTileValue) || (Table1.RightHandSide == PlayerInTurn.PlayerTileList[i].SecondTileValue))
                             {
-                                JugadorAJugar.PlayerTileList[i].Position = Table1.PositionOfRightHandSideEdge;
-                                RegularMesa(Table1, JugadorAJugar.PlayerTileList[i], JugadorAJugar, i);
+                                PlayerInTurn.PlayerTileList[i].Position = Table1.PositionOfRightHandSideEdge;
+                                TilePlacementLogic(Table1, PlayerInTurn.PlayerTileList[i], PlayerInTurn, i);
                             }
                         }
 
@@ -2360,14 +2325,14 @@ namespace Domino
 
                     else
                     {
-                        DibujarFichasJugadoresNoHumanosNivel1(JugadorAJugar);
+                        DrawTilesForNonHumanPlayersLevel1(PlayerInTurn);
                     }
 
                 }
 
             }
 
-            else if (JugadorAJugar == player2)
+            else if (PlayerInTurn == player2)
             {
                 if ((player3.PositionOfTileLastPlayed != player4.PositionOfTileLastPlayed) && (player3.PositionOfTileLastPlayed != player1.PositionOfTileLastPlayed))
                 {
@@ -2375,10 +2340,10 @@ namespace Domino
                     {
                         for (int i = 0; i < player2.PlayerTileList.Count; i++)
                         {
-                            if ((Table1.LeftHandSide == JugadorAJugar.PlayerTileList[i].FirstTileValue) || (Table1.LeftHandSide == JugadorAJugar.PlayerTileList[i].SecondTileValue))
+                            if ((Table1.LeftHandSide == PlayerInTurn.PlayerTileList[i].FirstTileValue) || (Table1.LeftHandSide == PlayerInTurn.PlayerTileList[i].SecondTileValue))
                             {
-                                JugadorAJugar.PlayerTileList[i].Position = Table1.PositionOfLeftHandSideEdge;
-                                RegularMesa(Table1, JugadorAJugar.PlayerTileList[i], JugadorAJugar, i);
+                                PlayerInTurn.PlayerTileList[i].Position = Table1.PositionOfLeftHandSideEdge;
+                                TilePlacementLogic(Table1, PlayerInTurn.PlayerTileList[i], PlayerInTurn, i);
                             }
                         }
 
@@ -2387,10 +2352,10 @@ namespace Domino
                     {
                         for (int i = 0; i < player2.PlayerTileList.Count; i++)
                         {
-                            if ((Table1.RightHandSide == JugadorAJugar.PlayerTileList[i].FirstTileValue) || (Table1.RightHandSide == JugadorAJugar.PlayerTileList[i].SecondTileValue))
+                            if ((Table1.RightHandSide == PlayerInTurn.PlayerTileList[i].FirstTileValue) || (Table1.RightHandSide == PlayerInTurn.PlayerTileList[i].SecondTileValue))
                             {
-                                JugadorAJugar.PlayerTileList[i].Position = Table1.PositionOfRightHandSideEdge;
-                                RegularMesa(Table1, JugadorAJugar.PlayerTileList[i], JugadorAJugar, i);
+                                PlayerInTurn.PlayerTileList[i].Position = Table1.PositionOfRightHandSideEdge;
+                                TilePlacementLogic(Table1, PlayerInTurn.PlayerTileList[i], PlayerInTurn, i);
                             }
                         }
 
@@ -2398,14 +2363,14 @@ namespace Domino
 
                     else
                     {
-                        DibujarFichasJugadoresNoHumanosNivel1(JugadorAJugar);
+                        DrawTilesForNonHumanPlayersLevel1(PlayerInTurn);
                     }
 
                 }
 
             }
 
-            else if (JugadorAJugar == player3)
+            else if (PlayerInTurn == player3)
             {
                 if ((player4.PositionOfTileLastPlayed != player1.PositionOfTileLastPlayed) && (player4.PositionOfTileLastPlayed != player2.PositionOfTileLastPlayed))
                 {
@@ -2413,10 +2378,10 @@ namespace Domino
                     {
                         for (int i = 0; i < player3.PlayerTileList.Count; i++)
                         {
-                            if ((Table1.LeftHandSide == JugadorAJugar.PlayerTileList[i].FirstTileValue) || (Table1.LeftHandSide == JugadorAJugar.PlayerTileList[i].SecondTileValue))
+                            if ((Table1.LeftHandSide == PlayerInTurn.PlayerTileList[i].FirstTileValue) || (Table1.LeftHandSide == PlayerInTurn.PlayerTileList[i].SecondTileValue))
                             {
-                                JugadorAJugar.PlayerTileList[i].Position = Table1.PositionOfLeftHandSideEdge;
-                                RegularMesa(Table1, JugadorAJugar.PlayerTileList[i], JugadorAJugar, i);
+                                PlayerInTurn.PlayerTileList[i].Position = Table1.PositionOfLeftHandSideEdge;
+                                TilePlacementLogic(Table1, PlayerInTurn.PlayerTileList[i], PlayerInTurn, i);
                             }
                         }
 
@@ -2425,10 +2390,10 @@ namespace Domino
                     {
                         for (int i = 0; i < player3.PlayerTileList.Count; i++)
                         {
-                            if ((Table1.RightHandSide == JugadorAJugar.PlayerTileList[i].FirstTileValue) || (Table1.RightHandSide == JugadorAJugar.PlayerTileList[i].SecondTileValue))
+                            if ((Table1.RightHandSide == PlayerInTurn.PlayerTileList[i].FirstTileValue) || (Table1.RightHandSide == PlayerInTurn.PlayerTileList[i].SecondTileValue))
                             {
-                                JugadorAJugar.PlayerTileList[i].Position = Table1.PositionOfRightHandSideEdge;
-                                RegularMesa(Table1, JugadorAJugar.PlayerTileList[i], JugadorAJugar, i);
+                                PlayerInTurn.PlayerTileList[i].Position = Table1.PositionOfRightHandSideEdge;
+                                TilePlacementLogic(Table1, PlayerInTurn.PlayerTileList[i], PlayerInTurn, i);
                             }
                         }
 
@@ -2436,13 +2401,13 @@ namespace Domino
 
                     else
                     {
-                        DibujarFichasJugadoresNoHumanosNivel1(JugadorAJugar);
+                        DrawTilesForNonHumanPlayersLevel1(PlayerInTurn);
                     }
 
                 }
             }
 
-            else if (JugadorAJugar == player4)
+            else if (PlayerInTurn == player4)
             {
                 if ((player1.PositionOfTileLastPlayed != player2.PositionOfTileLastPlayed) && (player1.PositionOfTileLastPlayed != player3.PositionOfTileLastPlayed))
                 {
@@ -2450,10 +2415,10 @@ namespace Domino
                     {
                         for (int i = 0; i < player4.PlayerTileList.Count; i++)
                         {
-                            if ((Table1.LeftHandSide == JugadorAJugar.PlayerTileList[i].FirstTileValue) || (Table1.LeftHandSide == JugadorAJugar.PlayerTileList[i].SecondTileValue))
+                            if ((Table1.LeftHandSide == PlayerInTurn.PlayerTileList[i].FirstTileValue) || (Table1.LeftHandSide == PlayerInTurn.PlayerTileList[i].SecondTileValue))
                             {
-                                JugadorAJugar.PlayerTileList[i].Position = Table1.PositionOfLeftHandSideEdge;
-                                RegularMesa(Table1, JugadorAJugar.PlayerTileList[i], JugadorAJugar, i);
+                                PlayerInTurn.PlayerTileList[i].Position = Table1.PositionOfLeftHandSideEdge;
+                                TilePlacementLogic(Table1, PlayerInTurn.PlayerTileList[i], PlayerInTurn, i);
                             }
                         }
 
@@ -2462,10 +2427,10 @@ namespace Domino
                     {
                         for (int i = 0; i < player4.PlayerTileList.Count; i++)
                         {
-                            if ((Table1.RightHandSide == JugadorAJugar.PlayerTileList[i].FirstTileValue) || (Table1.RightHandSide == JugadorAJugar.PlayerTileList[i].SecondTileValue))
+                            if ((Table1.RightHandSide == PlayerInTurn.PlayerTileList[i].FirstTileValue) || (Table1.RightHandSide == PlayerInTurn.PlayerTileList[i].SecondTileValue))
                             {
-                                JugadorAJugar.PlayerTileList[i].Position = Table1.PositionOfRightHandSideEdge;
-                                RegularMesa(Table1, JugadorAJugar.PlayerTileList[i], JugadorAJugar, i);
+                                PlayerInTurn.PlayerTileList[i].Position = Table1.PositionOfRightHandSideEdge;
+                                TilePlacementLogic(Table1, PlayerInTurn.PlayerTileList[i], PlayerInTurn, i);
                             }
                         }
 
@@ -2473,31 +2438,25 @@ namespace Domino
 
                     else
                     {
-                        DibujarFichasJugadoresNoHumanosNivel1(JugadorAJugar);
+                        DrawTilesForNonHumanPlayersLevel1(PlayerInTurn);
                     }
 
                 }
             }
 
-
-
-
-
-
-
-            for (int i = 0; i < JugadorAJugar.PlayerTileList.Count; i++)
+            for (int i = 0; i < PlayerInTurn.PlayerTileList.Count; i++)
             {
-                if ((Table1.LeftHandSide == JugadorAJugar.PlayerTileList[i].FirstTileValue) || (Table1.LeftHandSide == JugadorAJugar.PlayerTileList[i].SecondTileValue))
+                if ((Table1.LeftHandSide == PlayerInTurn.PlayerTileList[i].FirstTileValue) || (Table1.LeftHandSide == PlayerInTurn.PlayerTileList[i].SecondTileValue))
                 {
-                    JugadorAJugar.PlayerTileList[i].Position = Table1.PositionOfLeftHandSideEdge;
-                    RegularMesa(Table1, JugadorAJugar.PlayerTileList[i], JugadorAJugar, i);
+                    PlayerInTurn.PlayerTileList[i].Position = Table1.PositionOfLeftHandSideEdge;
+                    TilePlacementLogic(Table1, PlayerInTurn.PlayerTileList[i], PlayerInTurn, i);
                     break;
                 }
 
-                else if ((Table1.RightHandSide == JugadorAJugar.PlayerTileList[i].FirstTileValue) || (Table1.RightHandSide == JugadorAJugar.PlayerTileList[i].SecondTileValue))
+                else if ((Table1.RightHandSide == PlayerInTurn.PlayerTileList[i].FirstTileValue) || (Table1.RightHandSide == PlayerInTurn.PlayerTileList[i].SecondTileValue))
                 {
-                    JugadorAJugar.PlayerTileList[i].Position = Table1.PositionOfRightHandSideEdge;
-                    RegularMesa(Table1, JugadorAJugar.PlayerTileList[i], JugadorAJugar, i);
+                    PlayerInTurn.PlayerTileList[i].Position = Table1.PositionOfRightHandSideEdge;
+                    TilePlacementLogic(Table1, PlayerInTurn.PlayerTileList[i], PlayerInTurn, i);
                     break;
                 }
 
@@ -2505,24 +2464,24 @@ namespace Domino
             }
         }
 
-        private void VerificarCondicionDeFinDeRonda()
+        private void VerifyEndOfRoundCondition()
         {
 
-            // Determina condicion de fin de ronda
+            // Determine end of round condition
 
             foreach (Player j in PlayersList)
             {
-                // Si un jugador no tiene mas fichas, o se recorren todos los jugadores mas de 5 veces (se tranca), es fin de ronda
+                // If a player ran out of tiles, or the turns repeat more than 5 times (it's locked), then it's the end of the round
                 if ((j.PlayerTileList.Count == 0) && (!StartOfRound) && (!StartOfNewGame))
                 {
                     EndOfRound = true;
-                    CalcularPuntuaciones();
+                    ScoreTheGame();
                     PlayerWhoWonLastRound = j;
                     CurrentGameState = GameState.EndOfRound;
                     break;
                 }
             }
-            bool tempJuegoTrancado = true;
+            bool tempGameStuck = true;
             foreach (Player j in PlayersList)
             {
                 foreach (Tile f in j.PlayerTileList)
@@ -2530,22 +2489,22 @@ namespace Domino
                     if (Table1.LeftHandSide == f.FirstTileValue || Table1.RightHandSide == f.FirstTileValue
                         || Table1.LeftHandSide == f.SecondTileValue || Table1.RightHandSide == f.SecondTileValue)
                     {
-                        tempJuegoTrancado = false;
+                        tempGameStuck = false;
                         break;
                     }
                 }
-                if (!tempJuegoTrancado)
+                if (!tempGameStuck)
                 {
                     break;
                 }
 
             }
-            GameStuck = tempJuegoTrancado;
+            GameStuck = tempGameStuck;
 
             if (GameStuck)
             {
                 EndOfRound = true;
-                CalcularPuntuaciones();
+                ScoreTheGame();
                 CurrentGameState = GameState.EndOfRound;
             }
         }
@@ -2636,7 +2595,7 @@ namespace Domino
                 SaveGame SaveData = (SaveGame)serializer.Deserialize(stream);
                 stream.Close();
                 container.Dispose();
-                //Update the game based on the save game file
+                // Update the game based on the save game file
 
                 CurrentDifficultyLevel = SaveData.DifficultyLevelToSave;
                 CurrentTileColor = SaveData.TileColorToSave;
