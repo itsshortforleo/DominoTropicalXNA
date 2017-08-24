@@ -257,68 +257,68 @@ namespace Domino
 
             // Sobre el Menu Principal
             BotonDeJugar = new MenuButton(Content.Load<Texture2D>(@"Imagenes\BotonJugar"), graphics.GraphicsDevice);
-            BotonDeJugar.EstablecerPosicion(new Vector2(871, 350));
+            BotonDeJugar.SetPosition(new Vector2(871, 350));
 
             BotonSeguirJugando = new MenuButton(Content.Load<Texture2D>(@"Imagenes\BotonSeguirJugando"), graphics.GraphicsDevice);
-            BotonSeguirJugando.EstablecerPosicion(new Vector2(871, 350));
+            BotonSeguirJugando.SetPosition(new Vector2(871, 350));
 
             BotonDeOpciones = new MenuButton(Content.Load<Texture2D>(@"Imagenes\BotonOpciones"), graphics.GraphicsDevice);
-            BotonDeOpciones.EstablecerPosicion(new Vector2(871, 420));
+            BotonDeOpciones.SetPosition(new Vector2(871, 420));
 
             BotonDeCreditos = new MenuButton(Content.Load<Texture2D>(@"Imagenes\BotonSobre"), graphics.GraphicsDevice);
-            BotonDeCreditos.EstablecerPosicion(new Vector2(871, 490));
+            BotonDeCreditos.SetPosition(new Vector2(871, 490));
 
             BotonDeSalida = new MenuButton(Content.Load<Texture2D>(@"Imagenes\BotonSalir"), graphics.GraphicsDevice);
-            BotonDeSalida.EstablecerPosicion(new Vector2(871, 560));
+            BotonDeSalida.SetPosition(new Vector2(871, 560));
 
             BotonDobleSeis = new MenuButton(Content.Load<Texture2D>(@"Imagenes\MainMenuDobleSeis"), graphics.GraphicsDevice, new Vector2(0, 0));
 
             BotonNivel = new MenuButton(Content.Load<Texture2D>(@"Imagenes\botonNivel"), graphics.GraphicsDevice);
-            BotonNivel.EstablecerPosicion(new Vector2(842, 330));
+            BotonNivel.SetPosition(new Vector2(842, 330));
 
             BotonColorDeDominoes = new MenuButton(Content.Load<Texture2D>(@"Imagenes\botonColorDeDominos"), graphics.GraphicsDevice);
-            BotonColorDeDominoes.EstablecerPosicion(new Vector2(842, 640));
+            BotonColorDeDominoes.SetPosition(new Vector2(842, 640));
 
 
             Blanco = new MenuButton(Content.Load<Texture2D>(@"Imagenes\botonBlanco"), graphics.GraphicsDevice);
-            Blanco.EstablecerPosicion(new Vector2(842, 370));
+            Blanco.SetPosition(new Vector2(842, 370));
 
 
             Amarillo = new MenuButton(Content.Load<Texture2D>(@"Imagenes\botonAmarillo"), graphics.GraphicsDevice);
-            Amarillo.EstablecerPosicion(new Vector2(842, 470));
+            Amarillo.SetPosition(new Vector2(842, 470));
 
 
             Azul = new MenuButton(Content.Load<Texture2D>(@"Imagenes\botonAzul"), graphics.GraphicsDevice);
-            Azul.EstablecerPosicion(new Vector2(842, 520));
+            Azul.SetPosition(new Vector2(842, 520));
 
 
             Rojo = new MenuButton(Content.Load<Texture2D>(@"Imagenes\botonRojo"), graphics.GraphicsDevice);
-            Rojo.EstablecerPosicion(new Vector2(842, 570));
+            Rojo.SetPosition(new Vector2(842, 570));
 
 
             Verde = new MenuButton(Content.Load<Texture2D>(@"Imagenes\botonVerde"), graphics.GraphicsDevice);
-            Verde.EstablecerPosicion(new Vector2(842, 420));
+            Verde.SetPosition(new Vector2(842, 420));
 
 
             MuyFacil = new MenuButton(Content.Load<Texture2D>(@"Imagenes\botonMuyFacil"), graphics.GraphicsDevice);
-            MuyFacil.EstablecerPosicion(new Vector2(842, 410));
+            MuyFacil.SetPosition(new Vector2(842, 410));
 
 
             Facil = new MenuButton(Content.Load<Texture2D>(@"Imagenes\botonFacil"), graphics.GraphicsDevice);
-            Facil.EstablecerPosicion(new Vector2(842, 460));
+            Facil.SetPosition(new Vector2(842, 460));
 
 
             Normal = new MenuButton(Content.Load<Texture2D>(@"Imagenes\botonNormal"), graphics.GraphicsDevice);
-            Normal.EstablecerPosicion(new Vector2(842, 510));
+            Normal.SetPosition(new Vector2(842, 510));
 
             Experto = new MenuButton(Content.Load<Texture2D>(@"Imagenes\botonExperto"), graphics.GraphicsDevice);
-            Experto.EstablecerPosicion(new Vector2(842, 560));
+            Experto.SetPosition(new Vector2(842, 560));
 
             BotonDePasar = new MenuButton(Content.Load<Texture2D>(@"Imagenes\botonDePasar"), graphics.GraphicsDevice, 1);
-            BotonDePasar.EstablecerPosicion(new Vector2(700, 710));
+            BotonDePasar.SetPosition(new Vector2(700, 710));
 
             BotonSiguienteRonda = new MenuButton(Content.Load<Texture2D>(@"Imagenes\botonSiguienteRonda"), graphics.GraphicsDevice, 1);
-            BotonSiguienteRonda.EstablecerPosicion(new Vector2(700, 400));
+            BotonSiguienteRonda.SetPosition(new Vector2(700, 400));
 
 
 
@@ -485,25 +485,25 @@ namespace Domino
             {
                 case GameState.MenuPrincipal:
 
-                    if (BotonDeJugar.seHizoClic == true)
+                    if (BotonDeJugar.isClicked == true)
                         EstadoActualDeJuego = GameState.Jugando;
 
                     BotonDeJugar.Update(EstadoActualDeMouse);
 
-                    if (BotonSeguirJugando.seHizoClic == true)
+                    if (BotonSeguirJugando.isClicked == true)
                         EstadoActualDeJuego = GameState.Jugando;
 
-                    if (BotonDeOpciones.seHizoClic == true)
+                    if (BotonDeOpciones.isClicked == true)
                         EstadoActualDeJuego = GameState.Opciones;
 
                     BotonDeOpciones.Update(EstadoActualDeMouse);
 
-                    if (BotonDeCreditos.seHizoClic == true)
+                    if (BotonDeCreditos.isClicked == true)
                         EstadoActualDeJuego = GameState.SobreDomino;
 
                     BotonDeCreditos.Update(EstadoActualDeMouse);
 
-                    if (BotonDeSalida.seHizoClic == true)
+                    if (BotonDeSalida.isClicked == true)
                     {
                         InitiateSave();
                         this.Exit();
@@ -755,7 +755,7 @@ namespace Domino
                         EstadoActualDeJuego = GameState.MenuPrincipal;
                     }
 
-                    if (BotonDePasar.seHizoClic == true)
+                    if (BotonDePasar.isClicked == true)
                     {
                         CalcularTurno(Mesa1.JugadorEnTurno);
                     }
@@ -778,7 +778,7 @@ namespace Domino
                         Perdio = true;
                     }
                     
-                    if (BotonSiguienteRonda.seHizoClic == true)
+                    if (BotonSiguienteRonda.isClicked == true)
                     {
                         InicioMano = true;                   
                         
@@ -802,12 +802,12 @@ namespace Domino
                     if (Keyboard.GetState().IsKeyDown(Keys.Escape))
                         EstadoActualDeJuego = GameState.MenuPrincipal;
 
-                    if (BotonNivel.seHizoClic == true)
+                    if (BotonNivel.isClicked == true)
                     {
                         EstadoActualDeJuego = GameState.Nivel;                        
                     }
 
-                    if (BotonColorDeDominoes.seHizoClic == true)
+                    if (BotonColorDeDominoes.isClicked == true)
                     {
                         EstadoActualDeJuego = GameState.ColorDeFicha;
                     }
@@ -835,22 +835,22 @@ namespace Domino
                     if (Keyboard.GetState().IsKeyDown(Keys.Escape))
                         EstadoActualDeJuego = GameState.Opciones;
 
-                    if (MuyFacil.seHizoClic == true)
+                    if (MuyFacil.isClicked == true)
                     {
                         NivelActual = DifficultyLevel.VeryEasy;
                     }
 
-                    if (Facil.seHizoClic == true)
+                    if (Facil.isClicked == true)
                     {
                         NivelActual = DifficultyLevel.Easy;
                     }
 
-                    if (Normal.seHizoClic == true)
+                    if (Normal.isClicked == true)
                     {
                         NivelActual = DifficultyLevel.Normal;
                     }
 
-                    if (Experto.seHizoClic == true)
+                    if (Experto.isClicked == true)
                     {
                         NivelActual = DifficultyLevel.Expert;
                     }
@@ -870,31 +870,31 @@ namespace Domino
                     if (Keyboard.GetState().IsKeyDown(Keys.Escape))
                         EstadoActualDeJuego = GameState.Opciones;
 
-                    if (Blanco.seHizoClic == true)
+                    if (Blanco.isClicked == true)
                     {
                         ColorDeFichaActual = TileColor.White;
                         ColorADibujar = Color.White;
                     }
 
-                    if (Amarillo.seHizoClic == true)
+                    if (Amarillo.isClicked == true)
                     {
                         ColorDeFichaActual = TileColor.Yellow;
                         ColorADibujar = Color.Yellow;
                     }
 
-                    if (Azul.seHizoClic == true)
+                    if (Azul.isClicked == true)
                     {
                         ColorDeFichaActual = TileColor.Blue;
                         ColorADibujar = Color.Cyan;
                     }
 
-                    if (Rojo.seHizoClic == true)
+                    if (Rojo.isClicked == true)
                     {
                         ColorDeFichaActual = TileColor.Red;
                         ColorADibujar = Color.Red;
                     }
 
-                    if (Verde.seHizoClic == true)
+                    if (Verde.isClicked == true)
                     {
                         ColorDeFichaActual = TileColor.Green;
                         ColorADibujar = Color.DarkGreen;

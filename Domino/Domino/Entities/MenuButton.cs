@@ -17,9 +17,9 @@ namespace Domino.Entities
         Vector2 _position;         // Button position
         Rectangle _rectangle;      // Rectangle for intersection
 
-        Color color = new Color(255, 255, 255, 255);    // Color que tomara la imagen
+        Color color = new Color(255, 255, 255, 255);    // Color for a given image
 
-        public Vector2 tamano;      // Tamano del boton
+        public Vector2 size;      // Button size
             
         #endregion
 
@@ -36,28 +36,28 @@ namespace Domino.Entities
             //ScreenWidth = 1366, ScreenHeight = 768
             //ImagenWidth =  300, ImagenWidth  = 50
 
-            tamano = new Vector2(graphics.Viewport.Width / 4.55f, graphics.Viewport.Height / 15.36f);
+            size = new Vector2(graphics.Viewport.Width / 4.55f, graphics.Viewport.Height / 15.36f);
         }
 
 
-        public MenuButton(Texture2D nuevaImagen, GraphicsDevice graphics, Vector2 posicion)
+        public MenuButton(Texture2D newImage, GraphicsDevice graphics, Vector2 position)
         {
-            _image = nuevaImagen;
+            _image = newImage;
 
             //ScreenWidth = 1366, ScreenHeight = 768
             //ImagenWidth =  300, ImagenWidth  = 50
 
-            tamano = new Vector2(graphics.Viewport.Width, graphics.Viewport.Height);
+            size = new Vector2(graphics.Viewport.Width, graphics.Viewport.Height);
         }
 
-        public MenuButton(Texture2D nuevaImagen, GraphicsDevice graphics, int h)
+        public MenuButton(Texture2D newImage, GraphicsDevice graphics, int h)
         {
-            _image = nuevaImagen;
+            _image = newImage;
 
             //ScreenWidth = 1366, ScreenHeight = 768
             //ImagenWidth =  150, ImagenWidth  = 60
 
-            tamano = new Vector2(graphics.Viewport.Width / 18.21f, graphics.Viewport.Height / 25.6f);
+            size = new Vector2(graphics.Viewport.Width / 18.21f, graphics.Viewport.Height / 25.6f);
 
         }
         
@@ -66,41 +66,40 @@ namespace Domino.Entities
 
         #region Methods/Functions
 
-        bool pulsado;
-        public bool seHizoClic;
+        bool clicked;
+        public bool isClicked;
         public void Update(MouseState mouse)
         {
 
 
-            _rectangle = new Rectangle((int)_position.X, (int)_position.Y,
-                (int)tamano.X, (int)tamano.Y);
-            Rectangle rectanguloDeMouse = new Rectangle(mouse.X, mouse.Y, 1, 1);
+            _rectangle = new Rectangle((int)_position.X, (int)_position.Y, (int)size.X, (int)size.Y);
+            Rectangle mouseRectangle = new Rectangle(mouse.X, mouse.Y, 1, 1);
 
-            if (rectanguloDeMouse.Intersects(_rectangle))
+            if (mouseRectangle.Intersects(_rectangle))
             {
-                if (color.A == 255) pulsado = false;
-                if (color.A == 0) pulsado = true;
-                if (pulsado) color.A += 3; else color.A -= 3;
-                if (mouse.LeftButton == ButtonState.Pressed) seHizoClic = true;
+                if (color.A == 255) clicked = false;
+                if (color.A == 0) clicked = true;
+                if (clicked) color.A += 3; else color.A -= 3;
+                if (mouse.LeftButton == ButtonState.Pressed) isClicked = true;
             }
             else if (color.A < 255)
             {
                 color.A += 3;
-                seHizoClic = false;
+                isClicked = false;
             }
         }
 
-        // Establece la posicion del elemento que se va a dibujar
-        public void EstablecerPosicion(Vector2 nuevaPosicion)
+        // Set position of element to draw
+        public void SetPosition(Vector2 newPosition)
         {
-            _position = nuevaPosicion;
+            _position = newPosition;
         }
 
-        // Sobrecarga que, aparte de que stablece la posicion del elemento que se va a dibujar, tambien ajusta la escala
-        public void EstablecerPosicion(Vector2 nuevaPosicion, Vector2 tamano)
+        // Overload to set position of element to draw, as well as with scale
+        public void SetPosition(Vector2 newPosition, Vector2 size)
         {
-            _position = nuevaPosicion;
-            this.tamano = tamano;
+            _position = newPosition;
+            this.size = size;
         }
 
         public void Draw(SpriteBatch spriteBatch)
@@ -113,9 +112,9 @@ namespace Domino.Entities
             spriteBatch.Draw(_image, _rectangle, colorDeseado);
         }
 
-        public void Draw(SpriteBatch spriteBatch, float Profundidad)
+        public void Draw(SpriteBatch spriteBatch, float depth)
         {
-            spriteBatch.Draw(_image, _rectangle,null,Color.White,0f,Vector2.Zero,SpriteEffects.None, Profundidad);
+            spriteBatch.Draw(_image, _rectangle,null,Color.White,0f,Vector2.Zero,SpriteEffects.None, depth);
         }
 
         #endregion

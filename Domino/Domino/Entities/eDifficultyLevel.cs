@@ -8,7 +8,7 @@ namespace Domino.Entities
 
     #region Enums
     /// <summary>
-    /// Enum para el nivel de juego para Inteligencia Artificial
+    /// Enum for AI difficulty level
     /// </summary>
     public enum DifficultyLevel
     {
