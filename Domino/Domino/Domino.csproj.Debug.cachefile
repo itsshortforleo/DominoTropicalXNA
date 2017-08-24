@@ -33,12 +33,7 @@ Content\Images\BotonJugar.xnb
 Content\Images\BotonOpciones.xnb
 Content\Images\BotonSalir.xnb
 Content\Images\BotonSobre.xnb
-Content\Images\MenuPrincipal.xnb
-Content\Images\MainMenuDobleSeis.xnb
 Content\Images\BotonSeguirJugando.xnb
-Content\Images\botonAmarillo.xnb
-Content\Images\botonAzul.xnb
-Content\Images\botonColorDeDominos.xnb
 Content\Images\botonColorDeTablero.xnb
 Content\Images\botonFacil.xnb
 Content\Images\botonFondo.xnb
@@ -51,7 +46,6 @@ Content\Images\botonVerde.xnb
 Content\Images\Opciones.xnb
 Content\Images\SobreDomino.xnb
 Content\Images\botonExperto.xnb
-Content\Images\botonBlanco.xnb
 Content\Images\MesaExtendida.xnb
 Content\Images\botonDePasar.xnb
 Content\Images\FondoDeFinDeRonda.xnb
@@ -67,6 +61,12 @@ Content\Audio\DominoHitTable.xnb
 Content\Audio\DominoPickUp.xnb
 Content\Audio\DominoSetDown.xnb
 Content\Audio\DominoShuffling.xnb
+Content\Images\MainMenu.xnb
+Content\Images\MainMenuDobleSix.xnb
+Content\Images\botonAmarillo.xnb
+Content\Images\botonAzul.xnb
+Content\Images\botonBlanco.xnb
+Content\Images\botonColorDeDominos.xnb
 Content\Audio\GameAudio.xgs
 Content\Audio\Wave Bank.xwb
 Content\Audio\Sound Bank.xsb

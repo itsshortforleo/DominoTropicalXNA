@@ -42,12 +42,7 @@ C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\bin\x86\Debug\Content\Images\Bo
 C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\bin\x86\Debug\Content\Images\BotonOpciones.xnb
 C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\bin\x86\Debug\Content\Images\BotonSalir.xnb
 C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\bin\x86\Debug\Content\Images\BotonSobre.xnb
-C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\bin\x86\Debug\Content\Images\MenuPrincipal.xnb
-C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\bin\x86\Debug\Content\Images\MainMenuDobleSeis.xnb
 C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\bin\x86\Debug\Content\Images\BotonSeguirJugando.xnb
-C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\bin\x86\Debug\Content\Images\botonAmarillo.xnb
-C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\bin\x86\Debug\Content\Images\botonAzul.xnb
-C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\bin\x86\Debug\Content\Images\botonColorDeDominos.xnb
 C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\bin\x86\Debug\Content\Images\botonColorDeTablero.xnb
 C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\bin\x86\Debug\Content\Images\botonFacil.xnb
 C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\bin\x86\Debug\Content\Images\botonFondo.xnb
@@ -60,7 +55,6 @@ C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\bin\x86\Debug\Content\Images\bo
 C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\bin\x86\Debug\Content\Images\Opciones.xnb
 C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\bin\x86\Debug\Content\Images\SobreDomino.xnb
 C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\bin\x86\Debug\Content\Images\botonExperto.xnb
-C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\bin\x86\Debug\Content\Images\botonBlanco.xnb
 C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\bin\x86\Debug\Content\Images\MesaExtendida.xnb
 C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\bin\x86\Debug\Content\Images\botonDePasar.xnb
 C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\bin\x86\Debug\Content\Images\FondoDeFinDeRonda.xnb
@@ -79,3 +73,9 @@ C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\bin\x86\Debug\Content\Audio\Dom
 C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\bin\x86\Debug\Content\Audio\GameAudio.xgs
 C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\bin\x86\Debug\Content\Audio\Wave Bank.xwb
 C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\bin\x86\Debug\Content\Audio\Sound Bank.xsb
+C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\bin\x86\Debug\Content\Images\MainMenu.xnb
+C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\bin\x86\Debug\Content\Images\MainMenuDobleSix.xnb
+C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\bin\x86\Debug\Content\Images\botonAmarillo.xnb
+C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\bin\x86\Debug\Content\Images\botonAzul.xnb
+C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\bin\x86\Debug\Content\Images\botonBlanco.xnb
+C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\bin\x86\Debug\Content\Images\botonColorDeDominos.xnb

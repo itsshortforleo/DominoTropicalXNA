@@ -317,24 +317,6 @@
       <Time>2015-08-02T21:44:50.0082488-07:00</Time>
     </Item>
     <Item>
-      <Source>Images\MenuPrincipal.png</Source>
-      <Name>Images\MenuPrincipal</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\bin\x86\Debug\Content\Images\MenuPrincipal.xnb</Output>
-      <Time>2015-08-02T21:44:50.0158088-07:00</Time>
-    </Item>
-    <Item>
-      <Source>Images\MainMenuDobleSeis.png</Source>
-      <Name>Images\MainMenuDobleSeis</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\bin\x86\Debug\Content\Images\MainMenuDobleSeis.xnb</Output>
-      <Time>2015-08-02T21:44:50.0122512-07:00</Time>
-    </Item>
-    <Item>
       <Source>Images\BotonSeguirJugando.png</Source>
       <Name>Images\BotonSeguirJugando</Name>
       <Importer>TextureImporter</Importer>
@@ -342,33 +324,6 @@
       <Options>None</Options>
       <Output>C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\bin\x86\Debug\Content\Images\BotonSeguirJugando.xnb</Output>
       <Time>2015-08-02T21:44:50.0082488-07:00</Time>
-    </Item>
-    <Item>
-      <Source>Images\botonAmarillo.png</Source>
-      <Name>Images\botonAmarillo</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\bin\x86\Debug\Content\Images\botonAmarillo.xnb</Output>
-      <Time>2015-08-02T21:44:50.0032456-07:00</Time>
-    </Item>
-    <Item>
-      <Source>Images\botonAzul.png</Source>
-      <Name>Images\botonAzul</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\bin\x86\Debug\Content\Images\botonAzul.xnb</Output>
-      <Time>2015-08-02T21:44:50.0032456-07:00</Time>
-    </Item>
-    <Item>
-      <Source>Images\botonColorDeDominos.png</Source>
-      <Name>Images\botonColorDeDominos</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\bin\x86\Debug\Content\Images\botonColorDeDominos.xnb</Output>
-      <Time>2015-08-02T21:44:50.0042463-07:00</Time>
     </Item>
     <Item>
       <Source>Images\botonColorDeTablero.png</Source>
@@ -477,15 +432,6 @@
       <Options>None</Options>
       <Output>C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\bin\x86\Debug\Content\Images\botonExperto.xnb</Output>
       <Time>2015-08-02T21:44:50.0052471-07:00</Time>
-    </Item>
-    <Item>
-      <Source>Images\botonBlanco.png</Source>
-      <Name>Images\botonBlanco</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\bin\x86\Debug\Content\Images\botonBlanco.xnb</Output>
-      <Time>2015-08-02T21:44:50.0042463-07:00</Time>
     </Item>
     <Item>
       <Source>Images\MesaExtendida.png</Source>
@@ -621,6 +567,60 @@
       <Options>None</Options>
       <Output>C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\bin\x86\Debug\Content\Audio\DominoShuffling.xnb</Output>
       <Time>2015-08-02T21:44:49.9832335-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\MainMenu.png</Source>
+      <Name>Images\MainMenu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\bin\x86\Debug\Content\Images\MainMenu.xnb</Output>
+      <Time>2015-08-02T21:44:50.0158088-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\MainMenuDobleSix.png</Source>
+      <Name>Images\MainMenuDobleSix</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\bin\x86\Debug\Content\Images\MainMenuDobleSix.xnb</Output>
+      <Time>2015-08-02T21:44:50.0122512-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\botonAmarillo.png</Source>
+      <Name>Images\botonAmarillo</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\bin\x86\Debug\Content\Images\botonAmarillo.xnb</Output>
+      <Time>2015-08-02T21:44:50.0032456-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\botonAzul.png</Source>
+      <Name>Images\botonAzul</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\bin\x86\Debug\Content\Images\botonAzul.xnb</Output>
+      <Time>2015-08-02T21:44:50.0032456-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\botonBlanco.png</Source>
+      <Name>Images\botonBlanco</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\bin\x86\Debug\Content\Images\botonBlanco.xnb</Output>
+      <Time>2015-08-02T21:44:50.0042463-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\botonColorDeDominos.png</Source>
+      <Name>Images\botonColorDeDominos</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\bin\x86\Debug\Content\Images\botonColorDeDominos.xnb</Output>
+      <Time>2015-08-02T21:44:50.0042463-07:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

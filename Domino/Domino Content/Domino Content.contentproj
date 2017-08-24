@@ -232,15 +232,15 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Images\MenuPrincipal.png">
-      <Name>MenuPrincipal</Name>
+    <Compile Include="Images\MainMenu.png">
+      <Name>MainMenu</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Images\MainMenuDobleSeis.png">
-      <Name>MainMenuDobleSeis</Name>
+    <Compile Include="Images\MainMenuDobleSix.png">
+      <Name>MainMenuDobleSix</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
