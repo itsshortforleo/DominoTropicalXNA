@@ -82,7 +82,7 @@ namespace Domino
         Texture2D SorryTryAgain;
 
         bool GameStarted = false;
-        bool GameStuck;
+        bool GameLocked;
         bool StartOfNewGame = true;                         
         bool StartOfRound = false;
 
@@ -770,7 +770,7 @@ namespace Domino
                             j.PlayerTileList.Clear();
                         }
                         EndOfRound = false;
-                        GameStuck = false;
+                        GameLocked = false;
                         CurrentGameState = GameState.Playing;
                     }
 
@@ -1058,7 +1058,7 @@ namespace Domino
                         spriteBatch.Draw(SorryTryAgain, new Vector2(110, 400), null, Color.White, 0f, Vector2.Zero, .9f, SpriteEffects.None, 1f);
                     }
 
-                    if (GameStuck)
+                    if (GameLocked)
                     {
                         spriteBatch.DrawString(FontCent, "Game was locked by: " + PlayerWhoLastPlayed.Name, new Vector2(250, 100), Color.DarkGreen, 0f, Vector2.Zero, .7f, SpriteEffects.None, .99f);
                     }
@@ -2070,22 +2070,22 @@ namespace Domino
             }
 
 
-            else if (GameStuck)
+            else if (GameLocked)
             {
                 if (PlayerWhoLastPlayed.Name==player1.Name)
                 {
-                    int PointsFromPlayerWhoMadeGameStuck=0, PointsOfPlayerToTheRightOfPlayerWhoMadeGameStuck=0;
+                    int PointsFromPlayerWhoLockedGame=0, PointsOfPlayerToTheRightOfPlayerWhoLockedGame=0;
                     for (int i = 0; i < player1.PlayerTileList.Count; i++)
                     {
-                        PointsFromPlayerWhoMadeGameStuck += player1.PlayerTileList[i].TotalPointsValue;
+                        PointsFromPlayerWhoLockedGame += player1.PlayerTileList[i].TotalPointsValue;
                     }
                     for (int i = 0; i < player2.PlayerTileList.Count; i++)
                     {
-                        PointsOfPlayerToTheRightOfPlayerWhoMadeGameStuck += player2.PlayerTileList[i].TotalPointsValue;
+                        PointsOfPlayerToTheRightOfPlayerWhoLockedGame += player2.PlayerTileList[i].TotalPointsValue;
                     }
 
-                    // If the total of the dominoes from the player who made game stuck is less or equal to the player on his right, the player who made game stuck wins
-                    if (PointsFromPlayerWhoMadeGameStuck<PointsOfPlayerToTheRightOfPlayerWhoMadeGameStuck || PointsFromPlayerWhoMadeGameStuck==PointsOfPlayerToTheRightOfPlayerWhoMadeGameStuck)
+                    // If the total of the dominoes from the player who locked game is less or equal to the player on his right, the player who locked game wins
+                    if (PointsFromPlayerWhoLockedGame<PointsOfPlayerToTheRightOfPlayerWhoLockedGame || PointsFromPlayerWhoLockedGame==PointsOfPlayerToTheRightOfPlayerWhoLockedGame)
                     {
                         for (int i = 0; i < player1.PlayerTileList.Count; i++)
                         {
@@ -2103,12 +2103,12 @@ namespace Domino
                         {
                             pointsToAdd += player4.PlayerTileList[i].TotalPointsValue;
                         }
-                        // Add points to the team who made game stuck
+                        // Add points to the team who locked game
                         TeamOneTotalPoints += pointsToAdd;
 
                     }
-                    // If the total of the dominoes from the player who made game stuck is greater than the player on his right, the player to his right wins
-                    else if (PointsFromPlayerWhoMadeGameStuck>PointsOfPlayerToTheRightOfPlayerWhoMadeGameStuck)
+                    // If the total of the dominoes from the player who locked the game is greater than the points of the player to his right, the player to his right wins
+                    else if (PointsFromPlayerWhoLockedGame>PointsOfPlayerToTheRightOfPlayerWhoLockedGame)
                     {
                         for (int i = 0; i < player1.PlayerTileList.Count; i++)
                     {
@@ -2126,7 +2126,7 @@ namespace Domino
                     {
                         pointsToAdd += player4.PlayerTileList[i].TotalPointsValue;
                     }
-                    // Add points to the team that did not get the game stuck
+                    // Add points to the team that did not lock the game
                     TeamTwoTotalPoints += pointsToAdd;
                     }
                 }    
@@ -2151,11 +2151,8 @@ namespace Domino
                     TilePlacementLogic(Table1, playerOnTurn.PlayerTileList[i], playerOnTurn, i);
                     break;
                 }
-
-
             }
         }
-
 
         private void DrawTilesForNonHumanPlayersLevel2(Player playerOnTurn)
         {
@@ -2481,7 +2478,7 @@ namespace Domino
                     break;
                 }
             }
-            bool tempGameStuck = true;
+            bool tempGameLocked = true;
             foreach (Player j in PlayersList)
             {
                 foreach (Tile f in j.PlayerTileList)
@@ -2489,19 +2486,19 @@ namespace Domino
                     if (Table1.LeftHandSide == f.FirstTileValue || Table1.RightHandSide == f.FirstTileValue
                         || Table1.LeftHandSide == f.SecondTileValue || Table1.RightHandSide == f.SecondTileValue)
                     {
-                        tempGameStuck = false;
+                        tempGameLocked = false;
                         break;
                     }
                 }
-                if (!tempGameStuck)
+                if (!tempGameLocked)
                 {
                     break;
                 }
 
             }
-            GameStuck = tempGameStuck;
+            GameLocked = tempGameLocked;
 
-            if (GameStuck)
+            if (GameLocked)
             {
                 EndOfRound = true;
                 ScoreTheGame();
