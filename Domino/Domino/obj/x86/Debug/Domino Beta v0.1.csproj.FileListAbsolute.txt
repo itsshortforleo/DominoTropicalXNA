@@ -1,0 +1,1423 @@
+C:\Users\Leo\Desktop\Portafolio 3\Domino Beta v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\00.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino Beta v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\01.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino Beta v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\02.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino Beta v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\03.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino Beta v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\04.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino Beta v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\05.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino Beta v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\06.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino Beta v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\11.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino Beta v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\12.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino Beta v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\13.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino Beta v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\14.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino Beta v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\15.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino Beta v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\16.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino Beta v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\22.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino Beta v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\23.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino Beta v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\24.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino Beta v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\25.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino Beta v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\26.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino Beta v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MaderaClara.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino Beta v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Domino Beta v0.1.exe
+C:\Users\Leo\Desktop\Portafolio 3\Domino Beta v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Domino Beta v0.1.pdb
+C:\Users\Leo\Desktop\Portafolio 3\Domino Beta v0.1\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Leo\Desktop\Portafolio 3\Domino Beta v0.1\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Leo\Desktop\Portafolio 3\Domino Beta v0.1\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\Domino Beta v0.1.exe
+C:\Users\Leo\Desktop\Portafolio 3\Domino Beta v0.1\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\Domino Beta v0.1.pdb
+C:\Users\Leo\Desktop\Portafolio 3\Domino Beta v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\33.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino Beta v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\34.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino Beta v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\35.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino Beta v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\36.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino Beta v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\44.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino Beta v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\45.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino Beta v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\46.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino Beta v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\55.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino Beta v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\56.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino Beta v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\66.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino Beta v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\ParteDeAtras.xnb
+C:\Users\Leo\Desktop\Backup de Domino v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MaderaClara.xnb
+C:\Users\Leo\Desktop\Backup de Domino v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\00.xnb
+C:\Users\Leo\Desktop\Backup de Domino v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\01.xnb
+C:\Users\Leo\Desktop\Backup de Domino v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\02.xnb
+C:\Users\Leo\Desktop\Backup de Domino v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\03.xnb
+C:\Users\Leo\Desktop\Backup de Domino v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\04.xnb
+C:\Users\Leo\Desktop\Backup de Domino v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\05.xnb
+C:\Users\Leo\Desktop\Backup de Domino v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\06.xnb
+C:\Users\Leo\Desktop\Backup de Domino v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\11.xnb
+C:\Users\Leo\Desktop\Backup de Domino v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\12.xnb
+C:\Users\Leo\Desktop\Backup de Domino v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\13.xnb
+C:\Users\Leo\Desktop\Backup de Domino v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\14.xnb
+C:\Users\Leo\Desktop\Backup de Domino v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\15.xnb
+C:\Users\Leo\Desktop\Backup de Domino v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\16.xnb
+C:\Users\Leo\Desktop\Backup de Domino v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\22.xnb
+C:\Users\Leo\Desktop\Backup de Domino v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\23.xnb
+C:\Users\Leo\Desktop\Backup de Domino v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\24.xnb
+C:\Users\Leo\Desktop\Backup de Domino v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\25.xnb
+C:\Users\Leo\Desktop\Backup de Domino v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\26.xnb
+C:\Users\Leo\Desktop\Backup de Domino v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\33.xnb
+C:\Users\Leo\Desktop\Backup de Domino v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\34.xnb
+C:\Users\Leo\Desktop\Backup de Domino v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\35.xnb
+C:\Users\Leo\Desktop\Backup de Domino v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\36.xnb
+C:\Users\Leo\Desktop\Backup de Domino v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\44.xnb
+C:\Users\Leo\Desktop\Backup de Domino v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\45.xnb
+C:\Users\Leo\Desktop\Backup de Domino v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\46.xnb
+C:\Users\Leo\Desktop\Backup de Domino v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\55.xnb
+C:\Users\Leo\Desktop\Backup de Domino v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\56.xnb
+C:\Users\Leo\Desktop\Backup de Domino v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\66.xnb
+C:\Users\Leo\Desktop\Backup de Domino v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\ParteDeAtras.xnb
+C:\Users\Leo\Desktop\Backup de Domino v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Domino Beta v0.1.exe
+C:\Users\Leo\Desktop\Backup de Domino v0.1\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Domino Beta v0.1.pdb
+C:\Users\Leo\Desktop\Backup de Domino v0.1\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Leo\Desktop\Backup de Domino v0.1\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Leo\Desktop\Backup de Domino v0.1\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\Domino Beta v0.1.exe
+C:\Users\Leo\Desktop\Backup de Domino v0.1\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\Domino Beta v0.1.pdb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1b\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MaderaClara.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1b\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\00.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1b\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\01.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1b\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\02.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1b\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\03.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1b\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\04.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1b\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\05.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1b\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\06.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1b\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\11.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1b\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\12.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1b\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\13.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1b\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\14.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1b\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\15.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1b\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\16.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1b\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\22.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1b\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\23.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1b\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\24.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1b\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\25.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1b\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\26.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1b\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\33.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1b\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\34.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1b\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\35.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1b\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\36.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1b\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\44.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1b\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\45.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1b\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\46.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1b\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\55.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1b\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\56.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1b\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\66.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1b\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\ParteDeAtras.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1b\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Domino Beta v0.1.exe
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1b\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Domino Beta v0.1.pdb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1b\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1b\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1b\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\Domino Beta v0.1.exe
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1b\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\Domino Beta v0.1.pdb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1b\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Letras\Letras.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\00.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\01.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\02.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\03.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\04.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\05.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\06.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\11.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\12.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\13.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\14.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\15.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\16.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\22.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\23.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\24.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\25.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\26.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\33.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\34.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\35.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\36.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\44.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\45.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\46.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\55.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\56.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\66.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Letras\Letras.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Domino Beta v0.1.exe
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Domino Beta v0.1.pdb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\obj\x86\Debug\Domino Beta v0.1.exe
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\obj\x86\Debug\Domino Beta v0.1.pdb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\white_64x64.xnb
+C:\Users\Anthony\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MaderaClara.xnb
+C:\Users\Anthony\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\00.xnb
+C:\Users\Anthony\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\01.xnb
+C:\Users\Anthony\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\02.xnb
+C:\Users\Anthony\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\03.xnb
+C:\Users\Anthony\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\04.xnb
+C:\Users\Anthony\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\05.xnb
+C:\Users\Anthony\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\06.xnb
+C:\Users\Anthony\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\11.xnb
+C:\Users\Anthony\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\12.xnb
+C:\Users\Anthony\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\13.xnb
+C:\Users\Anthony\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\14.xnb
+C:\Users\Anthony\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\15.xnb
+C:\Users\Anthony\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\16.xnb
+C:\Users\Anthony\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\22.xnb
+C:\Users\Anthony\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\23.xnb
+C:\Users\Anthony\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\24.xnb
+C:\Users\Anthony\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\25.xnb
+C:\Users\Anthony\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\26.xnb
+C:\Users\Anthony\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\33.xnb
+C:\Users\Anthony\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\34.xnb
+C:\Users\Anthony\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\35.xnb
+C:\Users\Anthony\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\36.xnb
+C:\Users\Anthony\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\44.xnb
+C:\Users\Anthony\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\45.xnb
+C:\Users\Anthony\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\46.xnb
+C:\Users\Anthony\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\55.xnb
+C:\Users\Anthony\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\56.xnb
+C:\Users\Anthony\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\66.xnb
+C:\Users\Anthony\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\ParteDeAtras.xnb
+C:\Users\Anthony\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\white_64x64.xnb
+C:\Users\Anthony\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\xnafan_64x64.xnb
+C:\Users\Anthony\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Letras\Letras.xnb
+C:\Users\Anthony\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Domino Beta v0.1.exe
+C:\Users\Anthony\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Domino Beta v0.1.pdb
+C:\Users\Anthony\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Anthony\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Anthony\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\obj\x86\Debug\Domino Beta v0.1.exe
+C:\Users\Anthony\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\obj\x86\Debug\Domino Beta v0.1.pdb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\ParteDeAtras..xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FichaDeMiFrente.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FichaDeMiOponente.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MesaSinTablero 2.0.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonJugar.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonOpciones.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSalir.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSobre.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MenuPrincipal.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\white_64x64.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\00.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\01.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\02.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\03.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\04.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\05.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\06.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\11.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\12.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\13.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\14.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\15.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\16.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\22.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\23.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\24.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\25.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\26.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\33.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\34.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\35.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\36.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\44.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\45.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\46.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\55.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\56.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\66.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\ParteDeAtras..xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FichaDeMiFrente.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FichaDeMiOponente.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MesaSinTablero 2.0.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonJugar.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonOpciones.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSalir.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSobre.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MenuPrincipal.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Letras\Letras.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Domino Beta v0.1.exe
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Domino Beta v0.1.pdb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1c\Domino Beta v0.1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1c\Domino Beta v0.1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1c\Domino Beta v0.1\obj\x86\Debug\Domino Beta v0.1.exe
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1c\Domino Beta v0.1\obj\x86\Debug\Domino Beta v0.1.pdb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1c\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MainMenuDobleSeis.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\white_64x64.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\00.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\01.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\02.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\03.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\04.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\05.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\06.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\11.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\12.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\13.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\14.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\15.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\16.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\22.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\23.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\24.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\25.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\26.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\33.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\34.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\35.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\36.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\44.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\45.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\46.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\55.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\56.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\66.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\ParteDeAtras..xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FichaDeMiFrente.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FichaDeMiOponente.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MesaSinTablero 2.0.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonJugar.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonOpciones.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSalir.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSobre.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MenuPrincipal.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MainMenuDobleSeis.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Letras\Letras.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Domino Beta v0.1.exe
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Domino Beta v0.1.pdb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\obj\x86\Debug\Domino Beta v0.1.exe
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\obj\x86\Debug\Domino Beta v0.1.pdb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSeguirJugando.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Set.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Sett.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Audio\track.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoHitTable.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoPickUp.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoSetDown.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoShuffling.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Audio\GameAudio.xgs
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Wave Bank.xwb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Sound Bank.xsb
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\white_64x64.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\00.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\01.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\02.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\03.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\04.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\05.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\06.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\11.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\12.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\13.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\14.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\15.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\16.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\22.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\23.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\24.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\25.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\26.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\33.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\34.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\35.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\36.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\44.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\45.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\46.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\55.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\56.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\66.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\ParteDeAtras..xnb
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FichaDeMiFrente.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FichaDeMiOponente.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MesaSinTablero 2.0.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonJugar.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonOpciones.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSalir.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSobre.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MenuPrincipal.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MainMenuDobleSeis.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSeguirJugando.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Letras\Letras.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Set.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Sett.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Audio\track.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoHitTable.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoPickUp.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoSetDown.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoShuffling.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Audio\GameAudio.xgs
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Wave Bank.xwb
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Sound Bank.xsb
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Domino Beta v0.1.exe
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Domino Beta v0.1.pdb
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\obj\x86\Debug\Domino Beta v0.1.exe
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\obj\x86\Debug\Domino Beta v0.1.pdb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\white_64x64.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\00.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\01.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\02.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\03.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\04.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\05.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\06.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\11.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\12.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\13.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\14.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\15.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\16.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\22.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\23.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\24.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\25.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\26.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\33.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\34.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\35.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\36.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\44.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\45.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\46.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\55.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\56.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\66.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\ParteDeAtras..xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FichaDeMiFrente.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FichaDeMiOponente.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MesaSinTablero 2.0.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonJugar.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonOpciones.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSalir.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSobre.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MenuPrincipal.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MainMenuDobleSeis.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSeguirJugando.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Letras\Letras.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Set.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Sett.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Audio\track.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoHitTable.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoPickUp.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoSetDown.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoShuffling.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Audio\GameAudio.xgs
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Wave Bank.xwb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Sound Bank.xsb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Domino Beta v0.1.exe
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Domino Beta v0.1.pdb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\obj\x86\Debug\Domino Beta v0.1.exe
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\obj\x86\Debug\Domino Beta v0.1.pdb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonAmarillo.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonAzul.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonColorDeDominos.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonColorDeTablero.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonDificil.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonFacil.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonFondo.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonMuyFacil.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonNivel.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonNormal.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonRojo.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonSonido.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonVerde.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\0.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\1.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\2.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\3.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\4.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\5.xnb
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\6.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\white_64x64.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\00.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\01.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\02.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\03.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\04.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\05.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\06.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\11.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\12.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\13.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\14.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\15.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\16.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\22.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\23.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\24.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\25.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\26.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\33.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\34.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\35.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\36.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\44.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\45.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\46.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\55.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\56.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\66.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\ParteDeAtras..xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FichaDeMiFrente.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FichaDeMiOponente.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MesaSinTablero 2.0.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonJugar.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonOpciones.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSalir.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSobre.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MenuPrincipal.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MainMenuDobleSeis.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSeguirJugando.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonAmarillo.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonAzul.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonColorDeDominos.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonColorDeTablero.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonDificil.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonFacil.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonFondo.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonMuyFacil.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonNivel.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonNormal.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonRojo.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonSonido.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonVerde.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\0.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\1.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\2.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\3.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\4.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\5.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\6.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Letras\Letras.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Set.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Sett.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Audio\track.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoHitTable.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoPickUp.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoSetDown.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoShuffling.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Audio\GameAudio.xgs
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Wave Bank.xwb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Sound Bank.xsb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Domino Beta v0.1.exe
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Domino Beta v0.1.pdb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\obj\x86\Debug\Domino Beta v0.1.exe
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\obj\x86\Debug\Domino Beta v0.1.pdb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Letras\Cent.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\Opciones.xnb
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\SobreDomino.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\white_64x64.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\00.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\01.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\02.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\03.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\04.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\05.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\06.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\11.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\12.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\13.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\14.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\15.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\16.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\22.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\23.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\24.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\25.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\26.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\33.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\34.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\35.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\36.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\44.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\45.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\46.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\55.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\56.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\66.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FichaDeMiFrente.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FichaDeMiOponente.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonJugar.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonOpciones.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSalir.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSobre.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MenuPrincipal.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MainMenuDobleSeis.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSeguirJugando.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonAmarillo.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonAzul.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonColorDeDominos.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonColorDeTablero.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonFacil.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonFondo.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonMuyFacil.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonNivel.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonNormal.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonRojo.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonSonido.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonVerde.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\Opciones.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\SobreDomino.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Letras\Letras.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Letras\Cent.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Set.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Sett.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Audio\track.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoHitTable.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoPickUp.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoSetDown.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoShuffling.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Audio\GameAudio.xgs
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Wave Bank.xwb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Sound Bank.xsb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Domino Beta v0.1.exe
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Domino Beta v0.1.pdb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\obj\x86\Debug\Domino Beta v0.1.exe
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\obj\x86\Debug\Domino Beta v0.1.pdb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonExperto.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonBlanco.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MesaExtendida.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\white_64x64.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\00.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\01.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\02.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\03.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\04.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\05.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\06.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\11.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\12.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\13.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\14.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\15.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\16.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\22.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\23.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\24.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\25.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\26.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\33.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\34.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\35.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\36.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\44.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\45.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\46.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\55.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\56.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\66.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FichaDeMiFrente.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FichaDeMiOponente.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonJugar.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonOpciones.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSalir.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSobre.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MenuPrincipal.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MainMenuDobleSeis.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSeguirJugando.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonAmarillo.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonAzul.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonColorDeDominos.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonColorDeTablero.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonFacil.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonFondo.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonMuyFacil.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonNivel.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonNormal.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonRojo.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonSonido.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonVerde.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\Opciones.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\SobreDomino.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonExperto.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonBlanco.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MesaExtendida.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Letras\Letras.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Letras\Cent.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Set.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Sett.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Audio\track.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoHitTable.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoPickUp.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoSetDown.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoShuffling.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Audio\GameAudio.xgs
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Wave Bank.xwb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Sound Bank.xsb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Domino Beta v0.1.exe
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Domino Beta v0.1.pdb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\obj\x86\Debug\Domino Beta v0.1.exe
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\obj\x86\Debug\Domino Beta v0.1.pdb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonDePasar.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FondoDeFinDeRonda.xnb
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonSiguienteRonda.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\white_64x64.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\00.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\01.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\02.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\03.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\04.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\05.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\06.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\11.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\12.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\13.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\14.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\15.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\16.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\22.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\23.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\24.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\25.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\26.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\33.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\34.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\35.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\36.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\44.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\45.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\46.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\55.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\56.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\66.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FichaDeMiFrente.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FichaDeMiOponente.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonJugar.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonOpciones.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSalir.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSobre.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MenuPrincipal.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MainMenuDobleSeis.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSeguirJugando.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonAmarillo.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonAzul.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonColorDeDominos.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonColorDeTablero.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonFacil.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonFondo.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonMuyFacil.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonNivel.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonNormal.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonRojo.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonSonido.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonVerde.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\Opciones.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\SobreDomino.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonExperto.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonBlanco.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MesaExtendida.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonDePasar.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FondoDeFinDeRonda.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonSiguienteRonda.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Letras\Letras.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Letras\Cent.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Set.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Sett.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\track.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoHitTable.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoPickUp.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoSetDown.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoShuffling.xnb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\GameAudio.xgs
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Wave Bank.xwb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Sound Bank.xsb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Domino Beta v0.1.exe
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Domino Beta v0.1.pdb
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\Domino Beta v0.1.exe
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\Domino Beta v0.1.pdb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\white_64x64.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\00.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\01.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\02.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\03.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\04.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\05.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\06.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\11.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\12.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\13.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\14.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\15.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\16.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\22.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\23.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\24.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\25.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\26.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\33.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\34.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\35.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\36.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\44.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\45.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\46.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\55.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\56.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\66.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FichaDeMiFrente.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FichaDeMiOponente.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonJugar.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonOpciones.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSalir.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSobre.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MenuPrincipal.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MainMenuDobleSeis.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSeguirJugando.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonAmarillo.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonAzul.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonColorDeDominos.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonColorDeTablero.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonFacil.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonFondo.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonMuyFacil.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonNivel.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonNormal.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonRojo.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonSonido.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonVerde.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\Opciones.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\SobreDomino.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonExperto.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonBlanco.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MesaExtendida.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonDePasar.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FondoDeFinDeRonda.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonSiguienteRonda.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Letras\Letras.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Letras\Cent.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Set.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Sett.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\track.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoHitTable.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoPickUp.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoSetDown.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoShuffling.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\GameAudio.xgs
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Wave Bank.xwb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Sound Bank.xsb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Domino Beta v0.1.exe
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Domino Beta v0.1.pdb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\Domino Beta v0.1.exe
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\Domino Beta v0.1.pdb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\white_64x64.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\00.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\01.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\02.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\03.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\04.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\05.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\06.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\11.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\12.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\13.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\14.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\15.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\16.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\22.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\23.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\24.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\25.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\26.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\33.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\34.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\35.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\36.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\44.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\45.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\46.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\55.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\56.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\66.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FichaDeMiFrente.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FichaDeMiOponente.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonJugar.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonOpciones.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSalir.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSobre.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MenuPrincipal.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MainMenuDobleSeis.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSeguirJugando.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonAmarillo.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonAzul.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonColorDeDominos.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonColorDeTablero.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonFacil.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonFondo.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonMuyFacil.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonNivel.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonNormal.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonRojo.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonSonido.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonVerde.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\Opciones.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\SobreDomino.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonExperto.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonBlanco.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MesaExtendida.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonDePasar.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FondoDeFinDeRonda.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonSiguienteRonda.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Letras\Letras.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Letras\Cent.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Set.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Sett.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\track.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoHitTable.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoPickUp.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoSetDown.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoShuffling.xnb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\GameAudio.xgs
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Wave Bank.xwb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Sound Bank.xsb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Domino Beta v0.1.exe
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Domino Beta v0.1.pdb
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\Domino Beta v0.1.exe
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\Domino Beta v0.1.pdb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\white_64x64.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\00.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\01.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\02.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\03.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\04.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\05.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\06.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\11.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\12.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\13.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\14.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\15.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\16.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\22.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\23.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\24.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\25.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\26.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\33.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\34.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\35.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\36.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\44.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\45.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\46.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\55.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\56.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\66.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FichaDeMiFrente.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FichaDeMiOponente.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonJugar.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonOpciones.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSalir.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSobre.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MenuPrincipal.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MainMenuDobleSeis.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSeguirJugando.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonAmarillo.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonAzul.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonColorDeDominos.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonColorDeTablero.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonFacil.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonFondo.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonMuyFacil.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonNivel.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonNormal.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonRojo.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonSonido.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonVerde.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\Opciones.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\SobreDomino.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonExperto.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonBlanco.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MesaExtendida.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonDePasar.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FondoDeFinDeRonda.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonSiguienteRonda.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Letras\Letras.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Letras\Cent.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Set.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Sett.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\track.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoHitTable.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoPickUp.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoSetDown.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoShuffling.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\GameAudio.xgs
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Wave Bank.xwb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Sound Bank.xsb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Domino Beta v0.1.exe
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Domino Beta v0.1.pdb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\Domino Beta v0.1.exe
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\Domino Beta v0.1.pdb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\white_64x64.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\00.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\01.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\02.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\03.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\04.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\05.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\06.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\11.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\12.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\13.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\14.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\15.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\16.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\22.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\23.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\24.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\25.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\26.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\33.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\34.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\35.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\36.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\44.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\45.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\46.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\55.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\56.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\66.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FichaDeMiFrente.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FichaDeMiOponente.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonJugar.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonOpciones.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSalir.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSobre.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MenuPrincipal.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MainMenuDobleSeis.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSeguirJugando.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonAmarillo.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonAzul.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonColorDeDominos.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonColorDeTablero.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonFacil.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonFondo.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonMuyFacil.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonNivel.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonNormal.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonRojo.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonSonido.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonVerde.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\Opciones.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\SobreDomino.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonExperto.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonBlanco.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MesaExtendida.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonDePasar.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FondoDeFinDeRonda.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonSiguienteRonda.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Letras\Letras.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Letras\Cent.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Set.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Sett.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\track.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoHitTable.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoPickUp.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoSetDown.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoShuffling.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\GameAudio.xgs
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Wave Bank.xwb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Sound Bank.xsb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Domino Beta v0.1.exe
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Domino Beta v0.1.pdb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\Domino Beta v0.1.exe
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\Domino Beta v0.1.pdb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\white_64x64.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\00.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\01.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\02.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\03.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\04.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\05.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\06.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\11.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\12.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\13.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\14.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\15.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\16.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\22.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\23.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\24.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\25.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\26.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\33.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\34.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\35.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\36.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\44.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\45.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\46.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\55.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\56.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\66.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FichaDeMiFrente.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FichaDeMiOponente.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonJugar.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonOpciones.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSalir.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSobre.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MenuPrincipal.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MainMenuDobleSeis.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSeguirJugando.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonAmarillo.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonAzul.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonColorDeDominos.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonColorDeTablero.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonFacil.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonFondo.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonMuyFacil.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonNivel.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonNormal.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonRojo.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonSonido.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonVerde.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\Opciones.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\SobreDomino.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonExperto.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonBlanco.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MesaExtendida.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonDePasar.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FondoDeFinDeRonda.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonSiguienteRonda.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Letras\Letras.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Letras\Cent.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Set.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Sett.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\track.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoHitTable.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoPickUp.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoSetDown.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoShuffling.xnb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\GameAudio.xgs
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Wave Bank.xwb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Sound Bank.xsb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Domino Beta v0.1.exe
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Domino Beta v0.1.pdb
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\Domino Beta v0.1.exe
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\Domino Beta v0.1.pdb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\white_64x64.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\00.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\01.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\02.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\03.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\04.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\05.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\06.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\11.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\12.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\13.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\14.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\15.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\16.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\22.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\23.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\24.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\25.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\26.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\33.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\34.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\35.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\36.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\44.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\45.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\46.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\55.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\56.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\66.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FichaDeMiFrente.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FichaDeMiOponente.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonJugar.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonOpciones.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSalir.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSobre.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MenuPrincipal.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MainMenuDobleSeis.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSeguirJugando.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonAmarillo.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonAzul.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonColorDeDominos.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonColorDeTablero.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonFacil.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonFondo.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonMuyFacil.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonNivel.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonNormal.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonRojo.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonSonido.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonVerde.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\Opciones.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\SobreDomino.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonExperto.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonBlanco.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MesaExtendida.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonDePasar.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FondoDeFinDeRonda.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonSiguienteRonda.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Letras\Letras.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Letras\Cent.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Set.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Sett.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\track.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoHitTable.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoPickUp.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoSetDown.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoShuffling.xnb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\GameAudio.xgs
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Wave Bank.xwb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Sound Bank.xsb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Domino Beta v0.1.exe
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Domino Beta v0.1.pdb
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\Domino Beta v0.1.exe
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\Domino Beta v0.1.pdb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\white_64x64.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\00.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\01.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\02.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\03.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\04.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\05.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\06.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\11.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\12.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\13.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\14.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\15.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\16.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\22.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\23.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\24.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\25.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\26.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\33.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\34.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\35.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\36.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\44.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\45.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\46.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\55.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\56.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\66.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FichaDeMiFrente.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FichaDeMiOponente.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonJugar.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonOpciones.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSalir.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSobre.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MenuPrincipal.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MainMenuDobleSeis.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSeguirJugando.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonAmarillo.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonAzul.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonColorDeDominos.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonColorDeTablero.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonFacil.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonFondo.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonMuyFacil.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonNivel.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonNormal.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonRojo.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonSonido.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonVerde.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\Opciones.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\SobreDomino.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonExperto.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonBlanco.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MesaExtendida.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonDePasar.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FondoDeFinDeRonda.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonSiguienteRonda.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Letras\Letras.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Letras\Cent.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Set.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Sett.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\track.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoHitTable.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoPickUp.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoSetDown.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoShuffling.xnb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\GameAudio.xgs
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Wave Bank.xwb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Sound Bank.xsb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Domino Beta v0.1.exe
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Domino Beta v0.1.pdb
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\Domino Beta v0.1.exe
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\Domino Beta v0.1.pdb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\white_64x64.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\00.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\01.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\02.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\03.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\04.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\05.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\06.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\11.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\12.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\13.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\14.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\15.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\16.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\22.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\23.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\24.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\25.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\26.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\33.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\34.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\35.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\36.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\44.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\45.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\46.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\55.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\56.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\66.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FichaDeMiFrente.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FichaDeMiOponente.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonJugar.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonOpciones.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSalir.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSobre.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MenuPrincipal.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MainMenuDobleSeis.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSeguirJugando.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonAmarillo.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonAzul.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonColorDeDominos.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonColorDeTablero.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonFacil.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonFondo.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonMuyFacil.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonNivel.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonNormal.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonRojo.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonSonido.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonVerde.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\Opciones.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\SobreDomino.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonExperto.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonBlanco.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MesaExtendida.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonDePasar.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FondoDeFinDeRonda.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonSiguienteRonda.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Letras\Letras.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Letras\Cent.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Set.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Sett.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\track.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoHitTable.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoPickUp.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoSetDown.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoShuffling.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\GameAudio.xgs
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Wave Bank.xwb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Sound Bank.xsb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Domino Beta v0.1.exe
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Domino Beta v0.1.pdb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\Domino Beta v0.1.exe
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\Domino Beta v0.1.pdb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\Felicidades.xnb
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MalaSuerte.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\Domino Beta v0.1.exe
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\Domino Beta v0.1.pdb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\white_64x64.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\00.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\01.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\02.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\03.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\04.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\05.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\06.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\11.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\12.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\13.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\14.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\15.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\16.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\22.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\23.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\24.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\25.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\26.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\33.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\34.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\35.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\36.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\44.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\45.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\46.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\55.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\56.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\66.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FichaDeMiFrente.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FichaDeMiOponente.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonJugar.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonOpciones.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSalir.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSobre.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MenuPrincipal.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MainMenuDobleSeis.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSeguirJugando.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonAmarillo.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonAzul.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonColorDeDominos.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonColorDeTablero.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonFacil.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonFondo.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonMuyFacil.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonNivel.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonNormal.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonRojo.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonSonido.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonVerde.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\Opciones.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\SobreDomino.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonExperto.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonBlanco.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MesaExtendida.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonDePasar.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FondoDeFinDeRonda.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonSiguienteRonda.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\Felicidades.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MalaSuerte.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Letras\Letras.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Letras\Cent.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Set.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Sett.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\track.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoHitTable.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoPickUp.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoSetDown.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoShuffling.xnb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\GameAudio.xgs
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Wave Bank.xwb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Sound Bank.xsb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Domino Beta v0.1.exe
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Domino Beta v0.1.pdb
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\Domino Beta v0.1.csprojResolveAssemblyReference.cache
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt

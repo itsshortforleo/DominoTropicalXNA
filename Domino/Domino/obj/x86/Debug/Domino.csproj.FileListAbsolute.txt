@@ -1,0 +1,9 @@
+C:\CODE\Projects\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\Domino Beta v0.1.exe
+C:\CODE\Projects\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1\obj\x86\Debug\Domino Beta v0.1.pdb
+C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\bin\x86\Debug\Domino Beta v0.1.exe
+C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\bin\x86\Debug\Domino Beta v0.1.pdb
+C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\obj\x86\Debug\Domino.csprojResolveAssemblyReference.cache
+C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\obj\x86\Debug\Domino.csproj.CoreCompileInputs.cache
+C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\obj\x86\Debug\Domino Beta v0.1.exe
+C:\CODE\Projects\DominoTropicalXNA\Domino\Domino\obj\x86\Debug\Domino Beta v0.1.pdb

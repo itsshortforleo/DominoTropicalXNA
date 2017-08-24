@@ -1,0 +1,667 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Imagenes\white_64x64.png</Source>
+      <Name>Imagenes\white_64x64</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\white_64x64.xnb</Output>
+      <Time>2012-07-14T22:39:47.8769959-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\00.png</Source>
+      <Name>Imagenes\00</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\00.xnb</Output>
+      <Time>2012-07-19T03:24:31.482137-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\01.png</Source>
+      <Name>Imagenes\01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\01.xnb</Output>
+      <Time>2012-07-19T03:24:31.4851372-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\02.png</Source>
+      <Name>Imagenes\02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\02.xnb</Output>
+      <Time>2012-07-19T03:24:31.5081385-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\03.png</Source>
+      <Name>Imagenes\03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\03.xnb</Output>
+      <Time>2012-07-19T03:24:31.5111387-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\04.png</Source>
+      <Name>Imagenes\04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\04.xnb</Output>
+      <Time>2012-07-19T03:24:31.5141388-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\05.png</Source>
+      <Name>Imagenes\05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\05.xnb</Output>
+      <Time>2012-07-19T03:24:31.516139-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\06.png</Source>
+      <Name>Imagenes\06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\06.xnb</Output>
+      <Time>2012-07-19T03:24:31.5191391-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\11.png</Source>
+      <Name>Imagenes\11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\11.xnb</Output>
+      <Time>2012-07-19T03:24:31.5221393-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\12.png</Source>
+      <Name>Imagenes\12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\12.xnb</Output>
+      <Time>2012-07-19T03:24:31.5251395-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\13.png</Source>
+      <Name>Imagenes\13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\13.xnb</Output>
+      <Time>2012-07-19T03:24:31.5281396-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\14.png</Source>
+      <Name>Imagenes\14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\14.xnb</Output>
+      <Time>2012-07-19T03:24:31.5311398-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\15.png</Source>
+      <Name>Imagenes\15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\15.xnb</Output>
+      <Time>2012-07-19T03:24:31.53414-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\16.png</Source>
+      <Name>Imagenes\16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\16.xnb</Output>
+      <Time>2012-07-19T03:24:31.5361401-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\22.png</Source>
+      <Name>Imagenes\22</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\22.xnb</Output>
+      <Time>2012-07-19T03:24:31.5391403-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\23.png</Source>
+      <Name>Imagenes\23</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\23.xnb</Output>
+      <Time>2012-07-19T03:24:31.5421404-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\24.png</Source>
+      <Name>Imagenes\24</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\24.xnb</Output>
+      <Time>2012-07-19T03:24:31.5451406-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\25.png</Source>
+      <Name>Imagenes\25</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\25.xnb</Output>
+      <Time>2012-07-19T03:24:31.5481408-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\26.png</Source>
+      <Name>Imagenes\26</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\26.xnb</Output>
+      <Time>2012-07-19T03:24:31.551141-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\33.png</Source>
+      <Name>Imagenes\33</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\33.xnb</Output>
+      <Time>2012-07-19T03:24:31.5541411-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\34.png</Source>
+      <Name>Imagenes\34</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\34.xnb</Output>
+      <Time>2012-07-19T03:24:31.5571413-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\35.png</Source>
+      <Name>Imagenes\35</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\35.xnb</Output>
+      <Time>2012-07-19T03:24:31.6531468-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\36.png</Source>
+      <Name>Imagenes\36</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\36.xnb</Output>
+      <Time>2012-07-19T03:24:31.6591471-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\44.png</Source>
+      <Name>Imagenes\44</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\44.xnb</Output>
+      <Time>2012-07-19T03:24:31.6651475-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\45.png</Source>
+      <Name>Imagenes\45</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\45.xnb</Output>
+      <Time>2012-07-19T03:24:31.6711478-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\46.png</Source>
+      <Name>Imagenes\46</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\46.xnb</Output>
+      <Time>2012-07-19T03:24:31.6771482-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\55.png</Source>
+      <Name>Imagenes\55</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\55.xnb</Output>
+      <Time>2012-07-19T03:24:31.6831485-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\56.png</Source>
+      <Name>Imagenes\56</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\56.xnb</Output>
+      <Time>2012-07-19T03:24:31.6901489-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\66.png</Source>
+      <Name>Imagenes\66</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\66.xnb</Output>
+      <Time>2012-07-19T03:24:31.6961492-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\FichaDeMiFrente.png</Source>
+      <Name>Imagenes\FichaDeMiFrente</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FichaDeMiFrente.xnb</Output>
+      <Time>2012-07-19T13:59:01.5422514-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\FichaDeMiOponente.png</Source>
+      <Name>Imagenes\FichaDeMiOponente</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FichaDeMiOponente.xnb</Output>
+      <Time>2012-07-19T13:59:01.5452516-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\BotonJugar.png</Source>
+      <Name>Imagenes\BotonJugar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonJugar.xnb</Output>
+      <Time>2012-07-19T19:49:34.468305-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\BotonOpciones.png</Source>
+      <Name>Imagenes\BotonOpciones</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonOpciones.xnb</Output>
+      <Time>2012-07-19T19:49:34.4713051-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\BotonSalir.png</Source>
+      <Name>Imagenes\BotonSalir</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSalir.xnb</Output>
+      <Time>2012-07-19T19:49:34.4743053-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\BotonSobre.png</Source>
+      <Name>Imagenes\BotonSobre</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSobre.xnb</Output>
+      <Time>2012-07-19T19:49:34.4773055-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\MenuPrincipal.png</Source>
+      <Name>Imagenes\MenuPrincipal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MenuPrincipal.xnb</Output>
+      <Time>2012-07-25T18:27:09.1390319-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\MainMenuDobleSeis.png</Source>
+      <Name>Imagenes\MainMenuDobleSeis</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MainMenuDobleSeis.xnb</Output>
+      <Time>2012-07-25T17:48:13.6102885-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\BotonSeguirJugando.png</Source>
+      <Name>Imagenes\BotonSeguirJugando</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\BotonSeguirJugando.xnb</Output>
+      <Time>2012-07-19T23:15:46.2729317-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\botonAmarillo.png</Source>
+      <Name>Imagenes\botonAmarillo</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonAmarillo.xnb</Output>
+      <Time>2012-07-21T19:06:36.3952354-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\botonAzul.png</Source>
+      <Name>Imagenes\botonAzul</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonAzul.xnb</Output>
+      <Time>2012-07-21T19:06:36.4252371-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\botonColorDeDominos.png</Source>
+      <Name>Imagenes\botonColorDeDominos</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonColorDeDominos.xnb</Output>
+      <Time>2012-07-21T19:06:36.4742399-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\botonColorDeTablero.png</Source>
+      <Name>Imagenes\botonColorDeTablero</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonColorDeTablero.xnb</Output>
+      <Time>2012-07-21T19:06:36.5272429-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\botonFacil.png</Source>
+      <Name>Imagenes\botonFacil</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonFacil.xnb</Output>
+      <Time>2012-07-21T19:06:36.5782458-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\botonFondo.png</Source>
+      <Name>Imagenes\botonFondo</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonFondo.xnb</Output>
+      <Time>2012-07-21T19:06:36.6192482-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\botonMuyFacil.png</Source>
+      <Name>Imagenes\botonMuyFacil</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonMuyFacil.xnb</Output>
+      <Time>2012-07-21T19:06:36.6462497-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\botonNivel.png</Source>
+      <Name>Imagenes\botonNivel</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonNivel.xnb</Output>
+      <Time>2012-07-21T19:06:36.6662509-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\botonNormal.png</Source>
+      <Name>Imagenes\botonNormal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonNormal.xnb</Output>
+      <Time>2012-07-21T19:06:36.7192539-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\botonRojo.png</Source>
+      <Name>Imagenes\botonRojo</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonRojo.xnb</Output>
+      <Time>2012-07-21T19:06:36.7682567-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\botonSonido.png</Source>
+      <Name>Imagenes\botonSonido</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonSonido.xnb</Output>
+      <Time>2012-07-21T19:06:36.8142593-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\botonVerde.png</Source>
+      <Name>Imagenes\botonVerde</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonVerde.xnb</Output>
+      <Time>2012-07-21T19:06:36.844261-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\Opciones.png</Source>
+      <Name>Imagenes\Opciones</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\Opciones.xnb</Output>
+      <Time>2012-07-25T17:48:59.3119024-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\SobreDomino.png</Source>
+      <Name>Imagenes\SobreDomino</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\SobreDomino.xnb</Output>
+      <Time>2012-07-25T17:48:15.2163803-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\botonExperto.png</Source>
+      <Name>Imagenes\botonExperto</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonExperto.xnb</Output>
+      <Time>2012-07-25T14:20:30.1834212-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\botonBlanco.png</Source>
+      <Name>Imagenes\botonBlanco</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonBlanco.xnb</Output>
+      <Time>2012-07-25T14:42:19.5813145-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\MesaExtendida.png</Source>
+      <Name>Imagenes\MesaExtendida</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MesaExtendida.xnb</Output>
+      <Time>2012-07-25T17:48:14.6653488-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\botonDePasar.png</Source>
+      <Name>Imagenes\botonDePasar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonDePasar.xnb</Output>
+      <Time>2012-07-25T18:43:32.4235244-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\FondoDeFinDeRonda.png</Source>
+      <Name>Imagenes\FondoDeFinDeRonda</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\FondoDeFinDeRonda.xnb</Output>
+      <Time>2012-07-26T00:55:23.5697535-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\botonSiguienteRonda.png</Source>
+      <Name>Imagenes\botonSiguienteRonda</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\botonSiguienteRonda.xnb</Output>
+      <Time>2012-07-26T01:42:46.9930239-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Letras\Letras.spritefont</Source>
+      <Name>Letras\Letras</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Letras\Letras.xnb</Output>
+      <Time>2012-07-14T22:06:54.688136-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Letras\Cent.spritefont</Source>
+      <Name>Letras\Cent</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Letras\Cent.xnb</Output>
+      <Time>2012-07-25T03:30:58.1970414-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Set.wav</Source>
+      <Name>Audio\Set</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Set.xnb</Output>
+      <Time>2012-07-19T23:52:53.6493304-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Sett.wav</Source>
+      <Name>Audio\Sett</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\Sett.xnb</Output>
+      <Time>2012-07-19T23:52:53.6503304-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\track.wav</Source>
+      <Name>Audio\track</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\track.xnb</Output>
+      <Time>2012-07-19T23:52:53.6533306-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\DominoHitTable.wav</Source>
+      <Name>Audio\DominoHitTable</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoHitTable.xnb</Output>
+      <Time>2012-07-20T00:15:35.1792054-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\DominoPickUp.wav</Source>
+      <Name>Audio\DominoPickUp</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoPickUp.xnb</Output>
+      <Time>2012-07-20T01:32:14.1272502-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\DominoSetDown.wav</Source>
+      <Name>Audio\DominoSetDown</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoSetDown.xnb</Output>
+      <Time>2012-07-20T01:36:32.5410306-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\DominoShuffling.wav</Source>
+      <Name>Audio\DominoShuffling</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Audio\DominoShuffling.xnb</Output>
+      <Time>2012-07-20T01:34:23.1126277-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\Felicidades.png</Source>
+      <Name>Imagenes\Felicidades</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\Felicidades.xnb</Output>
+      <Time>2012-07-27T03:58:36.3299707-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Imagenes\MalaSuerte.png</Source>
+      <Name>Imagenes\MalaSuerte</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\Imagenes\MalaSuerte.xnb</Output>
+      <Time>2012-07-27T03:58:36.3339709-04:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2012-07-01T21:18:29.9902341-04:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

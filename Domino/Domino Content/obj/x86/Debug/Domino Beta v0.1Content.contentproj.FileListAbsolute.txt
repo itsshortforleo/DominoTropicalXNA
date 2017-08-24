@@ -1,0 +1,37 @@
+C:\Users\Leo\Desktop\Portafolio 3\Domino Beta v0.1\Domino Beta v0.1\Domino Beta v0.1Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Leo\Desktop\Backup de Domino v0.1\Domino Beta v0.1\Domino Beta v0.1Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1b\Domino Beta v0.1\Domino Beta v0.1Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Anthony\Desktop\Portafolio 3\Domino v0.1c\Domino Beta v0.1c\Domino Beta v0.1Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1c\Domino Beta v0.1Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1Content\obj\x86\Debug\Audio\GameAudio.xml
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Leo\Desktop\Portafolio 3\Old versions of Domino\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1Content\obj\x86\Debug\Audio\GameAudio.xml
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Anthony\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1Content\obj\x86\Debug\Audio\GameAudio.xml
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Leo\Desktop\Domino v0.1d\Domino Beta v0.1d\Domino Beta v0.1Content\obj\x86\Debug\Audio\GameAudio.xml
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1g\Domino Beta v0.1g\Domino Beta v0.1Content\obj\x86\Debug\Audio\GameAudio.xml
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Leo\Desktop\Domino v0.1h\Domino Beta v0.1h\Domino Beta v0.1Content\obj\x86\Debug\Audio\GameAudio.xml
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Leo\Desktop\Domino v0.1i\Domino Beta v0.1\Domino Beta v0.1Content\obj\x86\Debug\Audio\GameAudio.xml
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1Content\obj\x86\Debug\Audio\GameAudio.xml
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Leo\Desktop\Domino v0.1j\Domino Beta v0.1\Domino Beta v0.1Content\obj\x86\Debug\Audio\GameAudio.xml
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1k\Domino Beta v0.1\Domino Beta v0.1Content\obj\x86\Debug\Audio\GameAudio.xml
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1m\Domino Beta v0.1\Domino Beta v0.1Content\obj\x86\Debug\Audio\GameAudio.xml
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Leo\Desktop\Portafolio 3\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1Content\obj\x86\Debug\Audio\GameAudio.xml
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Leo\Desktop\Domino v0.1o\Domino Beta v0.1\Domino Beta v0.1Content\obj\x86\Debug\Audio\GameAudio.xml
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Leo\Desktop\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1Content\obj\x86\Debug\Audio\GameAudio.xml
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Leo\Desktop\Proyecto Final\Domino v0.1p\Domino Beta v0.1\Domino Beta v0.1Content\obj\x86\Debug\Audio\GameAudio.xml
+E:\CODE\DominoTropicalXNA\Domino Beta v0.1\Domino Beta v0.1Content\obj\x86\Debug\Domino Beta v0.1Content.contentprojResolveAssemblyReference.cache
