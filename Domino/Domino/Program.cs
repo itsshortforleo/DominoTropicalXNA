@@ -1,6 +1,6 @@
 using System;
 
-namespace Domino._1
+namespace Domino
 {
 #if WINDOWS || XBOX
     static class Program

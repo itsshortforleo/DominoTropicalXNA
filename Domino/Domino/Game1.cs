@@ -1168,10 +1168,10 @@ namespace Domino
                         new Rectangle(0, 0, screenWidth, screenHeight),
                         Color.White);
 
-                    spriteBatch.DrawString(FontCent, "Sobre...", new Vector2(621, 500), Color.DarkGreen);
+                    spriteBatch.DrawString(FontCent, "About...", new Vector2(621, 500), Color.DarkGreen);
                     spriteBatch.DrawString(FontCent, "Domino Tropical v1.0", new Vector2(621, 540), Color.DarkGreen);
-                    spriteBatch.DrawString(FontCent, "Developed by:   Leonardo Lopez", new Vector2(621, 580), Color.DarkGreen);
-                    spriteBatch.DrawString(FontCent, "Anthony Ortiz", new Vector2(845, 620), Color.DarkGreen);
+                    spriteBatch.DrawString(FontCent, "Developed by:  Leonardo Lopez & Anthony Ortiz", new Vector2(621, 580), Color.DarkGreen);
+                    //spriteBatch.DrawString(FontCent, "Anthony Ortiz", new Vector2(741, 620), Color.DarkGreen);
 
                     spriteBatch.DrawString(FontLetras, "Press Escape to continue...", new Vector2(945, 700), Color.DarkGreen, 0, Vector2.Zero, .7f, SpriteEffects.None, 1);
 
