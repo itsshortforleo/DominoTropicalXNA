@@ -235,7 +235,7 @@ namespace Domino
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
-            // Sobre resolucion de pantalla
+            // Screen resolution related
             graphics.PreferredBackBufferWidth = screenWidth;
             graphics.PreferredBackBufferHeight = screenHeight;
           //  this.graphics.IsFullScreen = true;
@@ -249,69 +249,69 @@ namespace Domino
             trackCue = soundBank.GetCue("track");
             trackCue.Play();
 
-            // Sobre el Menu Principal
-            btnPlay = new MenuButton(Content.Load<Texture2D>(@"Images\BotonJugar"), graphics.GraphicsDevice);
+            // Main Menu buttons
+            btnPlay = new MenuButton(Content.Load<Texture2D>(@"Images\btnNewGame"), graphics.GraphicsDevice);
             btnPlay.SetPosition(new Vector2(871, 350));
 
-            btnKeepPlaying = new MenuButton(Content.Load<Texture2D>(@"Images\BotonSeguirJugando"), graphics.GraphicsDevice);
+            btnKeepPlaying = new MenuButton(Content.Load<Texture2D>(@"Images\btnContinuePlaying"), graphics.GraphicsDevice);
             btnKeepPlaying.SetPosition(new Vector2(871, 350));
 
-            btnOptions = new MenuButton(Content.Load<Texture2D>(@"Images\BotonOpciones"), graphics.GraphicsDevice);
+            btnOptions = new MenuButton(Content.Load<Texture2D>(@"Images\btnOptions"), graphics.GraphicsDevice);
             btnOptions.SetPosition(new Vector2(871, 420));
 
-            btnCredits = new MenuButton(Content.Load<Texture2D>(@"Images\BotonSobre"), graphics.GraphicsDevice);
+            btnCredits = new MenuButton(Content.Load<Texture2D>(@"Images\btnAboutDomino"), graphics.GraphicsDevice);
             btnCredits.SetPosition(new Vector2(871, 490));
 
-            btnExit = new MenuButton(Content.Load<Texture2D>(@"Images\BotonSalir"), graphics.GraphicsDevice);
+            btnExit = new MenuButton(Content.Load<Texture2D>(@"Images\btnQuitGame"), graphics.GraphicsDevice);
             btnExit.SetPosition(new Vector2(871, 560));
 
             btnMainMenuDoubleSix = new MenuButton(Content.Load<Texture2D>(@"Images\MainMenuDobleSix"), graphics.GraphicsDevice, new Vector2(0, 0));
 
-            btnDifficultyLevel = new MenuButton(Content.Load<Texture2D>(@"Images\botonNivel"), graphics.GraphicsDevice);
+            btnDifficultyLevel = new MenuButton(Content.Load<Texture2D>(@"Images\btnDifficultyLevel"), graphics.GraphicsDevice);
             btnDifficultyLevel.SetPosition(new Vector2(842, 330));
 
-            btnDominoTileColor = new MenuButton(Content.Load<Texture2D>(@"Images\botonColorDeDominos"), graphics.GraphicsDevice);
+            btnDominoTileColor = new MenuButton(Content.Load<Texture2D>(@"Images\btnDominoColor"), graphics.GraphicsDevice);
             btnDominoTileColor.SetPosition(new Vector2(842, 640));
 
 
-            btnWhite = new MenuButton(Content.Load<Texture2D>(@"Images\botonBlanco"), graphics.GraphicsDevice);
+            btnWhite = new MenuButton(Content.Load<Texture2D>(@"Images\btnWhite"), graphics.GraphicsDevice);
             btnWhite.SetPosition(new Vector2(842, 370));
 
 
-            btnYellow = new MenuButton(Content.Load<Texture2D>(@"Images\botonAmarillo"), graphics.GraphicsDevice);
+            btnYellow = new MenuButton(Content.Load<Texture2D>(@"Images\btnYellow"), graphics.GraphicsDevice);
             btnYellow.SetPosition(new Vector2(842, 470));
 
 
-            btnBlue = new MenuButton(Content.Load<Texture2D>(@"Images\botonAzul"), graphics.GraphicsDevice);
+            btnBlue = new MenuButton(Content.Load<Texture2D>(@"Images\btnBlue"), graphics.GraphicsDevice);
             btnBlue.SetPosition(new Vector2(842, 520));
 
 
-            btnRed = new MenuButton(Content.Load<Texture2D>(@"Images\botonRojo"), graphics.GraphicsDevice);
+            btnRed = new MenuButton(Content.Load<Texture2D>(@"Images\btnRed"), graphics.GraphicsDevice);
             btnRed.SetPosition(new Vector2(842, 570));
 
 
-            btnGreen = new MenuButton(Content.Load<Texture2D>(@"Images\botonVerde"), graphics.GraphicsDevice);
+            btnGreen = new MenuButton(Content.Load<Texture2D>(@"Images\btnGreen"), graphics.GraphicsDevice);
             btnGreen.SetPosition(new Vector2(842, 420));
 
 
-            btnVeryEasy = new MenuButton(Content.Load<Texture2D>(@"Images\botonMuyFacil"), graphics.GraphicsDevice);
+            btnVeryEasy = new MenuButton(Content.Load<Texture2D>(@"Images\btnVeryEasy"), graphics.GraphicsDevice);
             btnVeryEasy.SetPosition(new Vector2(842, 410));
 
 
-            btnEasy = new MenuButton(Content.Load<Texture2D>(@"Images\botonFacil"), graphics.GraphicsDevice);
+            btnEasy = new MenuButton(Content.Load<Texture2D>(@"Images\btnEasy"), graphics.GraphicsDevice);
             btnEasy.SetPosition(new Vector2(842, 460));
 
 
-            btnNormal = new MenuButton(Content.Load<Texture2D>(@"Images\botonNormal"), graphics.GraphicsDevice);
+            btnNormal = new MenuButton(Content.Load<Texture2D>(@"Images\btnNormal"), graphics.GraphicsDevice);
             btnNormal.SetPosition(new Vector2(842, 510));
 
-            btnExpert = new MenuButton(Content.Load<Texture2D>(@"Images\botonExperto"), graphics.GraphicsDevice);
+            btnExpert = new MenuButton(Content.Load<Texture2D>(@"Images\btnExpert"), graphics.GraphicsDevice);
             btnExpert.SetPosition(new Vector2(842, 560));
 
-            btnPassTurn = new MenuButton(Content.Load<Texture2D>(@"Images\botonDePasar"), graphics.GraphicsDevice, 1);
+            btnPassTurn = new MenuButton(Content.Load<Texture2D>(@"Images\btnPass"), graphics.GraphicsDevice, 1);
             btnPassTurn.SetPosition(new Vector2(700, 710));
 
-            btnNextRound = new MenuButton(Content.Load<Texture2D>(@"Images\botonSiguienteRonda"), graphics.GraphicsDevice, 1);
+            btnNextRound = new MenuButton(Content.Load<Texture2D>(@"Images\btnNextRound"), graphics.GraphicsDevice, 1);
             btnNextRound.SetPosition(new Vector2(700, 400));
 
 
@@ -326,16 +326,16 @@ namespace Domino
             // remembers the draggable squares position, so we can easily test for mouseclicks on it
             DraggableSquareBorder = new Rectangle((int)DraggableSquarePosition.X, (int)DraggableSquarePosition.Y, SquareSize, SquareSize);
 
-            Background = Content.Load<Texture2D>(@"Images\MesaExtendida");
+            Background = Content.Load<Texture2D>(@"Images\ExtendedBoard");
 
-            EndOfRoundBackground = Content.Load<Texture2D>(@"Images\FondoDeFinDeRonda");
+            EndOfRoundBackground = Content.Load<Texture2D>(@"Images\EndOfRoundBackground");
 
-            Congratulations = Content.Load<Texture2D>(@"Images\Felicidades");
-            SorryTryAgain = Content.Load<Texture2D>(@"Images\MalaSuerte");
+            Congratulations = Content.Load<Texture2D>(@"Images\Congratulations");
+            SorryTryAgain = Content.Load<Texture2D>(@"Images\BadLuckTryAgain");
 
-            OpponentTile = Content.Load<Texture2D>(@"Images\FichaDeMiOponente");
+            OpponentTile = Content.Load<Texture2D>(@"Images\OpponentTile");
 
-            FichaDePareja = Content.Load<Texture2D>(@"Images\FichaDeMiFrente");
+            FichaDePareja = Content.Load<Texture2D>(@"Images\TeammateTile");
 
 
             #region All Tiles List
@@ -595,22 +595,13 @@ namespace Domino
                                     break;
 
                                 }
-
-
-
                             }
 
                             StartOfRound = false; 
-
                         }
-
-                        
-
-
                     }
 
                     #region AI
-
 
                     // AI
                     switch (CurrentDifficultyLevel)
@@ -632,7 +623,6 @@ namespace Domino
                                 CalculateTurn(Table1.PlayerInTurn);
                             }
                             break;
-
 
                         case DifficultyLevel.Normal:
                             if (!Table1.PlayerInTurn.IsHuman && (!EndOfRound) && !StartOfNewGame && !StartOfRound)
@@ -658,16 +648,12 @@ namespace Domino
                         FindOutIfPlayerPassesHisTurn(Table1.PlayerInTurn);
                     }
 
-
                     #endregion
-
 
                     #region Update to drag tiles
                     
-
                     foreach (Tile f in player1.PlayerTileList)
                     {
-
                         // if the user just clicked inside the draggable white square - set IsTileBeingDragged to true
                         if (PreviousMouseState.LeftButton == ButtonState.Released && CurrentMouseState.LeftButton == ButtonState.Pressed && f.TileEdge.Contains((int)MousePosition.X, (int)MousePosition.Y))
                         {
@@ -682,7 +668,6 @@ namespace Domino
                         if (PreviousMouseState.LeftButton == ButtonState.Pressed && CurrentMouseState.LeftButton == ButtonState.Released)
                         {
                             f.IsTileBeingDragged = false;
-
 
                             Vector2 Square = GetSquareFromMousePosition(MousePosition);
                             Rectangle rectFirstTileToPlay = new Rectangle((int)(TablePosition.X + 14 * SquareSize), (int)(TablePosition.Y + 8 * SquareSize), 5 * SquareSize, 5 * SquareSize);
@@ -1150,7 +1135,7 @@ namespace Domino
                     GraphicsDevice.Clear(Color.Red);
                     spriteBatch.Begin();
                    
-                    spriteBatch.Draw(Content.Load<Texture2D>(@"Images\Opciones"),
+                    spriteBatch.Draw(Content.Load<Texture2D>(@"Images\optionsBackground"),
                         new Rectangle(0, 0, screenWidth, screenHeight),
                         Color.White);
                     btnDifficultyLevel.Draw(spriteBatch);
@@ -1164,7 +1149,7 @@ namespace Domino
 
                     spriteBatch.Begin();
 
-                    spriteBatch.Draw(Content.Load<Texture2D>(@"Images\SobreDomino"),
+                    spriteBatch.Draw(Content.Load<Texture2D>(@"Images\aboutDominoBackground"),
                         new Rectangle(0, 0, screenWidth, screenHeight),
                         Color.White);
 
@@ -1182,7 +1167,7 @@ namespace Domino
                 case GameState.DifficultyLevel:
 
                     spriteBatch.Begin();
-                    spriteBatch.Draw(Content.Load<Texture2D>(@"Images\Opciones"),
+                    spriteBatch.Draw(Content.Load<Texture2D>(@"Images\optionsBackground"),
                         new Rectangle(0, 0, screenWidth, screenHeight),
                         Color.White);
 
@@ -1225,7 +1210,7 @@ namespace Domino
                 case GameState.TileColor:
 
                     spriteBatch.Begin();
-                    spriteBatch.Draw(Content.Load<Texture2D>(@"Images\Opciones"),
+                    spriteBatch.Draw(Content.Load<Texture2D>(@"Images\optionsBackground"),
                         new Rectangle(0, 0, screenWidth, screenHeight),
                         Color.White);
 

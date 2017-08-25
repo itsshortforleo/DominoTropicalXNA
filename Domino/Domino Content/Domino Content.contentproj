@@ -198,35 +198,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Images\FichaDeMiFrente.png">
-      <Name>FichaDeMiFrente</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Images\FichaDeMiOponente.png">
-      <Name>FichaDeMiOponente</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Images\BotonJugar.png">
-      <Name>BotonJugar</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Images\BotonOpciones.png">
-      <Name>BotonOpciones</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Images\BotonSalir.png">
-      <Name>BotonSalir</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Images\BotonSobre.png">
-      <Name>BotonSobre</Name>
+    <Compile Include="Images\OpponentTile.png">
+      <Name>OpponentTile</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
@@ -241,13 +214,6 @@
   <ItemGroup>
     <Compile Include="Images\MainMenuDobleSix.png">
       <Name>MainMenuDobleSix</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Images\BotonSeguirJugando.png">
-      <Name>BotonSeguirJugando</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
@@ -299,68 +265,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Images\botonAmarillo.png">
-      <Name>botonAmarillo</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Images\botonAzul.png">
-      <Name>botonAzul</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Images\botonColorDeDominos.png">
-      <Name>botonColorDeDominos</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Images\botonColorDeTablero.png">
-      <Name>botonColorDeTablero</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Images\botonFacil.png">
-      <Name>botonFacil</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Images\botonFondo.png">
-      <Name>botonFondo</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Images\botonMuyFacil.png">
-      <Name>botonMuyFacil</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Images\botonNivel.png">
-      <Name>botonNivel</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Images\botonNormal.png">
-      <Name>botonNormal</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Images\botonRojo.png">
-      <Name>botonRojo</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Images\botonSonido.png">
-      <Name>botonSonido</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Images\botonVerde.png">
-      <Name>botonVerde</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Font\Cent.spritefont">
       <Name>Cent</Name>
       <Importer>FontDescriptionImporter</Importer>
@@ -368,69 +272,163 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Images\Opciones.png">
-      <Name>Opciones</Name>
+    <Compile Include="Images\optionsBackground.png">
+      <Name>optionsBackground</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="Images\SobreDomino.png">
-      <Name>SobreDomino</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Images\botonExperto.png">
-      <Name>botonExperto</Name>
+    <Compile Include="Images\aboutDominoBackground.png">
+      <Name>aboutDominoBackground</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Images\botonBlanco.png">
-      <Name>botonBlanco</Name>
+    <Compile Include="Images\btnNextRound.png">
+      <Name>btnNextRound</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Images\btnPass.png">
+      <Name>btnPass</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Images\MesaExtendida.png">
-      <Name>MesaExtendida</Name>
+    <Compile Include="Images\Congratulations.png">
+      <Name>Congratulations</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Images\botonDePasar.png">
-      <Name>botonDePasar</Name>
+    <Compile Include="Images\ExtendedBoard.png">
+      <Name>ExtendedBoard</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Images\FondoDeFinDeRonda.png">
-      <Name>FondoDeFinDeRonda</Name>
+    <Compile Include="Images\EndOfRoundBackground.png">
+      <Name>EndOfRoundBackground</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Images\botonSiguienteRonda.png">
-      <Name>botonSiguienteRonda</Name>
+    <Compile Include="Images\TeammateTile.png">
+      <Name>TeammateTile</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Images\Felicidades.png">
-      <Name>Felicidades</Name>
+    <Compile Include="Images\BadLuckTryAgain.png">
+      <Name>BadLuckTryAgain</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Images\MalaSuerte.png">
-      <Name>MalaSuerte</Name>
+    <Compile Include="Images\boardColor.png">
+      <Name>boardColor</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Images\btnBlue.png">
+      <Name>btnBlue</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Images\btnDominoColor.png">
+      <Name>btnDominoColor</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Images\btnEasy.png">
+      <Name>btnEasy</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Images\btnExpert.png">
+      <Name>btnExpert</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Images\btnNewGame.png">
+      <Name>btnNewGame</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Images\btnOptions.png">
+      <Name>btnOptions</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Images\btnWhite.png">
+      <Name>btnWhite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Images\btnYellow.png">
+      <Name>btnYellow</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Images\btnContinuePlaying.png">
+      <Name>btnContinuePlaying</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Images\btnAboutDomino.png">
+      <Name>btnAboutDomino</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Images\btnQuitGame.png">
+      <Name>btnQuitGame</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Images\btnRed.png">
+      <Name>btnRed</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Images\btnVeryEasy.png">
+      <Name>btnVeryEasy</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Images\btnNormal.png">
+      <Name>btnNormal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Images\btnGreen.png">
+      <Name>btnGreen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Images\btnDifficultyLevel.png">
+      <Name>btnDifficultyLevel</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
