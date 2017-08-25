@@ -2274,9 +2274,9 @@ namespace Domino
         }
 
 
-        private void DrawTilesForNonHumanPlayersLevel4(Player PlayerInTurn)
+        private void DrawTilesForNonHumanPlayersLevel4(Player PlayerOnTurn)
         {
-            if (PlayerInTurn == player1)
+            if (PlayerOnTurn == player1)
             {
                 if ((player2.PositionOfTileLastPlayed != player3.PositionOfTileLastPlayed) && (player2.PositionOfTileLastPlayed != player4.PositionOfTileLastPlayed))
                 {
@@ -2284,10 +2284,10 @@ namespace Domino
                     {
                         for (int i = 0; i < player1.PlayerTileList.Count; i++)
                         {
-                            if ((Table1.LeftHandSide == PlayerInTurn.PlayerTileList[i].FirstTileValue) || (Table1.LeftHandSide == PlayerInTurn.PlayerTileList[i].SecondTileValue))
+                            if ((Table1.LeftHandSide == PlayerOnTurn.PlayerTileList[i].FirstTileValue) || (Table1.LeftHandSide == PlayerOnTurn.PlayerTileList[i].SecondTileValue))
                             {
-                                PlayerInTurn.PlayerTileList[i].Position = Table1.PositionOfLeftHandSideEdge;
-                                TilePlacementLogic(Table1, PlayerInTurn.PlayerTileList[i], PlayerInTurn, i);
+                                PlayerOnTurn.PlayerTileList[i].Position = Table1.PositionOfLeftHandSideEdge;
+                                TilePlacementLogic(Table1, PlayerOnTurn.PlayerTileList[i], PlayerOnTurn, i);
                             }
                         }
 
@@ -2296,10 +2296,10 @@ namespace Domino
                     {
                         for (int i = 0; i < player1.PlayerTileList.Count; i++)
                         {
-                            if ((Table1.RightHandSide == PlayerInTurn.PlayerTileList[i].FirstTileValue) || (Table1.RightHandSide == PlayerInTurn.PlayerTileList[i].SecondTileValue))
+                            if ((Table1.RightHandSide == PlayerOnTurn.PlayerTileList[i].FirstTileValue) || (Table1.RightHandSide == PlayerOnTurn.PlayerTileList[i].SecondTileValue))
                             {
-                                PlayerInTurn.PlayerTileList[i].Position = Table1.PositionOfRightHandSideEdge;
-                                TilePlacementLogic(Table1, PlayerInTurn.PlayerTileList[i], PlayerInTurn, i);
+                                PlayerOnTurn.PlayerTileList[i].Position = Table1.PositionOfRightHandSideEdge;
+                                TilePlacementLogic(Table1, PlayerOnTurn.PlayerTileList[i], PlayerOnTurn, i);
                             }
                         }
 
@@ -2307,14 +2307,14 @@ namespace Domino
 
                     else
                     {
-                        DrawTilesForNonHumanPlayersLevel1(PlayerInTurn);
+                        DrawTilesForNonHumanPlayersLevel1(PlayerOnTurn);
                     }
 
                 }
 
             }
 
-            else if (PlayerInTurn == player2)
+            else if (PlayerOnTurn == player2)
             {
                 if ((player3.PositionOfTileLastPlayed != player4.PositionOfTileLastPlayed) && (player3.PositionOfTileLastPlayed != player1.PositionOfTileLastPlayed))
                 {
@@ -2322,10 +2322,10 @@ namespace Domino
                     {
                         for (int i = 0; i < player2.PlayerTileList.Count; i++)
                         {
-                            if ((Table1.LeftHandSide == PlayerInTurn.PlayerTileList[i].FirstTileValue) || (Table1.LeftHandSide == PlayerInTurn.PlayerTileList[i].SecondTileValue))
+                            if ((Table1.LeftHandSide == PlayerOnTurn.PlayerTileList[i].FirstTileValue) || (Table1.LeftHandSide == PlayerOnTurn.PlayerTileList[i].SecondTileValue))
                             {
-                                PlayerInTurn.PlayerTileList[i].Position = Table1.PositionOfLeftHandSideEdge;
-                                TilePlacementLogic(Table1, PlayerInTurn.PlayerTileList[i], PlayerInTurn, i);
+                                PlayerOnTurn.PlayerTileList[i].Position = Table1.PositionOfLeftHandSideEdge;
+                                TilePlacementLogic(Table1, PlayerOnTurn.PlayerTileList[i], PlayerOnTurn, i);
                             }
                         }
 
@@ -2334,10 +2334,10 @@ namespace Domino
                     {
                         for (int i = 0; i < player2.PlayerTileList.Count; i++)
                         {
-                            if ((Table1.RightHandSide == PlayerInTurn.PlayerTileList[i].FirstTileValue) || (Table1.RightHandSide == PlayerInTurn.PlayerTileList[i].SecondTileValue))
+                            if ((Table1.RightHandSide == PlayerOnTurn.PlayerTileList[i].FirstTileValue) || (Table1.RightHandSide == PlayerOnTurn.PlayerTileList[i].SecondTileValue))
                             {
-                                PlayerInTurn.PlayerTileList[i].Position = Table1.PositionOfRightHandSideEdge;
-                                TilePlacementLogic(Table1, PlayerInTurn.PlayerTileList[i], PlayerInTurn, i);
+                                PlayerOnTurn.PlayerTileList[i].Position = Table1.PositionOfRightHandSideEdge;
+                                TilePlacementLogic(Table1, PlayerOnTurn.PlayerTileList[i], PlayerOnTurn, i);
                             }
                         }
 
@@ -2345,14 +2345,14 @@ namespace Domino
 
                     else
                     {
-                        DrawTilesForNonHumanPlayersLevel1(PlayerInTurn);
+                        DrawTilesForNonHumanPlayersLevel1(PlayerOnTurn);
                     }
 
                 }
 
             }
 
-            else if (PlayerInTurn == player3)
+            else if (PlayerOnTurn == player3)
             {
                 if ((player4.PositionOfTileLastPlayed != player1.PositionOfTileLastPlayed) && (player4.PositionOfTileLastPlayed != player2.PositionOfTileLastPlayed))
                 {
@@ -2360,10 +2360,10 @@ namespace Domino
                     {
                         for (int i = 0; i < player3.PlayerTileList.Count; i++)
                         {
-                            if ((Table1.LeftHandSide == PlayerInTurn.PlayerTileList[i].FirstTileValue) || (Table1.LeftHandSide == PlayerInTurn.PlayerTileList[i].SecondTileValue))
+                            if ((Table1.LeftHandSide == PlayerOnTurn.PlayerTileList[i].FirstTileValue) || (Table1.LeftHandSide == PlayerOnTurn.PlayerTileList[i].SecondTileValue))
                             {
-                                PlayerInTurn.PlayerTileList[i].Position = Table1.PositionOfLeftHandSideEdge;
-                                TilePlacementLogic(Table1, PlayerInTurn.PlayerTileList[i], PlayerInTurn, i);
+                                PlayerOnTurn.PlayerTileList[i].Position = Table1.PositionOfLeftHandSideEdge;
+                                TilePlacementLogic(Table1, PlayerOnTurn.PlayerTileList[i], PlayerOnTurn, i);
                             }
                         }
 
@@ -2372,10 +2372,10 @@ namespace Domino
                     {
                         for (int i = 0; i < player3.PlayerTileList.Count; i++)
                         {
-                            if ((Table1.RightHandSide == PlayerInTurn.PlayerTileList[i].FirstTileValue) || (Table1.RightHandSide == PlayerInTurn.PlayerTileList[i].SecondTileValue))
+                            if ((Table1.RightHandSide == PlayerOnTurn.PlayerTileList[i].FirstTileValue) || (Table1.RightHandSide == PlayerOnTurn.PlayerTileList[i].SecondTileValue))
                             {
-                                PlayerInTurn.PlayerTileList[i].Position = Table1.PositionOfRightHandSideEdge;
-                                TilePlacementLogic(Table1, PlayerInTurn.PlayerTileList[i], PlayerInTurn, i);
+                                PlayerOnTurn.PlayerTileList[i].Position = Table1.PositionOfRightHandSideEdge;
+                                TilePlacementLogic(Table1, PlayerOnTurn.PlayerTileList[i], PlayerOnTurn, i);
                             }
                         }
 
@@ -2383,13 +2383,13 @@ namespace Domino
 
                     else
                     {
-                        DrawTilesForNonHumanPlayersLevel1(PlayerInTurn);
+                        DrawTilesForNonHumanPlayersLevel1(PlayerOnTurn);
                     }
 
                 }
             }
 
-            else if (PlayerInTurn == player4)
+            else if (PlayerOnTurn == player4)
             {
                 if ((player1.PositionOfTileLastPlayed != player2.PositionOfTileLastPlayed) && (player1.PositionOfTileLastPlayed != player3.PositionOfTileLastPlayed))
                 {
@@ -2397,10 +2397,10 @@ namespace Domino
                     {
                         for (int i = 0; i < player4.PlayerTileList.Count; i++)
                         {
-                            if ((Table1.LeftHandSide == PlayerInTurn.PlayerTileList[i].FirstTileValue) || (Table1.LeftHandSide == PlayerInTurn.PlayerTileList[i].SecondTileValue))
+                            if ((Table1.LeftHandSide == PlayerOnTurn.PlayerTileList[i].FirstTileValue) || (Table1.LeftHandSide == PlayerOnTurn.PlayerTileList[i].SecondTileValue))
                             {
-                                PlayerInTurn.PlayerTileList[i].Position = Table1.PositionOfLeftHandSideEdge;
-                                TilePlacementLogic(Table1, PlayerInTurn.PlayerTileList[i], PlayerInTurn, i);
+                                PlayerOnTurn.PlayerTileList[i].Position = Table1.PositionOfLeftHandSideEdge;
+                                TilePlacementLogic(Table1, PlayerOnTurn.PlayerTileList[i], PlayerOnTurn, i);
                             }
                         }
 
@@ -2409,10 +2409,10 @@ namespace Domino
                     {
                         for (int i = 0; i < player4.PlayerTileList.Count; i++)
                         {
-                            if ((Table1.RightHandSide == PlayerInTurn.PlayerTileList[i].FirstTileValue) || (Table1.RightHandSide == PlayerInTurn.PlayerTileList[i].SecondTileValue))
+                            if ((Table1.RightHandSide == PlayerOnTurn.PlayerTileList[i].FirstTileValue) || (Table1.RightHandSide == PlayerOnTurn.PlayerTileList[i].SecondTileValue))
                             {
-                                PlayerInTurn.PlayerTileList[i].Position = Table1.PositionOfRightHandSideEdge;
-                                TilePlacementLogic(Table1, PlayerInTurn.PlayerTileList[i], PlayerInTurn, i);
+                                PlayerOnTurn.PlayerTileList[i].Position = Table1.PositionOfRightHandSideEdge;
+                                TilePlacementLogic(Table1, PlayerOnTurn.PlayerTileList[i], PlayerOnTurn, i);
                             }
                         }
 
@@ -2420,25 +2420,25 @@ namespace Domino
 
                     else
                     {
-                        DrawTilesForNonHumanPlayersLevel1(PlayerInTurn);
+                        DrawTilesForNonHumanPlayersLevel1(PlayerOnTurn);
                     }
 
                 }
             }
 
-            for (int i = 0; i < PlayerInTurn.PlayerTileList.Count; i++)
+            for (int i = 0; i < PlayerOnTurn.PlayerTileList.Count; i++)
             {
-                if ((Table1.LeftHandSide == PlayerInTurn.PlayerTileList[i].FirstTileValue) || (Table1.LeftHandSide == PlayerInTurn.PlayerTileList[i].SecondTileValue))
+                if ((Table1.LeftHandSide == PlayerOnTurn.PlayerTileList[i].FirstTileValue) || (Table1.LeftHandSide == PlayerOnTurn.PlayerTileList[i].SecondTileValue))
                 {
-                    PlayerInTurn.PlayerTileList[i].Position = Table1.PositionOfLeftHandSideEdge;
-                    TilePlacementLogic(Table1, PlayerInTurn.PlayerTileList[i], PlayerInTurn, i);
+                    PlayerOnTurn.PlayerTileList[i].Position = Table1.PositionOfLeftHandSideEdge;
+                    TilePlacementLogic(Table1, PlayerOnTurn.PlayerTileList[i], PlayerOnTurn, i);
                     break;
                 }
 
-                else if ((Table1.RightHandSide == PlayerInTurn.PlayerTileList[i].FirstTileValue) || (Table1.RightHandSide == PlayerInTurn.PlayerTileList[i].SecondTileValue))
+                else if ((Table1.RightHandSide == PlayerOnTurn.PlayerTileList[i].FirstTileValue) || (Table1.RightHandSide == PlayerOnTurn.PlayerTileList[i].SecondTileValue))
                 {
-                    PlayerInTurn.PlayerTileList[i].Position = Table1.PositionOfRightHandSideEdge;
-                    TilePlacementLogic(Table1, PlayerInTurn.PlayerTileList[i], PlayerInTurn, i);
+                    PlayerOnTurn.PlayerTileList[i].Position = Table1.PositionOfRightHandSideEdge;
+                    TilePlacementLogic(Table1, PlayerOnTurn.PlayerTileList[i], PlayerOnTurn, i);
                     break;
                 }
 
